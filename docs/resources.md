@@ -7,4 +7,16 @@
 
 ## HTML
 
+- [W3C HTML Validator](https://validator.w3.org)
+
 ## CSS
+
+## Git
+
+- [Learn GitHub](https://guides.github.com/activities/hello-world/)
+- [Try GitHub](https://try.github.io/levels/1/challenges/1)
+
+## Documentation
+
+- [Daring Fireball: Markdown](http://daringfireball.net/projects/markdown/)
+- [Lucid Chart](https://www.lucidchart.com)
