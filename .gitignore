@@ -40,7 +40,8 @@ Thumbs.db
 
 # Custom #
 ######################
-node_modules
 *.jpg
 *.png
+graphics
+node_modules
 presentations/images
