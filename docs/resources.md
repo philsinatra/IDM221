@@ -5,6 +5,8 @@
 - [Week 1](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W01.pdf)
 - [Week 2](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W02.pdf)
 - [Week 3](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W03.pdf)
+- [Week 4](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W04.pdf)
+- [Week 5](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W05.pdf)
 
 ## HTML
 
@@ -18,6 +20,10 @@
 
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 - [CSS3 Color spec](http://www.w3.org/TR/css3-color)
+- [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+- [Web Font Generator](https://www.web-font-generator.com)
+- [Google Fonts](https://www.google.com/fonts)
+- [Adobe Edge Fonts](https://edgewebfonts.adobe.com)
 
 ## Git
 
