@@ -16,6 +16,9 @@
 
 ## CSS
 
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+- [CSS3 Color spec](http://www.w3.org/TR/css3-color)
+
 ## Git
 
 - [Learn GitHub](https://guides.github.com/activities/hello-world/)
