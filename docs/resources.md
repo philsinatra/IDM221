@@ -7,6 +7,7 @@
 - [Week 3](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W03.pdf)
 - [Week 4](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W04.pdf)
 - [Week 5](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W05.pdf)
+- [Week 6](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W06.pdf)
 
 ## HTML
 
@@ -24,6 +25,7 @@
 - [Web Font Generator](https://www.web-font-generator.com)
 - [Google Fonts](https://www.google.com/fonts)
 - [Adobe Edge Fonts](https://edgewebfonts.adobe.com)
+- [CSS3 Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 
 ## Git
 
