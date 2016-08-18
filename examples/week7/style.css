@@ -1,0 +1,270 @@
+/*
+#    /$$$$$$              /$$
+#   /$$__  $$            | $$
+#  | $$  \__/  /$$$$$$  /$$$$$$   /$$   /$$  /$$$$$$
+#  |  $$$$$$  /$$__  $$|_  $$_/  | $$  | $$ /$$__  $$
+#   \____  $$| $$$$$$$$  | $$    | $$  | $$| $$  \ $$
+#   /$$  \ $$| $$_____/  | $$ /$$| $$  | $$| $$  | $$
+#  |  $$$$$$/|  $$$$$$$  |  $$$$/|  $$$$$$/| $$$$$$$/
+#   \______/  \_______/   \___/   \______/ | $$____/
+#                                          | $$
+#                                          | $$
+#                                          |__/
+*/
+* { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  background-color: lightgray;
+  font: 100%/1.4 Arial, sans-serif;
+}
+
+.wrapper {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 56.25rem; /* 900px */
+  padding: 2rem;
+}
+
+.notes {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.notes pre {
+  background-color: #fff;
+}
+
+/*
+#    /$$$$$$    /$$                 /$$     /$$
+#   /$$__  $$  | $$                | $$    |__/
+#  | $$  \__/ /$$$$$$    /$$$$$$  /$$$$$$   /$$  /$$$$$$$
+#  |  $$$$$$ |_  $$_/   |____  $$|_  $$_/  | $$ /$$_____/
+#   \____  $$  | $$      /$$$$$$$  | $$    | $$| $$
+#   /$$  \ $$  | $$ /$$ /$$__  $$  | $$ /$$| $$| $$
+#  |  $$$$$$/  |  $$$$/|  $$$$$$$  |  $$$$/| $$|  $$$$$$$
+#   \______/    \___/   \_______/   \___/  |__/ \_______/
+#
+#
+#
+*/
+.pos__static {
+  color: red;
+  position: static;
+  left: 2rem;
+  top: 2rem;
+}
+
+/*
+#   /$$$$$$$            /$$             /$$     /$$
+#  | $$__  $$          | $$            | $$    |__/
+#  | $$  \ $$  /$$$$$$ | $$  /$$$$$$  /$$$$$$   /$$ /$$    /$$  /$$$$$$
+#  | $$$$$$$/ /$$__  $$| $$ |____  $$|_  $$_/  | $$|  $$  /$$/ /$$__  $$
+#  | $$__  $$| $$$$$$$$| $$  /$$$$$$$  | $$    | $$ \  $$/$$/ | $$$$$$$$
+#  | $$  \ $$| $$_____/| $$ /$$__  $$  | $$ /$$| $$  \  $$$/  | $$_____/
+#  | $$  | $$|  $$$$$$$| $$|  $$$$$$$  |  $$$$/| $$   \  $/   |  $$$$$$$
+#  |__/  |__/ \_______/|__/ \_______/   \___/  |__/    \_/     \_______/
+#
+#
+#
+*/
+.pos__relative {
+  color: blue;
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
+/*
+#    /$$$$$$  /$$                           /$$             /$$
+#   /$$__  $$| $$                          | $$            | $$
+#  | $$  \ $$| $$$$$$$   /$$$$$$$  /$$$$$$ | $$ /$$   /$$ /$$$$$$    /$$$$$$
+#  | $$$$$$$$| $$__  $$ /$$_____/ /$$__  $$| $$| $$  | $$|_  $$_/   /$$__  $$
+#  | $$__  $$| $$  \ $$|  $$$$$$ | $$  \ $$| $$| $$  | $$  | $$    | $$$$$$$$
+#  | $$  | $$| $$  | $$ \____  $$| $$  | $$| $$| $$  | $$  | $$ /$$| $$_____/
+#  | $$  | $$| $$$$$$$/ /$$$$$$$/|  $$$$$$/| $$|  $$$$$$/  |  $$$$/|  $$$$$$$
+#  |__/  |__/|_______/ |_______/  \______/ |__/ \______/    \___/   \_______/
+#
+#
+#
+*/
+.stage {
+  background-color: green;
+  height: 25rem;
+  width: 100%;
+  position: relative;
+}
+
+.pos__absolute {
+  background-color: #000;
+  height: 3.13rem;;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*
+#   /$$$$$$$$ /$$                           /$$
+#  | $$_____/|__/                          | $$
+#  | $$       /$$ /$$   /$$  /$$$$$$   /$$$$$$$
+#  | $$$$$   | $$|  $$ /$$/ /$$__  $$ /$$__  $$
+#  | $$__/   | $$ \  $$$$/ | $$$$$$$$| $$  | $$
+#  | $$      | $$  >$$  $$ | $$_____/| $$  | $$
+#  | $$      | $$ /$$/\  $$|  $$$$$$$|  $$$$$$$
+#  |__/      |__/|__/  \__/ \_______/ \_______/
+#
+#
+#
+*/
+.pos__fixed {
+  background-color: #000;
+  height: 3.13rem;;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*
+#   /$$$$$$$$ /$$                       /$$
+#  | $$_____/| $$                      | $$
+#  | $$      | $$  /$$$$$$   /$$$$$$  /$$$$$$
+#  | $$$$$   | $$ /$$__  $$ |____  $$|_  $$_/
+#  | $$__/   | $$| $$  \ $$  /$$$$$$$  | $$
+#  | $$      | $$| $$  | $$ /$$__  $$  | $$ /$$
+#  | $$      | $$|  $$$$$$/|  $$$$$$$  |  $$$$/
+#  |__/      |__/ \______/  \_______/   \___/
+#
+#
+#
+*/
+.float_basics main {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.float_basics aside {
+  border: 1px solid black;
+  float: right;
+  margin: 0 0 10px 20px;
+  padding: 0 20px;
+  width: 250px;
+}
+
+.float_basics footer {
+  border-top: 1px solid lightgray;
+  clear: both;
+  font-size: 0.88rem;
+}
+
+/*
+#    /$$$$$$   /$$$$$$            /$$
+#   /$$__  $$ /$$__  $$          | $$
+#  |__/  \ $$| $$  \__/  /$$$$$$ | $$
+#    /$$$$$$/| $$       /$$__  $$| $$
+#   /$$____/ | $$      | $$  \ $$| $$
+#  | $$      | $$    $$| $$  | $$| $$
+#  | $$$$$$$$|  $$$$$$/|  $$$$$$/| $$
+#  |________/ \______/  \______/ |__/
+#
+#
+#
+*/
+.float_2col_fixed header {
+  border-bottom: 2px solid rgb(14, 179, 116); /* green */
+}
+
+.float_2col_fixed header h1 {
+  margin-top: 0;
+}
+
+.float_2col_fixed main,
+.float_2col_fixed aside {
+  float: left;
+}
+
+.float_2col_fixed main {
+  border-right: 2px solid rgb(215, 122, 15); /* orange */
+  padding-right: 20px;
+  width: 568px; /* 600-32 */
+}
+
+.float_2col_fixed aside {
+  padding-left: 20px;
+  width: 268px; /* 300-32 */
+}
+
+.float_2col_fixed footer {
+  border-top: 2px solid rgb(238, 54, 110); /* pink */
+  clear: both;
+}
+
+
+.float_2col_fluid header {
+  border-bottom: 2px solid rgb(14, 179, 116); /* green */
+}
+
+.float_2col_fluid header h1 {
+  margin-top: 0;
+}
+
+.float_2col_fluid main,
+.float_2col_fluid aside {
+  float: left;
+}
+
+.float_2col_fluid main {
+  border-right: 2px solid rgb(215, 122, 15); /* orange */
+  padding-right: 20px;
+  width: 68%;
+}
+
+.float_2col_fluid aside {
+  padding-left: 20px;
+  width: 32%;
+}
+
+.float_2col_fluid footer {
+  border-top: 2px solid rgb(238, 54, 110); /* pink */
+  clear: both;
+}
+
+/*
+#    /$$$$$$            /$$       /$$
+#   /$$__  $$          |__/      | $$
+#  | $$  \__/  /$$$$$$  /$$  /$$$$$$$
+#  | $$ /$$$$ /$$__  $$| $$ /$$__  $$
+#  | $$|_  $$| $$  \__/| $$| $$  | $$
+#  | $$  \ $$| $$      | $$| $$  | $$
+#  |  $$$$$$/| $$      | $$|  $$$$$$$
+#   \______/ |__/      |__/ \_______/
+#
+#
+#
+*/
+
+.row {
+  clear: both;
+  margin-bottom: 1rem;
+  /* If a container's children are all set to flow,
+  the browser will not be able to determine the height
+  of that parent container. Use `overflow: auto;` to
+  hack fix this bug. */
+  overflow: auto;
+}
+
+.col {
+  border: 1px solid lightgray;
+  float: left;
+  padding: 0 1rem;
+}
+
+.col-halfs { width: 50%; }
+.col-thirds { width: 33.3%; }
+.col-quarters { width: 25%; }

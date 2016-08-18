@@ -8,6 +8,7 @@
 - [Week 4](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W04.pdf)
 - [Week 5](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W05.pdf)
 - [Week 6](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W06.pdf)
+- [Week 7](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W07.pdf)
 
 ## HTML
 
