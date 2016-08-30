@@ -17,6 +17,7 @@
 - [HTML Form Elements](http://www.w3schools.com/html/html_form_elements.asp)
 - [HTML Input Types](http://www.w3schools.com/html/html_form_input_types.asp)
 - [HTML Input Attributes](http://www.w3schools.com/html/html_form_attributes.asp)
+- [Can I Use?](http://caniuse.com)
 
 ## CSS
 
@@ -43,3 +44,4 @@
 - [JPEGmini](http://www.jpegmini.com)
 - [optipng](http://optipng.sourceforge.net)
 - [ImageOptim](https://imageoptim.com/mac)
+- [Miro Converter](http://www.mirovideoconverter.com)

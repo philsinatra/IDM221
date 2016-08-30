@@ -1,0 +1,42 @@
+/*
+#    /$$$$$$              /$$
+#   /$$__  $$            | $$
+#  | $$  \__/  /$$$$$$  /$$$$$$   /$$   /$$  /$$$$$$
+#  |  $$$$$$  /$$__  $$|_  $$_/  | $$  | $$ /$$__  $$
+#   \____  $$| $$$$$$$$  | $$    | $$  | $$| $$  \ $$
+#   /$$  \ $$| $$_____/  | $$ /$$| $$  | $$| $$  | $$
+#  |  $$$$$$/|  $$$$$$$  |  $$$$/|  $$$$$$/| $$$$$$$/
+#   \______/  \_______/   \___/   \______/ | $$____/
+#                                          | $$
+#                                          | $$
+#                                          |__/
+*/
+* { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  background-color: lightgray;
+  font: 100%/1.4 Arial, sans-serif;
+}
+
+.wrapper {
+  background-color: #fff;
+  height: 720px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 1280px;
+}
+
+.sound_stage {
+  background-color: #fff;
+  height: 32px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 300px;
+}

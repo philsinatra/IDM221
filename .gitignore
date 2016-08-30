@@ -38,6 +38,14 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+# Media #
+############
+*.mp3
+*.mp4
+*.ogg
+*.ogv
+*.webm
+
 # Custom #
 ######################
 *.jpg
@@ -45,3 +53,4 @@ Thumbs.db
 graphics
 node_modules
 presentations/images
+examples/week8/media
