@@ -11,6 +11,12 @@
 - [Week 7](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W07.pdf)
 - [Week 8](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W08.pdf)
 
+## Reading Material
+
+- [HTML5 For Web Designers](https://abookapart.com/products/html5-for-web-designers)
+- [CSS3 For Web Designers](https://abookapart.com/products/css3-for-web-designers)
+- [On Web Typography](https://abookapart.com/products/on-web-typography)
+
 ## HTML
 
 - [W3C HTML Validator](https://validator.w3.org)
@@ -38,6 +44,7 @@
 ## Documentation
 
 - [Daring Fireball: Markdown](http://daringfireball.net/projects/markdown/)
+- [Try Markdown](http://markdown-here.com/livedemo.html)
 - [Lucid Chart](https://www.lucidchart.com)
 
 ## Media
