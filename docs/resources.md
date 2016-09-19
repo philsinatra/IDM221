@@ -46,6 +46,7 @@
 - [Daring Fireball: Markdown](http://daringfireball.net/projects/markdown/)
 - [Try Markdown](http://markdown-here.com/livedemo.html)
 - [Lucid Chart](https://www.lucidchart.com)
+- [Marked2](http://marked2app.com)
 
 ## Media
 
