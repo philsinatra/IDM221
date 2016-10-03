@@ -50,6 +50,7 @@ Thumbs.db
 ######################
 *.jpg
 *.png
+*.gif
 graphics
 node_modules
 presentations/images
