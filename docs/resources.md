@@ -13,7 +13,7 @@
 
 ## Reading Material
 
-- [HTML & CSS Book](http://www.htmlandcssbook.com)
+- [HTML & CSS Book](http://www.htmlandcssbook.com) ([Amazon Student](http://www.amazon.com/gp/student/signup/info?ie=UTF8&refcust=DLJAQIXKJ6IM56X73TTP4RDUJI&ref_type=generic))
 - [HTML5 For Web Designers](https://abookapart.com/products/html5-for-web-designers)
 - [CSS3 For Web Designers](https://abookapart.com/products/css3-for-web-designers)
 - [On Web Typography](https://abookapart.com/products/on-web-typography)
