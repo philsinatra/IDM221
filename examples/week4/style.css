@@ -1,0 +1,34 @@
+header {
+  background-color: #f9f9f9;
+}
+
+nav ul li a {
+  color: #bbb;
+  font-size: 4rem;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #444;
+}
+
+#projects__lead {
+  color: red;
+}
+
+#projects__lead:first-letter {
+  font-size: 400%;
+}
+
+.projects .row {
+  background-color: lightblue;
+}
+
+.projects .row .col {
+  background-color: lightgreen;
+}
+
+.projects figcaption {
+  color: #444;
+  font-size: 1.5rem;
+}

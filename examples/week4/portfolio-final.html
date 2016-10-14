@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 4 - CSS</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+  <link rel="stylesheet" href="style-final.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header__brand">
+        <img src="https://pro2-bar-s3-cdn-cf.myportfolio.com/ab8d2c89996b9cc0455b7088c37fa2ad/86216a7b-4d0a-44ea-af40-21aae802a5dd_rwc_0x0x614x634x614.png?h=f5c3195da1fcdcbaa2aebf98648bfec9" alt="Yema Yema">
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__social">
+        <ul>
+          <!-- TODO: convert text into icons -->
+          <li><a href="#twitter">Twitter</a></li>
+          <li><a href="#dribbble">Dribbble</a></li>
+          <li><a href="#linkedin">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="projects">
+        <div class="row">
+          <div class="col">
+            <figure>
+              <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/ab8d2c89996b9cc0455b7088c37fa2ad/f6ef842bf43ea1dfe409a0cf94224e4d07e9e16815bf2d50c4f83a3f319bedc8a415b20200065fcd_rwc_213x258x924x723x924.jpg?h=bc3cb6634bd97194fbccc04f3d76173b&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RzL29yaWdpbmFsLzZmYjNlZTMwODA2OTM3LlkzSnZjQ3c1TkRZc056UXdMREl3TVN3eU5UQS5qcGc=" alt="It's fun to dream">
+              <figcaption>It's fun to dream</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/ab8d2c89996b9cc0455b7088c37fa2ad/9fa53ccb8189729a5660b61b5b130c53e0ac366138846cf4e0a120a68a47a04f07636f79f0e8ac69_rwc_214x6x1018x797x1018.png?h=e4497c867de1cd2fd8dc6ee0aedefc74&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RzL29yaWdpbmFsL2Q2MzhlMzMwODA2OTk3LlkzSnZjQ3d4TURBeExEYzRNeXd5TXpNc01USS5wbmc=" alt="Chimp Tee">
+              <figcaption>Chimp Tee</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="https://pro2-bar-s3-cdn-cf5.myportfolio.com/ab8d2c89996b9cc0455b7088c37fa2ad/6645d917c90d263f47d07a9ecfcc3a84a1d9b4f452a664f3ea6d63e9f93e7dc621bbad02d2909eae_rwc_36x63x924x723x924.jpg?h=8512fb75cb001ae1288f72141cd66fc5&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RzL29yaWdpbmFsL2RmZjM5MzMwODA3MDMzLlkzSnZjQ3c1TkRZc056UXdMREl4TERZdy5qcGc=" alt="3NES Show">
+              <figcaption>3NES Show</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <figure>
+              <img src="https://pro2-bar-s3-cdn-cf5.myportfolio.com/ab8d2c89996b9cc0455b7088c37fa2ad/6aafcdad40436a20145a769fe0171edab82ef0df2fff586ca0fd0878248e4520023715d14f0291e5_rwc_175x164x635x497x635.png?h=c473382c7caf87424170322a238b65d5&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RzL29yaWdpbmFsL2Q4ZTczMjMwODA3MDkxLlkzSnZjQ3cyTWpRc05EZzRMREU0TlN3eE5qWS5wbmc=" alt="Grow Your Practice">
+              <figcaption>Grow Your Practice</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/ab8d2c89996b9cc0455b7088c37fa2ad/0eb88619690935840016f6cdd07e7869e72c368deb521b04ce31bef2bf8290afd2a02df99e07ed6a_rwc_130x148x967x756x967.jpg?h=c05e21603ef55dfe5346f3e5e415da25&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RzL29yaWdpbmFsLzMyZDhiZTMwODA2NzExLlkzSnZjQ3c1TmpFc056VXlMREUwTUN3eE5USS5qcGc=" alt="Characters and Stuff!">
+              <figcaption>Characters and Stuff!</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/ab8d2c89996b9cc0455b7088c37fa2ad/5cdbf6c2a46ff6db32fdcde620211ccd6a7e57e5af8c22e6ca469f0fdae20628639dec2d2feecb15_rwc_97x146x650x509x650.png?h=36171069089c9eea0f7e9851a5ab5827&url=aHR0cHM6Ly9taXItczMtY2RuLWNmLmJlaGFuY2UubmV0L3Byb2plY3RzL29yaWdpbmFsLzBiZmE1NDMwODA3MTI3LlkzSnZjQ3cyTlRnc05URTFMRGt5TERFME1BLnBuZw==" alt="Chill Pill">
+              <figcaption>Chill Pill</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <p>Power by HTML5 and CSS3</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
