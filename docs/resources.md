@@ -31,8 +31,8 @@
 
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 - [CSS3 Color spec](http://www.w3.org/TR/css3-color)
-- [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 - [Web Font Generator](https://www.web-font-generator.com)
+- [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 - [Google Fonts](https://www.google.com/fonts)
 - [Adobe Edge Fonts](https://edgewebfonts.adobe.com)
 - [CSS3 Gradient Generator](http://www.colorzilla.com/gradient-editor/)

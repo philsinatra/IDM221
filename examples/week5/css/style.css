@@ -1,0 +1,128 @@
+/*
+#    /$$$$$$                        /$$
+#   /$$__  $$                      | $$
+#  | $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$    /$$$$$$$
+#  | $$$$     /$$__  $$| $$__  $$|_  $$_/   /$$_____/
+#  | $$_/    | $$  \ $$| $$  \ $$  | $$    |  $$$$$$
+#  | $$      | $$  | $$| $$  | $$  | $$ /$$ \____  $$
+#  | $$      |  $$$$$$/| $$  | $$  |  $$$$/ /$$$$$$$/
+#  |__/       \______/ |__/  |__/   \___/  |_______/
+#
+#
+#
+*/
+
+@font-face {
+  font-family: 'ChunkFive-Roman';
+  src: url('../fonts/ChunkFive-Roman.eot?#iefix') format('embedded-opentype'),  url('../fonts/ChunkFive-Roman.otf')  format('opentype'),
+	     url('../fonts/ChunkFive-Roman.woff') format('woff'), url('../fonts/ChunkFive-Roman.ttf')  format('truetype'), url('../fonts/ChunkFive-Roman.svg#ChunkFive-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+https://fonts.google.com/specimen/Eczar?selection.family=Eczar:400,600|Open+Sans
+font-family: 'Eczar', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+.ff-bold {
+  font-family: 'ChunkFive-Roman', Arial, sans-serif;
+}
+
+.ff-semi_bold {
+  font-family: 'Eczar', serif;
+}
+
+/*
+#                                                               /$$
+#                                                              | $$
+#    /$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ | $$
+#   /$$__  $$ /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$ |____  $$| $$
+#  | $$  \ $$| $$$$$$$$| $$  \ $$| $$$$$$$$| $$  \__/  /$$$$$$$| $$
+#  | $$  | $$| $$_____/| $$  | $$| $$_____/| $$       /$$__  $$| $$
+#  |  $$$$$$$|  $$$$$$$| $$  | $$|  $$$$$$$| $$      |  $$$$$$$| $$
+#   \____  $$ \_______/|__/  |__/ \_______/|__/       \_______/|__/
+#   /$$  \ $$
+#  |  $$$$$$/
+#   \______/
+*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 4rem;  /* 64px */
+}
+
+h3 {
+  font-size: 2.81rem; /* 45px */
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.4;
+}
+
+/*
+#   /$$
+#  | $$
+#  | $$$$$$$   /$$$$$$  /$$   /$$  /$$$$$$   /$$$$$$$
+#  | $$__  $$ /$$__  $$|  $$ /$$/ /$$__  $$ /$$_____/
+#  | $$  \ $$| $$  \ $$ \  $$$$/ | $$$$$$$$|  $$$$$$
+#  | $$  | $$| $$  | $$  >$$  $$ | $$_____/ \____  $$
+#  | $$$$$$$/|  $$$$$$/ /$$/\  $$|  $$$$$$$ /$$$$$$$/
+#  |_______/  \______/ |__/  \__/ \_______/|_______/
+#
+#
+#
+*/
+
+#introduction {
+  background: smoke;
+}
+
+section.dark {
+  background-color: #111;
+  color: #fff;
+
+}
+
+section.dark .quote {
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.row {
+  max-width: 56.25rem; /* 900px */
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.section {
+  padding: 12.5rem 0; /* 200px */
+}
+
+section.dark {
+  height: 37.5rem; /* 600px */
+  padding: 0;
+}
