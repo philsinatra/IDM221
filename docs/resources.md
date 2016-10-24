@@ -26,6 +26,8 @@
 - [HTML Input Types](http://www.w3schools.com/html/html_form_input_types.asp)
 - [HTML Input Attributes](http://www.w3schools.com/html/html_form_attributes.asp)
 - [Can I Use?](http://caniuse.com)
+- [HTML Entities](http://www.w3schools.com/html/html_entities.asp)
+- [HTML Escape Codes](http://escapecodes.info)
 
 ## CSS
 
@@ -36,6 +38,7 @@
 - [Google Fonts](https://www.google.com/fonts)
 - [Adobe Edge Fonts](https://edgewebfonts.adobe.com)
 - [CSS3 Gradient Generator](http://www.colorzilla.com/gradient-editor/)
+- [Web Safe Fonts](http://www.w3schools.com/cssref/css_websafe_fonts.asp)
 
 ## Git
 
