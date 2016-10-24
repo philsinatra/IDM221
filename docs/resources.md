@@ -55,3 +55,12 @@
 - [optipng](http://optipng.sourceforge.net)
 - [ImageOptim](https://imageoptim.com/mac)
 - [Miro Converter](http://www.mirovideoconverter.com)
+
+## Software
+
+- [Sublime Text](https://www.sublimetext.com)
+- [Atom](https://atom.io)
+- [Transmit](https://panic.com/transmit/)
+- [Fetch](http://fetchsoftworks.com)
+- [Cyberduck](https://cyberduck.io)
+- [Drexel Software](https://software.drexel.edu)
