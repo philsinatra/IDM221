@@ -2,7 +2,7 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Fira, 6
+theme: Merriweather, 8
 
 # FTP
 
