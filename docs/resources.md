@@ -45,6 +45,7 @@
 
 - [Learn GitHub](https://guides.github.com/activities/hello-world/)
 - [Try GitHub](https://try.github.io/levels/1/challenges/1)
+- [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit#section2)
 - [Mastering GitHub Issues](https://guides.github.com/features/issues/)
 
 ## Documentation
