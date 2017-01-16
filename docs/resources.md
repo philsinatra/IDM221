@@ -32,6 +32,7 @@
 ## CSS
 
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+- [CSS Visual Reference](http://cssreference.io)
 - [CSS3 Color spec](http://www.w3.org/TR/css3-color)
 - [Web Font Generator](https://www.web-font-generator.com)
 - [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
