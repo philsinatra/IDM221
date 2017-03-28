@@ -48,6 +48,8 @@
 - [Try GitHub](https://try.github.io/levels/1/challenges/1)
 - [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit#section2)
 - [Mastering GitHub Issues](https://guides.github.com/features/issues/)
+- [Github Developer - Issues](https://developer.github.com/v3/issues/)
+- [Github Help - Issues](https://help.github.com/articles/about-issues/)
 
 ## Documentation
 

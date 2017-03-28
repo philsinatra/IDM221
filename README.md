@@ -1,19 +1,9 @@
 # IDM 221: Web Authoring I
 
-## Instructor Setup
+All assignments are outlined and should be submitted on [Drexel Blackboard](https://learn.dcollege.net). Students are encouraged to use [Github Issues](https://help.github.com/articles/about-issues/) throughout the term when assistance is needed. More helpful links are included on the [resources](docs/resources.md) page.
 
-Setup additional teaching assets:
+## Github Username Help:
 
-```bash
-cd ./bin/
-./make.sh
-```
-
-## Video Source Materials
-
-Download sample source `.mov` files for media processing. 
-
-```bash
-cd ./bin/
-./get-media_source.sh
-```
+- [@philsinatra](https://github.com/philsinatra)
+- [@jervo](https://github.com/jervo)
+- [@findes](https://github.com/findes)
