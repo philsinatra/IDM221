@@ -123,13 +123,13 @@ theme: Plain Jane, 2
 
 ### MIME Types
 
-    Media Type    MIME type
-    ----------    ---------
-    MP3           audio/mp3
-    Ogg Vorbis    audio/ogg
-    WebM          video/webm
-    Ogg Theora    video/ogg
-    MP4           video/mp4
+| Media Type | MIME type |
+| ---------- | --------- |
+| MP3 | audio/mp3 |
+| Ogg Vorbis | audio/ogg |
+| WebM | video/webm |
+| Ogg Theora | video/ogg |
+| MP4 | video/mp4 |
 
 ^ This table shows some common _MIME types_ that you can use to identify the content of an audio or video file. A MIME type helps a browser determine what player to use to open a file. In some cases, you'll need to include the codecs for a MIME type.
 
@@ -211,4 +211,4 @@ theme: Plain Jane, 2
 
 ---
 
-# For Next Week...
+## For Next Week...

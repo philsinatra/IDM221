@@ -2,14 +2,14 @@
 
 ## Lecture Slides
 
-- [Week 1](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W01.pdf)
-- [Week 2](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W02.pdf)
-- [Week 3](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W03.pdf)
-- [Week 4](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W04.pdf)
-- [Week 5](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W05.pdf)
-- [Week 6](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W06.pdf)
-- [Week 7](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W07.pdf)
-- [Week 8](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-W08.pdf)
+- [01 Introduction](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-01-introduction.pdf)
+- [02 HTML Text & Git Introduction](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-02-text-git.pdf)
+- [03 HTML Lists, Links, Images & HTML Structure](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-03-structure.pdf)
+- [04 CSS Introduction](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-04-selectors.pdf)
+- [05 CSS Text](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-05-css_text.pdf)
+- [06 Box Model](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-06-box_model.pdf)
+- [07 Page Layout](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-07-layout.pdf)
+- [08 Media on the Web](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-08-media.pdf)
 
 ## Reading Material
 

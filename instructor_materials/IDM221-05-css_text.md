@@ -14,7 +14,7 @@ theme: Plain Jane, 2
 
 ---
 
-# Working With Text
+## Working With Text
 
 ---
 
@@ -28,8 +28,10 @@ theme: Plain Jane, 2
 
 ---
 
+## Special Characters
+
 ```html
-<p> 12>6 </p>
+<p> 12<6 </p>
 <p> Research & Development </p>
 <p> © 2016 </p>
 ```
@@ -37,6 +39,8 @@ theme: Plain Jane, 2
 ^ How about in this example, where we look at the actual HTML code. What are some of the issues present in this source code?
 
 ---
+
+## Reserved/Special Characters
 
 - reserved characters
 - special characters
@@ -57,15 +61,19 @@ theme: Plain Jane, 2
 
 ---
 
+## Character Entities
+
 ```html
-<p> 12&gt;6 </p>
+<p> 12&lt;6 </p>
 <p> Research &amp; Development </p>
 <p> &copy; 2016 </p>
 ```
 
 ---
 
-[Useful Entities](http://www.w3schools.com/html/html_entities.asp)
+## Useful Entities
+
+- [Useful Entities](http://www.w3schools.com/html/html_entities.asp)
 
 ^ Here's a list of some useful entities. Note: Entity names are case sensitive.
 
@@ -77,17 +85,21 @@ theme: Plain Jane, 2
 
 ---
 
-### The Five (generic) Families
+## The Five (generic) Families
 
 ![](https://s-media-cache-ak0.pinimg.com/originals/ab/c1/9f/abc19f3eb7500ad138a98e334f8f8d92.jpg)
 
-    Name        Description
+---
 
-    serif       Tapered, flared or slab stroke ends
-    sans-serif  Plain stroke ends
-    monospace   Every character uses the same width
-    cursive     Connected, flowing letters
-    fantasy     Decorative styling
+## The Five (generic) Families
+
+| Name | Description |
+| ---- | ----------- |
+| serif | Tapered, flared or slab stroke ends |
+| sans-serif | Plain stroke ends |
+| monospace | Every character uses the same width |
+| cursive | Connected, flowing letters |
+| fantasy | Decorative styling |
 
 ---
 
@@ -95,11 +107,11 @@ theme: Plain Jane, 2
 
 ---
 
-![50%](http://digm.drexel.edu/crs/IDM221/presentations/images/sansserif.png)
+![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/sansserif.png)
 
 ---
 
-![50%](http://digm.drexel.edu/crs/IDM221/presentations/images/monospace.png)
+![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/monospace.png)
 
 ---
 
@@ -142,9 +154,13 @@ theme: Plain Jane, 2
 
 ---
 
-[Web Safe Fonts](http://www.w3schools.com/cssref/css_websafe_fonts.asp)
+## Web Safe Fonts
+
+- [Web Safe Fonts](http://www.w3schools.com/cssref/css_websafe_fonts.asp)
 
 ---
+
+## Define A Font Family
 
 ```css
 p {
@@ -161,6 +177,8 @@ p {
 
 ---
 
+## Set Font Size
+
 ```css
 p {
   font-size: 12px;  /* in pixels */
@@ -173,7 +191,9 @@ p {
 
 ---
 
-![60% left](http://digm.drexel.edu/crs/IDM100/presentations/images/font-scale.png)
+## Type Scale
+
+![60% left](http://digm.drexel.edu/crs/IDM221/presentations/images/font-scale.png)
 
 - Developed in the 16th century
 - Pleasing to the eye
@@ -181,7 +201,7 @@ p {
 
 ---
 
-#### Why `em`s?
+## Why `em`s?
 
 - relative units
 - more precision
@@ -189,9 +209,9 @@ p {
 
 ---
 
-#### How to calculate `em`s
+## How to calculate `em`s
 
-    1em = 100% of parent font
+1em = 100% of parent font
 
 ```css
 body { font-size: 16px; }
@@ -237,7 +257,7 @@ $$12/14 = 0.86$$
 ---
 
 ```css
-html { font-size: 16px;}
+html { font-size: 100%; /* ~16px */}
 body { font-size: 1rem; }
 main { font-size: 0.88rem; /* 14px */}
 main p {
@@ -253,12 +273,12 @@ $$12/16 = 0.75$$
 
 ## Font styling properties
 
-    Property      Description
-
-    font-style    how the font is slanted: normal, italic, oblique
-    font-weight   the boldness: normal, bold, bolder, lighter, 100-900
-    font-variant  small caps used: normal, small-caps
-    line-height   amount of vertical space for each line
+| Property | Description |
+| -------- | ----------- |
+| font-style | how the font is slanted: normal, italic, oblique |
+| font-weight | the boldness: normal, bold, bolder, lighter, 100-900 |
+| font-variant | small caps used: normal, small-caps |
+| line-height | amount of vertical space for each line |
 
 ---
 
@@ -274,7 +294,7 @@ p {
 
 ---
 
-![20%](http://digm.drexel.edu/crs/IDM221/presentations/images/font-style.png)
+![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/font-style.png)
 
 ---
 
@@ -291,7 +311,7 @@ p {
 
 ---
 
-![20%](http://digm.drexel.edu/crs/IDM221/presentations/images/font-weight.png)
+![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/font-weight.png)
 
 ---
 
@@ -342,14 +362,14 @@ p {
 
 ---
 
-## Formatting text
+## Formatting Text
 
-    Property        Description
-
-    text-indent     relative/absolute value
-    text-align      left, center, right, justify
-    vertical-align  relative/absolute/keyword
-    text-decoration underline, overline, line-through, none
+| Property | Description |
+| -------- | ----------- |
+| text-indent | relative/absolute value |
+| text-align | left, center, right, justify |
+| vertical-align | relative/absolute/keyword |
+| text-decoration | underline, overline, line-through, none |
 
 ^ The `text-indent` property is a relative or absolute value that determines the indentation for the first line of text. This property is inherited.
 
@@ -360,6 +380,8 @@ p {
 ^ The `text-decoration` property determines special decorations that are applied to text.
 
 ---
+
+## Formatting Text
 
 ```css
 main p { text-indent: 2em; }
@@ -397,6 +419,8 @@ $$websafe = boring?$$
 
 ---
 
+## CSS3 Web Fonts
+
 ```css
 body {
   font-family: ChunkFiveRegular, Times, serif;
@@ -404,10 +428,6 @@ body {
 ```
 
 ^ Why can't we spec any typeface we want in our `font-family` declaration?
-
----
-
-## Embedding web fonts
 
 ^ For years web designers were frustrated with the limited number of fonts available for a website. (further explanation of web safe fonts) CSS3 offers a feature to embed fonts within your pages. You can also use third party services to embed fonts within your pages.
 
@@ -454,6 +474,20 @@ h1, h2 {
   url('fonts/chunkfive.svg#ChunkFiveRegular')
     format('svg');}
 ```
+
+^ A few years ago - this is what it looked like to get the job done on all modern browsers.
+
+---
+
+```css
+@font-face {
+ font-family: 'ChunkFiveRegular';
+ src: url('fonts/chunkfive.woff2') format('woff2'),
+      url('fonts/chunkfive.woff') format('woff');
+}
+```
+
+^ Currently, we can trim this down to just two formats.
 
 ---
 
@@ -507,4 +541,4 @@ h1, h2 {
 
 ---
 
-# For Next Week...
+## For Next Week...

@@ -51,16 +51,16 @@ theme: Plain Jane, 2
 
 ## Cross browser compatibility
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/chrome/chrome.png)
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/edge/edge.png)
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/firefox/firefox.png)
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/safari/safari.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
 
 ^ If you want your website to be used by as many visitors as possible, you need to make sure that your web pages are compatible with as many browsers as possible. That's known as _cross browser compatibility_. In the past this has been difficult, however new versions of certain browsers *cough IE* have made it easier to test. Modern browsers also include special _Developer Tools_ that include Emulation options.
 
 ---
 
-### Guidelines
+## Guidelines
 
 - use supported HTML5 and CSS3 features
 - test all pages on all major browsers
@@ -168,6 +168,8 @@ img { max-width: 100%; }
 
 ---
 
+## The DocType
+
 ```html
 <!DOCTYPE html>
 ```
@@ -221,7 +223,7 @@ img { max-width: 100%; }
 
 ---
 
-### Opening and closing tags
+## Opening and closing tags
 
 ```html
 <h1>Refresh Philly</h1>
@@ -234,7 +236,7 @@ img { max-width: 100%; }
 
 ---
 
-### Empty tags
+## Empty tags
 
 ```html
 <br>
@@ -245,7 +247,7 @@ img { max-width: 100%; }
 
 ---
 
-### Nesting
+## Nesting
 
 ```html
 <!-- correct nesting -->
@@ -275,7 +277,7 @@ img { max-width: 100%; }
 
 ---
 
-### Comments
+## Comments
 
 ```html
 <!DOCTYPE html>
@@ -285,6 +287,8 @@ img { max-width: 100%; }
 ^ Here is an example of how to code HTML _comments_. One common use of comments is to describe or explain portions of code.
 
 ---
+
+## Comments
 
 ```html
 <body>
@@ -304,7 +308,7 @@ img { max-width: 100%; }
 
 ---
 
-#### Whitespace
+## Whitespace
 
 ```html
 <html lang="en">
@@ -327,7 +331,7 @@ img { max-width: 100%; }
 
 ---
 
-### Attributes
+## Attributes
 
 ```html
 <!-- opening tag, one attribute -->
@@ -344,7 +348,7 @@ img { max-width: 100%; }
 
 ---
 
-### Attributes
+## Attributes
 
 ```html
 <!-- Boolean attribute -->
@@ -355,7 +359,7 @@ img { max-width: 100%; }
 
 ---
 
-### Identifying elements
+## Identifying elements
 
 ```html
 <!-- `id` attribute -->
@@ -369,7 +373,7 @@ img { max-width: 100%; }
 
 ---
 
-# HTML Validation
+## HTML Validation
 
 ![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/w3c_validator.png)
 
@@ -383,7 +387,7 @@ img { max-width: 100%; }
 
 ---
 
-# Version control
+## Version control
 
 ![](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
 
@@ -414,7 +418,7 @@ img { max-width: 100%; }
 
 ---
 
-### Source Tree GUI
+## Source Tree GUI
 
 ![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/01_GetSourceTree.png)
 
@@ -468,7 +472,7 @@ img { max-width: 100%; }
 
 ---
 
-### GitHub Desktop GUI
+## GitHub Desktop GUI
 
 ^ A live demo of the software.
 
@@ -507,6 +511,6 @@ img { max-width: 100%; }
 
 ---
 
-# For Next Week...
+## For Next Week...
 
 ^ Draw a sitemap example on whiteboard.

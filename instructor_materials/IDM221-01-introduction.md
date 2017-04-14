@@ -10,10 +10,10 @@ theme: Plain Jane, 2
 ---
 
 ## Week 1
-### Overview
+### Introduction
 
 ---
-### Hello
+## Hello
 
 I am Phil Sinatra, professor in the Interactive Digital Media program.
 
@@ -33,13 +33,13 @@ You can find me at:
 
 ---
 
-# How the Web Works
+## How the Web Works
 
 ^ Before we get into any of the technical aspects of this process, it's first important we understand how the web actually works.
 
 ---
 
-![200%](http://digm.drexel.edu/crs/IDM221/presentations/images/components_of_web_app.png)
+![100%](http://digm.drexel.edu/crs/IDM221/presentations/images/components_of_web_app.jpg)
 
 ^ This image shows that web applications consist of _clients_ and a _web server_. The clients are the computers, tablets and mobile devices that use the web applications. They access the web pages through programs known as _web browsers_. The web server holds the files that make up a web application.
 
@@ -63,7 +63,7 @@ You can find me at:
 
 ---
 
-![200%](http://digm.drexel.edu/crs/IDM221/presentations/images/process_static_web_page.png)
+![100%](http://digm.drexel.edu/crs/IDM221/presentations/images/process_static_web_page.jpg)
 
 ^ This figure shows how a web server processes a request for a static web page. The process begins when a client requests a web page in a web browser. To do that, the user can either type the address of the page into the browser's address bar or click a link in the current page that specifies the next page load.
 
@@ -83,71 +83,71 @@ You can find me at:
 
 ---
 
-![200%](http://digm.drexel.edu/crs/IDM221/presentations/images/process_dynamic_web_page.png)
+![100%](http://digm.drexel.edu/crs/IDM221/presentations/images/process_dynamic_web_page.jpg)
 
 ^ This diagram shows the process.
 
 ---
 
-# Web Browsers
+## Web Browsers
 
 ---
 
-# Chrome
+### Chrome
 
 - Published by Google
 - Available on all major operating systems
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/chrome/chrome.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.png)
 
 ---
 
-# Internet Explorer
+### Internet Explorer
 
 - Published by Microsoft
 - Available on Windows
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/internet-explorer/internet-explorer.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer-tile_10-11/internet-explorer-tile_10-11.png)
 
 ---
 
-# Edge
+### Edge
 
 - Published by Microsoft
 - Available on Windows
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/edge/edge.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.png)
 
 ---
 
-# Firefox
+### Firefox
 
 - Published by Mozilla Corporation
 - Available on all major operating systems
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/firefox/firefox.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
 
 ---
 
-# Safari
+### Safari
 
 - Published by Apple
 - Available on Macintosh & Windows
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/safari/safari.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
 
 ---
 
-# Opera
+### Opera
 
 - Published by Opera Software
 - Available on all major operating systems
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/opera/opera.png)
+![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera.png)
 
 ---
 
-# HTML & CSS
+## HTML & CSS
 
 ### Introduction
 
@@ -229,7 +229,7 @@ You can find me at:
 
 ---
 
-### Head
+## Head
 
 ```html
 <head>
@@ -242,7 +242,7 @@ You can find me at:
 
 ---
 
-### Body
+## Body
 
 ```html
 <body>
@@ -274,7 +274,7 @@ You can find me at:
 
 ---
 
-## A long time ago, in a galaxy far away...
+> A long time ago, in a galaxy far away...
 
 ![150%](http://wallpapercave.com/wp/DqHN8OT.png)
 
@@ -303,9 +303,9 @@ You can find me at:
 
 ---
 
-# CSS
+> CSS
 
-## The force is strong with this one...
+> The force is strong with this one...
 
 ![](http://screenrant.com/wp-content/uploads/Star-Wars-Alternate-Ending-Vader-Father-Yoda.jpg)
 
@@ -378,7 +378,7 @@ body {
 
 ---
 
-# Tools for web development
+## Tools for web development
 
 - text editors
 - domain/hosting
@@ -390,7 +390,7 @@ body {
 
 ---
 
-## Text Editors
+### Text Editors
 
 - [Sublime Text](https://www.sublimetext.com)
 - [Atom](https://atom.io)
@@ -446,7 +446,7 @@ body {
 
 ---
 
-# Try Markdown
+## Try Markdown
 
 [Try Markdown](http://markdown-here.com/livedemo.html)
 
@@ -454,7 +454,7 @@ body {
 
 ---
 
-# IDM221
+## IDM221
 ### Written With Markdown
 
 [GitHub Repo](https://github.com/philsinatra/IDM221)
@@ -463,4 +463,4 @@ body {
 
 ---
 
-# For next week...
+## For next week...

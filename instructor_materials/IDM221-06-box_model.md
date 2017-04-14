@@ -14,7 +14,7 @@ theme: Plain Jane, 2
 
 ---
 
-### The Box Model
+## The Box Model
 
 ^ When a browser displays a web page, it places each HTML block element in a box. That makes it easy to control the spacing, borders, and other formatting for elements like headers, sections, footers, headings and paragraphs. Some inline elements like images are placed in a box as well. To work with boxes, you use the CSS _box model_.
 
@@ -30,7 +30,7 @@ theme: Plain Jane, 2
 
 ![fit right](http://digm.drexel.edu/crs/IDM221/presentations/images/box_model.png)
 
-### Calculate height
+## Calculate height
 
       top margin
     + top border
@@ -46,7 +46,7 @@ theme: Plain Jane, 2
 
 ![fit right](http://digm.drexel.edu/crs/IDM221/presentations/images/box_model.png)
 
-### Calculate width
+## Calculate width
 
       left margin
     + left border
@@ -187,19 +187,23 @@ p {
 
 ---
 
-### Height and Width
+## Height and Width
 
-    width       the width of the content area
-    height      the height of the content area
-    min-width   the minimum width of the content area
-    max-width   the maximum width of the content area
-    min-height  the minimum height of the content area
-    max-height  the maximum height of the content area
+| Property | Description |
+| -------- | ----------- |
+| `width` | the width of the content area |
+| `height` | the height of the content area |
+| `min-width` | the minimum width of the content area |
+| `max-width` | the maximum width of the content area |
+| `min-height` | the minimum height of the content area |
+| `max-height` | the maximum height of the content area |
 
 ---
 
-- width
-- height
+## Height and Width
+
+- `width`
+- `height`
 - `height: auto;`
 - `width: auto;`
 
@@ -207,7 +211,7 @@ p {
 
 ---
 
-### Height and Width
+## Height and Width
 
 ```css
 div {
@@ -226,7 +230,7 @@ div {
 ---
 
 
-### Min and Max
+## Min and Max
 
 ```css
 div {
@@ -281,8 +285,8 @@ div {
 }
 ```
 
-    1vw = 1% viewport width
-    1vh = 1% viewport height
+1vw = 1% viewport width
+1vh = 1% viewport height
 
 ---
 
@@ -650,8 +654,6 @@ div {
 
 ^ `contain`: Scale the image to the largest size such that both its width and its height can fit inside the content area.
 
-
-
 ---
 
 ## Background Gradients
@@ -682,11 +684,7 @@ div {
 
 ---
 
-[CSS Toolkit](https://itunes.apple.com/us/app/css-toolkit/id934487422?mt=12)
-
----
-
-# Example
+## Example
 
 ---
 
@@ -712,4 +710,4 @@ div {
 
 ## For Next Week...
 
-### Work!
+^ WORK! No specific assignment.

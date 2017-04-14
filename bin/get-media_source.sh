@@ -2,7 +2,7 @@
 cd ${0%/*}
 
 echo "Downloading media assets"
-curl -LOk http://digm.drexel.edu/crs/IDM221/cdn/week8/source_media.zip
+curl -LOk http://digm.drexel.edu/crs/IDM221/cdn/08-media/source_media.zip
 echo "Done"
 echo ""
 echo "Extracting assets"

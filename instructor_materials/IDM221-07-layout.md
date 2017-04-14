@@ -22,7 +22,7 @@ theme: Plain Jane, 2
 
 ---
 
-## Position an element
+## Position An Element
 
 - position
 - top
@@ -237,4 +237,5 @@ footer {
 ---
 
 # For Next Week...
-## Work!
+
+^ Work

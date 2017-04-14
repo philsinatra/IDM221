@@ -98,6 +98,8 @@ books/php/overview.html
 
 ---
 
+## Link Terminology Review
+
 - **Absolute URL**: code the complete URL including domain
 - **Relative URL**: based on the folder of the current page
 - **Root Relative**: relative to root folder, starts with /
@@ -105,7 +107,7 @@ books/php/overview.html
 
 ---
 
-# Links
+## Links
 
 ```html
 <p>Go view our <a href="products.html">product list</a>.</p>
@@ -116,6 +118,8 @@ books/php/overview.html
 ^ Most webpages contain links other webpages for web resources. To code a link, you use the `<a>` anchor element.
 
 ---
+
+## Links
 
 ```html
 <p>Go view our <a href="products.html">product list</a>.</p>
@@ -137,7 +141,7 @@ books/php/overview.html
 
 ---
 
-### Semantics and Usability!
+## Semantics and Usability
 
 ```html
 <a href="contact.html">Click here</a> to contact us.
@@ -145,9 +149,11 @@ books/php/overview.html
 Please <a href="contact.html">contact us</a> with your comments.
 ```
 
-^ When you create a link that contains text, the text should clearly indicate the function of the link. For example, you should not use text like "click here" because it does not indicate what the link does. 
+^ When you create a link that contains text, the text should clearly indicate the function of the link. For example, you should not use text like "click here" because it does not indicate what the link does.
 
 ---
+
+## Semantics and Usability
 
 ```html
 <a href="contact.html">click here</a>
@@ -159,7 +165,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-### Target windows
+## Target windows
 
 ```html
 <a href="http://google.com" target="win_search">Google</a>
@@ -172,11 +178,11 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-### Example Time
+## Example Time
 
 ---
 
-### Same Page Links
+## Same Page Links
 
 ```html
 <h1 id="top">Film Making Terms</h1>
@@ -192,7 +198,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-### Same Page Links
+## Same Page Links
 
 ```html
 <h1 id="top">Film Making Terms</h1>
@@ -208,7 +214,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-`id` Attribute
+## `id` Attribute
 
 ```html
 <h1 id="top"></h1>
@@ -219,6 +225,8 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
+## Target the `id` Attribute
+
 ```html
 <a href="#top">Back to top</a>
 <a href="#arc">Arc Shot</a>
@@ -228,11 +236,11 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-# Lists
+## Lists
 
 ---
 
-# Lists
+## Lists
 
 ```html
 <ul>
@@ -309,7 +317,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-# Images
+## Images
 
 ```html
 <img src="images/logo.gif" alt="website logo">
@@ -336,7 +344,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-# Page structure
+## Page structure
 
 ^ Now that we've seen some HTML elements used for structuring content, lets put together a simple web page that uses these elements.
 
@@ -365,7 +373,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-# We can do better
+## We can do better
 
 ---
 
@@ -412,7 +420,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 <div id="header">
   <h1>Town Hall</h1>
   <div id="nav">
-    <ul> <li><a href="about.html">About</a></li> </ul> 
+    <ul> <li><a href="about.html">About</a></li> </ul>
   </div>
 </div>
 <div id="main">
@@ -539,7 +547,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-# Tables
+## Tables
 
 ![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/tables.png)
 
@@ -621,7 +629,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-# Forms
+## Forms
 
 ^ A form contains one or more controls like text boxes, radio buttons, lists, or check boxes that can receive data.
 
@@ -641,7 +649,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Buttons
+### Buttons
 
 ```html
 <input type="button" name="message" value="Alert Me">
@@ -660,7 +668,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Text inputs
+### Text inputs
 
 ```html
 <input type="text" name="username" placeholder="Your name">
@@ -673,13 +681,13 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Inputs, labels, fieldsets...
+### Inputs, labels, fieldsets...
 
 ^ Review the links in the resources section to learn more about the available inputs and attributes that can be used to build a form.
 
 ---
 
-#iFrames
+## iFrames
 
 ```html
 <iframe src="http://www.w3schools.com"></iframe>
@@ -697,4 +705,4 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-# For Next Time...
+## For Next Time...

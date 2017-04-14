@@ -14,13 +14,13 @@ theme: Plain Jane, 2
 
 ---
 
-### Presentation
+## Presentation
 
 ^ Up until this point everything we've focused on has been related to content, and structure. This has been intentional, because without content we have no project. Without structure we have no way of presenting our content. These concepts are critical and must be addressed before we can work on presenting our content. You know enough of the fundamentals to now begin working on content, structure and presentation.
 
 ---
 
-### CSS Syntax
+## CSS Syntax
 
 ```css
 /*********************************
@@ -40,7 +40,7 @@ h2 {
 
 ---
 
-### Rule Sets
+## Rule Sets
 
 ```css
 /* selector */
@@ -53,7 +53,7 @@ h1 {
 
 ---
 
-### Rule sets
+## Rule Sets
 
 ```css
 /* selector */
@@ -69,6 +69,8 @@ h1 {
 
 ---
 
+## Rule Sets
+
 ```css
 h2 {
   border-bottom: 2px solid #fff;
@@ -83,6 +85,8 @@ ul {
 ^ Here are some other rule sets. Rule sets can include a single or multiple declarations.
 
 ---
+
+## Rule Sets
 
 ```css
 h2 {
@@ -116,6 +120,21 @@ ul {
 
 ---
 
+### Universal Selector
+
+```css
+/* All elements */
+* {
+  margin: .5em 1em;
+}
+```
+
+^ The first rule set uses the _universal selector_ so it applies to all HTML elements. You won't necessarily need to use the universal selector often, but it is available if needed.
+
+---
+
+### Type Selectors
+
 ```css
 body {
   font-family: Arial, sans-serif;
@@ -145,6 +164,8 @@ h1 { font-size: 180%; }
 
 ---
 
+### ID Selectors
+
 ```css
 #copyright {
   font-size: 75%;
@@ -168,6 +189,8 @@ h1 { font-size: 180%; }
 ```
 
 ---
+
+### Class Selectors
 
 ```css
 .base_color {
@@ -211,6 +234,8 @@ h1 { font-size: 180%; }
 
 ---
 
+## External Styles
+
 ```html
 <link
   rel="stylesheet"
@@ -226,6 +251,8 @@ h1 { font-size: 180%; }
 
 ---
 
+## Embedded Styles
+
 ```html
 <head>
   <style>
@@ -236,11 +263,15 @@ h1 { font-size: 180%; }
     font-size: 130%;
   }
   </style>
+</head>
+<body>
 ```
 
 ^ Second, you can embed a CSS style sheet in the HTML for a page. This is referred to as an _embedded style sheet_. When you embed a style sheet, the CSS rule sets are coded in a style element in the head section of the HTML.
 
 ---
+
+## Inline Styles
 
 ```html
 <h1 style="font-size: 250%; color: red;">
@@ -264,7 +295,7 @@ h1 { font-size: 180%; }
 
 ---
 
-### The cascade order
+## The cascade order
 
 - `!important` rules in a user style sheet
 - `!important` rules in a web page
@@ -284,7 +315,7 @@ h1 { font-size: 180%; }
 
 ---
 
-### Multiple rules at same cascade level
+## Multiple rules at same cascade level
 
 ```css
 .highlight { /* rules here */ }
@@ -307,7 +338,7 @@ p.highlight { color: blue; }
 
 ---
 
-### Determining selector specificity
+## Determining selector specificity
 
 - **id** is the _most_ specific
 - **class** or **pseudo-class** is _less_ specific
@@ -317,14 +348,18 @@ p.highlight { color: blue; }
 
 ## Measurements
 
-    Symbol  Name    Type      Description
+---
 
-    px      pixels    absolute  a single dot on a monitor
-    pt      points    absolute  1/72 of an inch
-    em      ems       relative  1em = current font size
-    %       percent   relative  relative to current size
-    vw      viewport  width     relative relative to viewport
-    vh      viewport  height    relative relative to viewport
+## Measurements
+
+| Symbol | Name | Type | Description |
+| ------ | ---- | ---- | ----------- |
+| px | pixels | absolute | a single dot on a monitor |
+| pt | points | absolute | 1/72 of an inch |
+| em | ems | relative | 1em = current font size |
+| %  | percent | relative | relative to current size |
+| vw | viewport | width | relative relative to viewport |
+| vh | viewport | height | relative relative to viewport |
 
 ^ You use the units of measure to specify a variety of CSS properties, including font-size, line-height, width, height, margin and padding. These are the four units of measure that are commonly used with CSS: pixels, points, ems and percent. The first two are absolute units, the second two are relative units.
 
@@ -334,14 +369,14 @@ p.highlight { color: blue; }
 
 ## Measurements
 
-    Symbol  Name    Type      Description
-
-    px      pixels    absolute  a single dot on a monitor
-    pt      points    absolute  1/72 of an inch
-    em      ems       relative  1em = current font size
-    %       percent   relative  relative to current size
-    vw      viewport  width     relative relative to viewport
-    vh      viewport  height    relative relative to viewport
+| Symbol | Name | Type | Description |
+| ------ | ---- | ---- | ----------- |
+| px | pixels | absolute | a single dot on a monitor |
+| pt | points | absolute | 1/72 of an inch |
+| em | ems | relative | 1em = current font size |
+| %  | percent | relative | relative to current size |
+| vw | viewport | width | relative relative to viewport |
+| vh | viewport | height | relative relative to viewport |
 
 ^ When you use absolute units of measurement the measurement won't change even if the user changes the font size in the browser. Example: set the width of an element in pixels and the font size in points, the width and font size won't change.
 
@@ -375,7 +410,10 @@ h1 {
 
 ---
 
-[CSS3 Color spec](http://www.w3.org/TR/css3-color)
+# Color Specs & Names
+
+- [CSS3 Color spec](http://www.w3.org/TR/css3-color)
+- [Color Names](http://www.w3schools.com/cssref/css_colors.asp)
 
 ```css
 p {
@@ -383,11 +421,11 @@ p {
 }
 ```
 
-[Color Names](http://www.w3schools.com/cssref/css_colors.asp)
-
 ^ The easiest way is to specify a color name.
 
 ---
+
+## RGB Colors
 
 ```css
 p {
@@ -399,6 +437,8 @@ p {
 ^ Another way to specify a color is to use an _RGB_ value. One way to do that is to specify the percent of red, green and blue that make up the color. You can also use any values from 0 through 255 instead of percents (0 is equivalent to 0% and 255 is equivalent to 100%, this gives you more precision over the resulting colors).
 
 ---
+
+## Hexcodes
 
 ```css
 p {
@@ -422,7 +462,7 @@ body {
 
 p {
   background-color: #ff0000; /* red */
-  /* color will be inherited as `black` */
+  /* `color` will be inherited as `black` */
 }
 ```
 
@@ -432,7 +472,7 @@ p {
 
 ---
 
-### Accessibility guideline
+## Accessibility guideline
 
 ^ Remember the visually-impaired. Dark text on a light background is easier to read, and black type on a white background is easiest to read.
 
@@ -452,7 +492,7 @@ hsla(hue-degrees, saturation%, lightness%, opacity-value)
 
 ---
 
-## Coding selectors
+## Coding Selectors
 
 ```html
 <main>
@@ -466,30 +506,6 @@ hsla(hue-degrees, saturation%, lightness%, opacity-value)
 ```
 
 ^ Once you understand how to code selectors, you will be able to apply CSS formatting to any element in a web page.
-
----
-
-```css
-/* All elements */
-* {
-  margin: .5em 1em;
-}
-```
-
-^ The first rule set uses the _universal selector_ so it applies to all HTML elements. You won't necessarily need to use the universal selector often, but it is available if needed.
-
----
-
-```css
-/* Elements by type */
-main {
-  border: 2px solid black;
-  padding: 1em; }
-h1 { font-family: Arial, sans-serif; }
-p { margin-left: 3em; }
-```
-
-^ The next group of rules select elements by type. These are known as _type selectors_. To code a type selector you just code the name of the element. (explain rules applying to all `h1`, `p` elements etc.)
 
 ---
 
@@ -515,7 +531,7 @@ p { margin-left: 3em; }
 }
 ```
 
-^ The next selector selects an element by its id. To do that, the selector is a pound sign (#) followed by an id value that uniquely identifies an element. As a result, this rule set selects the `p` element that has an id of _copyright_, and then applies the rules to that element.
+^ We can target that single element using an ID selector. Here we're applying a smaller font size to that one paragraph element.
 
 ---
 
@@ -664,32 +680,38 @@ p, ul.speakers li {
 
 ---
 
-### Common CSS pseudo-classes
+## Common CSS pseudo-classes
 
-    :link     A link that hasn't been visited.
-    :visited  A link that has been visited.
-    :active   The active link (mouse button down)
-    :hover    An element with mouse hovering
-    :focus    An element that has focus (forms)
+| pseudo-class name | Description |
+| ----------------- | ----------- |
+| `:link` | A link that hasn't been visited. |
+| `:visited` | A link that has been visited. |
+| `:active` | The active link (mouse button down) |
+| `:hover` | An element with mouse hovering |
+| `:focus` | An element that has focus (forms) |
 
 ^ These classes represent conditions that apply to the elements on a page. You can use the `:link` pseudo-class to refer to a link that hasn't been visited, the `:hover` pseudo-class to refer to the element that has the mouse hovering over it.
 
 ---
 
-### Common CSS3 pseudo-classes
+## Common CSS3 pseudo-classes
 
-    :first-child  The first child of an element
-    :last-child   The last child of an element
-    :only-child   The only child of an element
+| pseudo-class name | Description |
+| ----------------- | ----------- |
+| `:first-child` | The first child of an element |
+| `:last-child` | The last child of an element |
+| `:only-child` | The only child of an element |
 
 ^ You can also use CSS3 pseudo-classes to refer to specific relationships.
 
 ---
 
-### Common CSS3 pseudo-elements
+## Common CSS3 pseudo-elements
 
-    ::first-letter  The first letter of an element.
-    ::first-line    The first line of an element.
+| pseudo-class name | Description |
+| ----------------- | ----------- |
+| `::first-letter` | The first letter of an element |
+| `::first-line` | The first line of an element |
 
 ^ You can use CSS3 pseudo-elements to select portions of text.
 
@@ -746,7 +768,7 @@ main p:first-child::first-letter { font-size: 150%; }
 
 ---
 
-### How to
+## How to
 
 [github.com/normalize](https://github.com/necolas/normalize.css/)
 
@@ -802,4 +824,4 @@ main p:first-child::first-letter { font-size: 150%; }
 
 ---
 
-# For Next Week...
+## For Next Week...
