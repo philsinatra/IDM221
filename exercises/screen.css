@@ -1,0 +1,21 @@
+pre {
+  white-space: pre-wrap;
+}
+.dir_structure { font-family: Courier, 'Courier New', monospace; }
+.dir_structure li { list-style: none; }
+.dir_structure .dir {
+  background-color: #94dcfc;
+}
+.dir_structure .dir::after {
+  content: "/";
+}
+.dir_structure .file {
+  background-color: #f5f5f5;
+}
+code { background-color: #f1f1f1; }
+.input_code {
+  font-family: Courier, 'Courier New', monospace;
+  min-width: 45%;
+}
+.exercise_input { margin: 3rem 0; }
+textarea.input_code { width: 100%; }

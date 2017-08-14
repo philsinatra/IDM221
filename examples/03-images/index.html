@@ -2,37 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Week 3 - Structure</title>
+  <title>Images</title>
+  <style>
+    html { font: 100%/1.5 Arial, sans-serif; }
+    body { background-color: lightgray; }
+    img { max-width: 100%; }
+    .row {
+      margin: 0 auto;
+      max-width: 68.75rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <img src="img/logo.png" alt="squirrel logo">
-    <h2>IDM 221 - Week 3</h2>
-    <h3>Learning Content and Structure</h3>
-  </header>
-
-  <main>
-    <h1>Topics:</h1>
-    <nav>
-      <ul>
-        <!-- TODO: turn each of these into a link. -->
-        <li>Lists</li>
-        <li>Images</li>
-        <li>Tables</li>
-        <li>Forms</li>
-      </ul>
-    </nav>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <img src="img/ice-age-squirrel.jpg" alt="crazy squirrel">
-  </main>
-
-  <footer>
-    <p>&copy; 2016 IDM 221</p>
-  </footer>
+  <h1>Images</h1>
+  <div class="row">
+    <figure>
+      <img src="http://digm.drexel.edu/crs/IDM221/examples/03-images/images/processed/ice-age-squirrel.jpg" alt="ice age squirrel">
+      <figcaption>.jpg file</figcaption>
+    </figure>
+    <figure>
+      <img src="http://digm.drexel.edu/crs/IDM221/examples/03-images/images/processed/ice-age-squirrel.png" alt="ice age squirrel">
+      <figcaption>.png file</figcaption>
+    </figure>
+    <figure>
+      <img src="http://digm.drexel.edu/crs/IDM221/examples/03-images/images/processed/ice-age-squirrel.gif" alt="ice age squirrel">
+      <figcaption>Animated .gif file</figcaption>
+    </figure>
+  </div>
 </body>
 </html>

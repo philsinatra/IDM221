@@ -135,6 +135,12 @@ books/php/overview.html
 
 ---
 
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/paths](http://digm.drexel.edu/crs/IDM221/exercises/paths/index.php/index.php)
+
+---
+
 ![100%](http://digm.drexel.edu/crs/IDM221/presentations/images/links_in_browser.png)
 
 ^ By default, links are underline when they are displayed in a browser to indicate that they are clickable. When a link is displayed, it has a default color depending on its state. Four instance, link that has not been visited is displayed in blue, and a link that has been visited is displayed in purple. Later we'll use CSS to change these settings.
@@ -175,10 +181,6 @@ Please <a href="contact.html">contact us</a> with your comments.
 ```
 
 ^ The `target` attribute can be used to open the linked file/page in a new window/tab. The value basically represents the name of the window; these values can be reused to load links in the same target window. The special value _\_blank_ will open a new window every time the link is clicked.
-
----
-
-## Example Time
 
 ---
 
@@ -341,6 +343,12 @@ Please <a href="contact.html">contact us</a> with your comments.
 ## Photoshop Demo
 
 ![](https://wwwimages2.adobe.com/content/dam/acom/en/products/photoshop/cc2016/images/ps-marquee1440x660.jpg)
+
+---
+
+## Example
+
+^ _examples/03-images/_
 
 ---
 
@@ -544,6 +552,12 @@ Please <a href="contact.html">contact us</a> with your comments.
 - [more](http://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ^ You should use HTML5 elements whenever appropriate. Use `div` elements when your content needs additional styling or division and a semantic element is not available or appropriate. Here is a list of some of the commonly used HTML5 semantic elements, a full list and descriptions of when to use them is available online.
+
+---
+
+## Example
+
+^ _examples/03-structure_
 
 ---
 

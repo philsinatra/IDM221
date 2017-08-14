@@ -11,6 +11,14 @@
 - [07 Page Layout](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-07-layout.pdf)
 - [08 Media on the Web](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-08-media.pdf)
 
+## Exercises
+
+- [CSS Box Model](http://digm.drexel.edu/crs/IDM221/exercises/box_model/index.php)
+- [CSS Layouts](http://digm.drexel.edu/crs/IDM221/exercises/layouts/index.php)
+- [CSS Selectors](http://digm.drexel.edu/crs/IDM221/exercises/selectors/index.php)
+- [CSS Text](http://digm.drexel.edu/crs/IDM221/exercises/text/index.php)
+- [Working With Paths](http://digm.drexel.edu/crs/IDM221/exercises/paths/index.php)
+
 ## Reading Material
 
 - [HTML & CSS Book](http://www.htmlandcssbook.com) ([Amazon Student](http://www.amazon.com/gp/student/signup/info?ie=UTF8&refcust=DLJAQIXKJ6IM56X73TTP4RDUJI&ref_type=generic))

@@ -90,7 +90,7 @@ ul {
 
 ```css
 h2 {
-  border-bottom: 2px solid #fff; /* Add lines below h2 headings */
+  border-bottom: 2px solid #fff; /* Add line below h2 headings */
   font-style: italic;
 }
 
@@ -738,6 +738,13 @@ a:hover, a:focus { color: pink; }
 main p:first-child { font-weight: bold; }
 main p:first-child::first-letter { font-size: 150%; }
 ```
+
+---
+
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/selectors](http://digm.drexel.edu/crs/IDM221/exercises/selectors/index.php/index.php)
+
 ---
 
 ## Browser Default Styles

@@ -229,22 +229,13 @@ You can find me at:
 
 ---
 
-## Head
-
-```html
+```html, [.highlight: 3-6]
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>My Document Title</title>
 </head>
-```
-
-^ The head section contains elements that provide information about the document.
-
----
-
-## Body
-
-```html
 <body>
   <h1>Welcome to my page.</h1>
   <img src="../images/skatedog.jpg" alt="a dog on a skateboard" />
@@ -258,6 +249,34 @@ You can find me at:
     sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
 </body>
+</html>
+```
+
+^ The head section contains elements that provide information about the document.
+
+---
+
+```html, [.highlight: 7-19]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Document Title</title>
+</head>
+<body>
+  <h1>Welcome to my page.</h1>
+  <img src="../images/skatedog.jpg" alt="a dog on a skateboard" />
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</body>
+</html>
 ```
 
 ^ The body section contains the elements that will be displayed in the web browser.
@@ -300,14 +319,6 @@ You can find me at:
 ```
 
 ^ The mix of structural and formatting elements made it hard to edit, maintain and reformat the web pages.
-
----
-
-> CSS
-
-> The force is strong with this one...
-
-![](http://screenrant.com/wp-content/uploads/Star-Wars-Alternate-Ending-Vader-Father-Yoda.jpg)
 
 ---
 
@@ -406,7 +417,10 @@ body {
 
 ### FTP
 
-- [FileZilla](https://filezilla-project.org)
+- [Transmit](https://panic.com/transmit/) (macOS only)
+- [Fetch](https://fetchsoftworks.com) (macOS only)
+- [CyberDuck](https://cyberduck.io/?l=en)
+
 
 ---
 
@@ -421,7 +435,7 @@ body {
 
 - [Example Documentation](https://github.com/philsinatra/docs)
 
-^ Documentation is an important part of any project, especially web developemnt projects. When you solve a problem, it's important to document how you solved it. What resources did you use? What worked? What didn't. That way next time you need to solve a similar problem, you don't start from scratch. It also helps other developers get up to speed on your project quickly.
+^ Documentation is an important part of any project, especially web development projects. When you solve a problem, it's important to document how you solved it. What resources did you use? What worked? What didn't. That way next time you need to solve a similar problem, you don't start from scratch. It also helps other developers get up to speed on your project quickly.
 
 ---
 

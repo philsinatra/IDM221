@@ -225,6 +225,12 @@ footer {
 
 ---
 
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/layouts](http://digm.drexel.edu/crs/IDM221/exercises/layouts/index.php/index.php)
+
+---
+
 ## Float Examples
 
 - Basics

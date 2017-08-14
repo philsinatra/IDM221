@@ -69,7 +69,7 @@ theme: Plain Jane, 2
 </body>
 ```
 
-^ Let's look at an example of how the box model works.
+^ Let's look at an  of how the box model works.
 
 ---
 
@@ -330,7 +330,7 @@ div {
 
 ---
 
-^ Let's bring back our previous example.
+^ Let's bring back our previous .
 
 ```css
 .wrapper {
@@ -380,7 +380,7 @@ ul {
 }
 ```
 
-^ By default, the browser applies certain margin/padding values to certain elements. This example uses the universal selector to set the margins and padding of all elements to 0. After you code the reset selector, you can get the spacing you want by applying margins and padding to specific elements, which overrides the reset selector value of 0.
+^ By default, the browser applies certain margin/padding values to certain elements. This  uses the universal selector to set the margins and padding of all elements to 0. After you code the reset selector, you can get the spacing you want by applying margins and padding to specific elements, which overrides the reset selector value of 0.
 
 ---
 
@@ -474,7 +474,7 @@ div {
 }
 ```
 
-^ There are various styles available. Here are some examples, a full list is available online (check the lecture notes for the URL).
+^ There are various styles available. Here are some s, a full list is available online (check the lecture notes for the URL).
 
 ^ [http://www.w3schools.com/cssref/pr_border-style.asp](http://www.w3schools.com/cssref/pr_border-style.asp)
 
@@ -633,7 +633,7 @@ div {
 }
 ```
 
-^ Background property allows you to set the color, image, repeat, attachment, and position values. (Let's build an example).
+^ Background property allows you to set the color, image, repeat, attachment, and position values. (Let's build an ).
 
 ---
 
@@ -681,6 +681,12 @@ div {
 ---
 
 ![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/css_toolkit.jpg)
+
+---
+
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/box_model](http://digm.drexel.edu/crs/IDM221/exercises/box_model/index.php/index.php)
 
 ---
 

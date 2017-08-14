@@ -21,7 +21,7 @@ theme: Plain Jane, 2
 - Version Control
 - FTP (later)
 
-^ Last week we discussed some of the tools we'll be using for our development process. You should all have installed a text editor, Sublime Text or whichever other option you prefer. You also should all have hosting taken care of, and you should all have a GitHub or Bitbucket account for version control, which we'll talk about tonight. FTP will come later.
+^ Last week we discussed some of the tools we'll be using for our development process. You should all have installed a (_click_) text editor, Sublime Text or whichever other option you prefer. You also should all have (_click_) hosting taken care of, and you should all have a (_click_) GitHub or Bitbucket account for version control, which we'll talk about tonight. (_click_) FTP will come later.
 
 ---
 
@@ -56,7 +56,7 @@ theme: Plain Jane, 2
 ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
 ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
 
-^ If you want your website to be used by as many visitors as possible, you need to make sure that your web pages are compatible with as many browsers as possible. That's known as _cross browser compatibility_. In the past this has been difficult, however new versions of certain browsers *cough IE* have made it easier to test. Modern browsers also include special _Developer Tools_ that include Emulation options.
+^ If you want your website to be used by as many visitors as possible, you need to make sure that your web pages are compatible with as many browsers as possible. That's known as _cross browser compatibility_. Modern browsers also include special _Developer Tools_ that include Emulation options that will help us test our code.
 
 ---
 
@@ -67,7 +67,7 @@ theme: Plain Jane, 2
 - [Can I Use?](http://caniuse.com)
 - [HTML 5 Test](http://html5test.com)
 
-^ Let's go over a few basic guidelines. Make sure to use supported HTML5 and CSS3 features when coding your site, test all pages on all major browsers, not just your favorite browser. Before using a feature or tag, check it's current availability on all modern browsers.
+^ Let's go over a few basic guidelines. (_click_) Make sure to use supported HTML5 and CSS3 features when coding your site, (_click_) test all pages on all major browsers, not just your favorite browser. Before using a feature or tag, (_click_) check it's current availability on all modern browsers.
 
 ---
 
@@ -133,7 +133,7 @@ img { max-width: 100%; }
 - 70% of mobile searches lead to some type of action within an hour
 - 40% of users will choose a different search result if the first one isn't mobile friendly
 - 45% of mobile users ages 18 to 29 use smartphones every day for searches
-- by 2017, 87% of connected devices will be smartphones and tablets
+- as of 2017, 87% of connected devices are smartphones and tablets
 
 ---
 
@@ -200,7 +200,7 @@ img { max-width: 100%; }
 </html>
 ```
 
-^ The _document tree_ starts with the html element, which marks the beginning and end of the HTML code. This element can be referred to as the root element of the document. The html element always contains one head element that provides information about the document and one body element that provides the structure and content of the document.
+^ The _document tree_ starts with the html element, which marks the beginning and end of the HTML code. This element can be referred to as the root element of the document. The `html` element always contains one `head` element that provides information about the document and one `body` element that provides the structure and content of the document.
 
 ---
 

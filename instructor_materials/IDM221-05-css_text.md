@@ -362,6 +362,12 @@ p {
 
 ---
 
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/text](http://digm.drexel.edu/crs/IDM221/exercises/text/index.php/index.php)
+
+---
+
 ## Formatting Text
 
 | Property | Description |
