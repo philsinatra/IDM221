@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Exercises: CSS Text | IDM 221</title>
   <?php require_once '../../includes/hayden/_head.php'; ?>
-  <link rel="stylesheet" href="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/css/prettify.min.css">
+  <link rel="stylesheet" href="http://cdn.philsinatra.com/projects/hayden/tags/master/css/prettify.min.css">
   <link rel="stylesheet" href="../screen.css">
 </head>
 <body>
@@ -29,7 +29,7 @@
       <section>
         <h2>Exercise 1</h2>
         <pre class="prettyprint">body {&NewLine;  font-size: 16px;&NewLine;}&NewLine;&NewLine;p {&NewLine;  font-size: ???;&NewLine;}</pre>
-        <p>The <code>p</code> element <code>font-size</code> property needs to be expressed using <code>em</code> units. The goal <code>font-size</code> is roughly <b>18px</b>. <i>How many ems will set the font-size correctly? (type the number and the unit)</i></p>
+        <p>The <code>p</code> element <code>font-size</code> property needs to be expressed using <code>em</code> units. The goal <code>font-size</code> is roughly <b>18px</b>. How many ems will set the font-size correctly? (type the number and the unit)</p>
         <p><a href="#mi-1" class="DoMore"><small>Review <code>em</code> formula.</small></a></p>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -268,8 +268,8 @@
     </div>
   </div>
 
-  <script src="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/js/main.js"></script>
-  <script src="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/js/run_prettify.min.js"></script>
+  <script src="http://cdn.philsinatra.com/projects/hayden/tags/master/js/main.js"></script>
+  <script src="http://cdn.philsinatra.com/projects/hayden/tags/master/js/run_prettify.min.js"></script>
 
 </body>
 </html>
