@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Exercises: CSS Box Model | IDM 221</title>
   <?php require_once '../../includes/hayden/_head.php'; ?>
-  <link rel="stylesheet" href="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/css/prettify.min.css">
+  <link rel="stylesheet" href="http://cdn.philsinatra.com/projects/hayden/tags/master/css/prettify.min.css">
   <link rel="stylesheet" href="../screen.css">
 </head>
 <body>
@@ -207,8 +207,8 @@
     </div> <!-- ./container -->
   </main>
 
-  <script src="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/js/main.js"></script>
-  <script src="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/js/run_prettify.min.js"></script>
+  <script src="http://cdn.philsinatra.com/projects/hayden/tags/master/js/main.js"></script>
+  <script src="http://cdn.philsinatra.com/projects/hayden/tags/master/js/run_prettify.min.js"></script>
 
 </body>
 </html>

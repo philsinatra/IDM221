@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Exercises: CSS Layouts | IDM 221</title>
   <?php require_once '../../includes/hayden/_head.php'; ?>
-  <link rel="stylesheet" href="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/css/prettify.min.css">
+  <link rel="stylesheet" href="http://cdn.philsinatra.com/projects/hayden/tags/master/css/prettify.min.css">
   <link rel="stylesheet" href="../screen.css">
 </head>
 <body>
@@ -28,10 +28,10 @@
 
       <section>
         <h2>Exercise 1</h2>
-        <p>Using the CSS <code>position</code> property, <i>program a CSS selector that positions the page's <code>header</code> element in the top left corner of the page. </i> If the user scrolls the page, the <code>header</code> will scroll/move with the rest of the content. (<b>Note:</b> program your selectors in alphabetical order)</p>
+        <p>Using the CSS <code>position</code> property, program a CSS selector that positions the page's <code>header</code> element in the top left corner of the page. If the user scrolls the page, the <code>header</code> will scroll/move with the rest of the content. (<b>Note:</b> program your selectors in alphabetical order)</p>
         <div class="kc_text">
           <div class="kc_text__input">
-            <textarea name="ex001" id="ex001" cols="30" rows="4" class="full"></textarea>
+            <textarea name="ex001" id="ex001" cols="30" rows="5" class="full"></textarea>
           </div>
           <div class="feedback alert" data-feedbackfor="ex001" hidden>
             <div class="alert-content"></div>
@@ -49,10 +49,10 @@
 
       <section>
         <h2>Exercise 2</h2>
-        <p>Using the CSS <code>position</code> property, <i>program a CSS selector that positions the page's <code>footer</code> element in the bottom left corner of the page. </i> If the user scrolls the page, the <code>footer</code> will <b>not</b> scroll/move with the rest of the content. (<b>Note:</b> program your selectors in alphabetical order)</p>
+        <p>Using the CSS <code>position</code> property, program a CSS selector that positions the page's <code>footer</code> element in the bottom left corner of the page. If the user scrolls the page, the <code>footer</code> will <b>not</b> scroll/move with the rest of the content. (<b>Note:</b> program your selectors in alphabetical order)</p>
         <div class="kc_text">
           <div class="kc_text__input">
-            <textarea name="ex002" id="ex002" cols="30" rows="4" class="full"></textarea>
+            <textarea name="ex002" id="ex002" cols="30" rows="5" class="full"></textarea>
           </div>
           <div class="feedback alert" data-feedbackfor="ex002" hidden>
             <div class="alert-content"></div>
@@ -70,7 +70,7 @@
 
       <section>
         <h2>Exercise 3</h2>
-        <p>Using the CSS <code>position</code> property, <i>program a CSS selector that moves an element with an <code>id</code> equal to <b>hero</b> down 32px from it's current position.</i> (<b>Note:</b> program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS)</p>
+        <p>Using the CSS <code>position</code> property, program a CSS selector that moves an element with an <code>id</code> equal to <b>hero</b> down 32px from it's current position. (<b>Note:</b> program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS)</p>
         <pre class="prettyprint">html { &NewLine;  font-size: 100%; &NewLine;}</pre>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -93,7 +93,7 @@
         <h2>Exercise 4</h2>
         <p>I have the following HTML structure:</p>
         <pre class="prettyprint">&lt;div class=&quot;row&quot;&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;&lt;/div&gt;</pre>
-        <p><i>Program a CSS selector that will position each of the <code>.col</code> elements next to each other, so that all four fit together in a single line. (<b>Note:</b> program your selectors in alphabetical order)</i></p>
+        <p>Program a CSS selector that will position each of the <code>.col</code> elements next to each other, so that all four fit together in a single line. (<b>Note:</b> program your selectors in alphabetical order)</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex004" id="ex004" cols="30" rows="4" class="full"></textarea>
@@ -115,7 +115,7 @@
         <h2>Exercise 5</h2>
         <p>I have the following HTML structure:</p>
         <pre class="prettyprint">&lt;div class=&quot;wrapper&quot;&gt;&NewLine;  &lt;main&gt;&lt;/main&gt;&NewLine;  &lt;aside&gt;&lt;/aside&gt;&NewLine;&lt;/div&gt;</pre>
-        <p><i>Program a CSS selector that will position the <code>main</code> and <code>aside</code> elements next to each other. Also - add 32px of <code>padding</code> on all four sides of both elements.</i> (<b>Note:</b> program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS)</p>
+        <p>Program a CSS selector that will position the <code>main</code> and <code>aside</code> elements next to each other. Also - add 32px of <code>padding</code> on all four sides of both elements. (<b>Note:</b> program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS)</p>
         <pre class="prettyprint">html { &NewLine;  font-size: 100%; &NewLine;}</pre>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -175,8 +175,8 @@
     </div> <!-- ./container -->
   </main>
 
-  <script src="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/js/main.js"></script>
-  <script src="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/js/run_prettify.min.js"></script>
+  <script src="http://cdn.philsinatra.com/projects/hayden/tags/master/js/main.js"></script>
+  <script src="http://cdn.philsinatra.com/projects/hayden/tags/master/js/run_prettify.min.js"></script>
 
 </body>
 </html>

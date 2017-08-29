@@ -176,7 +176,7 @@
     </div>
   </div>
 
-  <script src="http://cdn.philsinatra.com/projects/hayden/tags/1.3.1/js/main.js"></script>
+  <script src="http://cdn.philsinatra.com/projects/hayden/tags/master/js/main.js"></script>
 
 </body>
 </html>

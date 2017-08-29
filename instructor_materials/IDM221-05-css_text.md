@@ -165,8 +165,8 @@ theme: Plain Jane, 2
 ```css
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-family: "Times New Roman", Times, serif;
-  font-family: "Courier New", Courier, monospace;  
+  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;  
 }
 
 ```
@@ -461,7 +461,7 @@ h1, h2 {
 
 ### Bulletproof Font Face
 
-![](http://static.srcdn.com/wp-content/uploads/Superman-3D-Art.jpg)
+![](http://s1.picswalls.com/wallpapers/2014/02/25/superman-wallpaper_022920424_35.jpg)
 
 ^ Unfortunately not all operating systems and browsers can work with a single type of font file. We need to provide an array of font files to ensure our custom fonts work properly on all operating systems and browsers.
 

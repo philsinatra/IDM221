@@ -51,6 +51,8 @@ Thumbs.db
 *.jpg
 *.png
 *.gif
+assignments/data/assignment_submission_*
+assignments/data/student_roster.json
 graphics
 node_modules
 presentations/images
