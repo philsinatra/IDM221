@@ -28,7 +28,8 @@
 
       <section>
         <h2>Exercise 1</h2>
-        <p>Using the CSS <code>position</code> property, program a CSS selector that positions the page's <code>header</code> element in the top left corner of the page. If the user scrolls the page, the <code>header</code> will scroll/move with the rest of the content. (<b>Note:</b> program your selectors in alphabetical order)</p>
+        <p>Using the CSS <code>position</code> property, program a CSS selector that positions the page's <code>header</code> element in the top left corner of the page. If the user scrolls the page, the <code>header</code> will scroll/move with the rest of the content. </p>
+        <p class="small"><small>Note: program your selectors in alphabetical order.</small></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex001" id="ex001" cols="30" rows="5" class="full"></textarea>
@@ -49,7 +50,8 @@
 
       <section>
         <h2>Exercise 2</h2>
-        <p>Using the CSS <code>position</code> property, program a CSS selector that positions the page's <code>footer</code> element in the bottom left corner of the page. If the user scrolls the page, the <code>footer</code> will <b>not</b> scroll/move with the rest of the content. (<b>Note:</b> program your selectors in alphabetical order)</p>
+        <p>Using the CSS <code>position</code> property, program a CSS selector that positions the page's <code>footer</code> element in the bottom left corner of the page. If the user scrolls the page, the <code>footer</code> will <b>not</b> scroll/move with the rest of the content. </p>
+        <p class="small"><small>Note: program your selectors in alphabetical order.</small></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex002" id="ex002" cols="30" rows="5" class="full"></textarea>
@@ -70,7 +72,8 @@
 
       <section>
         <h2>Exercise 3</h2>
-        <p>Using the CSS <code>position</code> property, program a CSS selector that moves an element with an <code>id</code> equal to <b>hero</b> down 32px from it's current position. (<b>Note:</b> program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS)</p>
+        <p>Using the CSS <code>position</code> property, program a CSS selector that moves an element with an <code>id</code> equal to <b>hero</b> down 32px from it's current position. </p>
+        <p class="small"><small>Note: program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS.</small></p>
         <pre class="prettyprint">html { &NewLine;  font-size: 100%; &NewLine;}</pre>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -93,7 +96,8 @@
         <h2>Exercise 4</h2>
         <p>I have the following HTML structure:</p>
         <pre class="prettyprint">&lt;div class=&quot;row&quot;&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;  &lt;div class=&quot;col&quot;&gt;&lt;/div&gt;&NewLine;&lt;/div&gt;</pre>
-        <p>Program a CSS selector that will position each of the <code>.col</code> elements next to each other, so that all four fit together in a single line. (<b>Note:</b> program your selectors in alphabetical order)</p>
+        <p>Program a CSS selector that will position each of the <code>.col</code> elements next to each other, so that all four fit together in a single line. </p>
+        <p class="small"><small>Note: program your selectors in alphabetical order.</small></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex004" id="ex004" cols="30" rows="4" class="full"></textarea>
@@ -115,7 +119,8 @@
         <h2>Exercise 5</h2>
         <p>I have the following HTML structure:</p>
         <pre class="prettyprint">&lt;div class=&quot;wrapper&quot;&gt;&NewLine;  &lt;main&gt;&lt;/main&gt;&NewLine;  &lt;aside&gt;&lt;/aside&gt;&NewLine;&lt;/div&gt;</pre>
-        <p>Program a CSS selector that will position the <code>main</code> and <code>aside</code> elements next to each other. Also - add 32px of <code>padding</code> on all four sides of both elements. (<b>Note:</b> program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS)</p>
+        <p>Program a CSS selector that will position the <code>main</code> and <code>aside</code> elements next to each other. Also - add 32px of <code>padding</code> on all four sides of both elements. </p>
+        <p class="small"><small>Note: program your selectors in alphabetical order, and all measurements should be expressed in <code>rem</code> units. You can assume the follow CSS.</small></p>
         <pre class="prettyprint">html { &NewLine;  font-size: 100%; &NewLine;}</pre>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -134,8 +139,8 @@
           <h3>Part 2</h3>
           <p><i>Program two CSS selectors:</i></p>
           <ol>
-            <li>set the width of the <code>aside</code> element to be a quarter of the available space</li>
-            <li>set the width of the <code>main</code> element to fill the remaining available space</li>
+            <li>Set the width of the <code>aside</code> element to be a quarter of the available space.</li>
+            <li>Set the width of the <code>main</code> element to fill the remaining available space.</li>
           </ol>
           <div class="kc_text">
             <div class="kc_text__input">
@@ -154,8 +159,8 @@
               }
             </div>
             <h3>Part 3</h3>
-            <p><i>Program a CSS selectors that will fix the size calculations so the elements all fit on one line.</i></p>
-            <p><b>Note</b>: this is done with the <b>universal selector</b> and a property covered when we discussed <b>box model</b>.</p>
+            <p>Program a CSS selectors that will fix the size calculations so the elements all fit on one line.</p>
+            <p class="small"><small>Note: this is done with the <b>universal selector</b> and a property covered when we discussed <b>box model</b>.</small></p>
             <div class="kc_text">
               <div class="kc_text__input">
                 <textarea name="ex005c" id="ex005c" cols="30" rows="4" class="full"></textarea>

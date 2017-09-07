@@ -67,7 +67,7 @@
 
       <section>
         <h2>Example</h2>
-        <p>I am currently working on file <code>my_project/screens/index.html</code>. I am coding an image element that should load in <code>my_project/images/cat.jpg</code>. <i>Use a <i>relative path</i> to complete the HTML code to load the correct image.</i></p>
+        <p>I am currently working on file <code>my_project/screens/index.html</code>. I am coding an image element that should load in <code>my_project/images/cat.jpg</code>. Use a <i>relative path</i> to complete the HTML code to load the correct image.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <code>&lt;img src=&quot;</code><input type="text" class="medium" id="ex000" /><code>&quot; alt=&quot;a cat&quot;&gt;</code>
@@ -129,7 +129,7 @@
 
       <section>
         <h2>Exercise 4</h2>
-        <p>I'm currently working on file <code>my_project/screens/music/index.html</code>. I am coding an image element that should load in <code>my_project/images/fullsize/cat.jpg</code>. <i>Use a relative path to complete the HTML code to load the correct image.</i></p>
+        <p>I'm currently working on file <code>my_project/screens/music/index.html</code>. I am coding an image element that should load in <code>my_project/images/fullsize/cat.jpg</code>. Use a <i>relative path</i> to complete the HTML code to load the correct image.</p>
         <p><a href="#mi-1" class="DoMore"><small>Review directory structure.</small></a></p>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -145,7 +145,7 @@
 
       <section>
         <h2>Exercise 5</h2>
-        <p>I'm currently working on file <code>my_project/screens/index.html</code>. I'm coding a link to move the user to <a href="http://drexel.edu" target="_blank">Drexel University homepage</a>. <i>Use an <i>absolute path</i> to complete the HTML code for the link.</i></p>
+        <p>I'm currently working on file <code>my_project/screens/index.html</code>. I'm coding a link to move the user to <a href="http://drexel.edu" target="_blank">Drexel University homepage</a>. Use an <i>absolute path</i> to complete the HTML code for the link.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <code>&lt;a href="</code><input type="text" class="medium" id="ex005" /><code>"&gt;my link&lt;/a&gt;</code>
