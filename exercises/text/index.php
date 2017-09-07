@@ -29,7 +29,7 @@
       <section>
         <h2>Exercise 1</h2>
         <pre class="prettyprint">body {&NewLine;  font-size: 16px;&NewLine;}&NewLine;&NewLine;p {&NewLine;  font-size: ???;&NewLine;}</pre>
-        <p>The <code>p</code> element <code>font-size</code> property needs to be expressed using <code>em</code> units. The goal <code>font-size</code> is roughly <b>18px</b>. How many ems will set the font-size correctly? (type the number and the unit)</p>
+        <p>The <code>p</code> element <code>font-size</code> property needs to be expressed using <code>em</code> units. The goal <code>font-size</code> is roughly <b>18px</b>. How many <i>ems</i> will set the <code>font-size</code> correctly? (type the number and the unit)</p>
         <p><a href="#mi-1" class="DoMore"><small>Review <code>em</code> formula.</small></a></p>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -80,7 +80,8 @@
         <pre class="prettyprint">&lt;body&gt;&NewLine;  &lt;main&gt;&NewLine;    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur.&lt;/p&gt;&NewLine;    &lt;ul&gt;&NewLine;      &lt;li&gt;dolor sit&lt;/li&gt;&NewLine;      &lt;li&gt;emt ipsum&lt;/li&gt;&NewLine;    &lt;/ul&gt;&NewLine;  &lt;/main&gt;&NewLine;&lt;/body&gt;</pre>
         <p>Here is the start of a CSS file for that content:</p>
         <pre class="prettyprint">body {&NewLine;  font-size: 16px;&NewLine;}&NewLine;&NewLine;main {&NewLine;  font-size: 1.25em;&NewLine;}&NewLine;&NewLine;main p {&NewLine;  font-size: 14px;&NewLine;}</pre>
-        <p>Convert the <code>p</code> element font size from <code>px</code> to <code>em</code> units. (<b>Note</b>: do not include leading zeros in your answer)</p>
+        <p>Convert the <code>p</code> element font size from <code>px</code> to <code>em</code> units. </p>
+        <p class="small"><small>Note: do not include leading zeros in your answer.</small></p>
         <p><a href="#mi-1" class="DoMore"><small>Review <code>em</code> formula.</small></a></p>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -121,7 +122,8 @@
         <pre class="prettyprint">&lt;body&gt;&NewLine;  &lt;main&gt;&NewLine;    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur.&lt;/p&gt;&NewLine;    &lt;ul&gt;&NewLine;      &lt;li&gt;dolor sit&lt;/li&gt;&NewLine;      &lt;li&gt;emt ipsum&lt;/li&gt;&NewLine;    &lt;/ul&gt;&NewLine;  &lt;/main&gt;&NewLine;&lt;/body&gt;</pre>
         <p>Here is the start of a CSS file for that content:</p>
         <pre class="prettyprint">html {&NewLine;  font-size: 100%;&NewLine;}&NewLine;&NewLine;main {&NewLine;  font-size: 14px;&NewLine;}</pre>
-        <p>Convert the <code>main</code> element's <code>font-size</code> to <code>rem</code> units. (<b>Note</b>: do not include leading zeros in your answer)</p>
+        <p>Convert the <code>main</code> element's <code>font-size</code> to <code>rem</code> units. </p>
+        <p class="small"><small>Note: do not include leading zeros in your answer.</small></p>
         <p><a href="#mi-2" class="DoMore"><small>Review <code>rem</code> formula.</small></a></p>
         <div class="kc_text">
           <div class="kc_text__input">
@@ -137,7 +139,7 @@
 
       <section>
         <h2>Exercise 6</h2>
-        <p><i>Program a CSS selector that will style a <code>p</code> element with a <b>class</b> equal to <b>intro</b> to be <b>bold</b></i>.</p>
+        <p>Program a CSS selector that will style a <code>p</code> element with a <b>class</b> equal to <b>intro</b> to be <b>bold</b>.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex006" id="ex006" cols="30" rows="3" class="full"></textarea>
@@ -154,7 +156,7 @@
 
       <section>
         <h2>Exercise 7</h2>
-        <p><i>Program a CSS selector that will style a <code>p</code> element with a <b>class</b> equal to <b>exit</b> to be <b>italic</b></i>.</p>
+        <p>Program a CSS selector that will style a <code>p</code> element with a <b>class</b> equal to <b>exit</b> to be <b>italic</b>.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex007" id="ex007" cols="30" rows="3" class="full"></textarea>
@@ -171,7 +173,7 @@
 
       <section>
         <h2>Exercise 8</h2>
-        <p><i>Program a CSS selector that will style a <code>p</code> element with a <b>standout</b> equal to be <span style="text-decoration: underline;">underlined</span></i>.</p>
+        <p>Program a CSS selector that will style a <code>p</code> element with a <code>class</code> equal to <b>standout</b> to be <span style="text-decoration: underline;">underlined</span>.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex008" id="ex008" cols="30" rows="3" class="full"></textarea>
@@ -188,7 +190,7 @@
 
       <section>
         <h2>Exercise 9</h2>
-        <p><i>Program a CSS selector that will style an <code>h2</code> element to be all <span style="text-transform: uppercase;"><b>uppercase</b></span></i>.</p>
+        <p>Program a CSS selector that will style an <code>h2</code> element to be all <span style="text-transform: uppercase;"><b>uppercase</b></span>.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex009" id="ex009" cols="30" rows="3" class="full"></textarea>
@@ -205,7 +207,7 @@
 
       <section>
         <h2>Exercise 10</h2>
-        <p><i>Program a CSS selector that will style a <code>p</code> element with a <code>class</code> equal to <code>custom</code> with the following attributes <b>in this order</b>:</i>.</p>
+        <p>Program a CSS selector that will style a <code>p</code> element with a <code>class</code> equal to <code>custom</code> with the following attributes <b>in this order</b>:.</p>
         <ul>
           <li>color should be hexcode: <span style="color: #70ca89">70ca89</span>.</li>
           <li>font size should be double the parent element's font size.</li>

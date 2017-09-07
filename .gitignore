@@ -51,10 +51,9 @@ Thumbs.db
 *.jpg
 *.png
 *.gif
-assignments/data/assignment_submission_*
-assignments/data/student_roster.json
+assignments
+examples/week5/fonts
+examples/week8/media
 graphics
 node_modules
 presentations/images
-examples/week5/fonts
-examples/week8/media

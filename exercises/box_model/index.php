@@ -28,7 +28,10 @@
 
       <section>
         <h2>Exercise 1</h2>
-        <p><i>Program a CSS selector that sets the size of all <code>div</code> elements to <code>400px wide</code> x <code>300px</code> tall.</i> (<b>Note:</b> program your selectors in alphabetical order)</p>
+        <p>Program a CSS selector that sets the size of all <code>div</code> elements to <code>400px</code> wide x <code>300px</code> tall.</p>
+        <p class="small">
+          <small>Note: program your selectors in alphabetical order.</small>
+        </p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex001" id="ex001" cols="30" rows="4" class="full"></textarea>
@@ -47,7 +50,10 @@
         <h2>Exercise 2</h2>
         <p>Here is some CSS:</p>
         <pre class="prettyprint">html {&NewLine;  font-size: 100%;&NewLine;}</pre>
-        <p>Based on the provided styles, convert your CSS code from the previous exercise from <code>px</code> units to <code>rem</code> units. <i>Program a new CSS selector with your <code>rem</code> unit values.</i> (<b>Note:</b> program your selectors in alphabetical order)</p>
+        <p>Based on the provided styles, convert your CSS code from the previous exercise from <code>px</code> units to <code>rem</code> units. Program a new CSS selector with your <code>rem</code> unit values.</p>
+        <p class="small">
+          <small>Note: program your selectors in alphabetical order.</small>
+        </p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex002" id="ex002" cols="30" rows="4" class="full"></textarea>
@@ -66,7 +72,7 @@
         <h2>Exercise 3</h2>
         <p>Here is some CSS:</p>
         <pre class="prettyprint">html {&NewLine;  font-size: 100%;&NewLine;}&NewLine;&NewLine;div {&NewLine;  font-size: 1rem;&NewLine;}</pre>
-        <p>Based on the provided styles, <i>program a new CSS selector that adds a <b>48px</b> <code>margin</code> to the <b>top</b> and <b>bottom</b> of every <code>div</code> element, <b>BUT</b> your <code>margin</code> value should be expressed in <code>rem</code> units, not <code>pixels</code>, and should be done using <b>shorthand</b> notation.</i></p>
+        <p>Based on the provided styles, program a new CSS selector that adds a <b>48px</b> <code>margin</code> to the <b>top</b> and <b>bottom</b> of every <code>div</code> element, <b>BUT</b> your <code>margin</code> value should be expressed in <code>rem</code> units, not <code>pixels</code>, and should be done using <b>shorthand</b> notation.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex003" id="ex003" cols="30" rows="3" class="full"></textarea>
@@ -85,7 +91,7 @@
         <h2>Exercise 4</h2>
         <p>Here is some CSS:</p>
         <pre class="prettyprint">html {&NewLine;  font-size: 100%;&NewLine;}&NewLine;&NewLine;div {&NewLine;  font-size: 1rem;&NewLine;}</pre>
-        <p>Based on the provided styles, <i>program a new CSS selector that adds <b>32px</b> of <code>padding</code> to the <b>all four sides</b> of every <code>div</code> element that has a <code>class</code> equal to <b>either</b> <code>intro</code> or <code>sidebar</code>. Your <code>padding</code> value should be expressed in <code>rem</code> units, not <code>pixels</code>, and should be done using <b>shorthand</b> notation.</i></p>
+        <p>Based on the provided styles, program a new CSS selector that adds <b>32px</b> of <code>padding</code> to the <b>all four sides</b> of every <code>div</code> element that has a <code>class</code> equal to <b>either</b> <code>intro</code> or <code>sidebar</code>. Your <code>padding</code> value should be expressed in <code>rem</code> units, not <code>pixels</code>, and should be done using <b>shorthand</b> notation.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex004" id="ex004" cols="40" rows="4" class="full"></textarea>
@@ -102,7 +108,8 @@
 
       <section>
         <h2>Exercise 5</h2>
-        <p><i>Program a CSS selector that adds a solid, <span style="border: 2px solid black;">2px black border</span> to all <code>span</code> elements.</i> (<b>Note</b>: your selector should be written using <b>shorthand</b> notation)</p>
+        <p>Program a CSS selector that adds a solid, <span style="border: 2px solid black;">2px black border</span> to all <code>span</code> elements. </p>
+        <p class="small"><small>Note: your selector should be written using <b>shorthand</b> notation.</small></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex005" id="ex005" cols="50" rows="3" class="full"></textarea>
@@ -119,7 +126,7 @@
 
       <section>
         <h2>Exercise 6</h2>
-        <p><i>Program a CSS selector with the following declarations:</i> (<b>Note</b>: write all of your selectors in alphabetical order, and use <b>shorthand</b> notation wherever possible)</p>
+        <p>Program a CSS selector with the following declarations:</p>
         <ul>
           <li>element being selected is a <code>section</code></li>
           <li>element being selected <code>class</code> should be equal to <i>intro</i></li>
@@ -134,6 +141,7 @@
           <li>element should be as high/tall as necessary based on the content within</li>
           <li>all size/dimension values should be coded in <code>rem</code> units (assume root element <code>font-size: 100%</code>)</li>
         </ul>
+        <p class="small"><small>Note: write all of your selectors in alphabetical order, and use <b>shorthand</b> notation wherever possible.</small></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex006" id="ex006" cols="50" rows="9" class="full"></textarea>
@@ -158,7 +166,7 @@
 
       <section>
         <h2>Exercise 7</h2>
-        <p><i>Program a CSS selector with the following declarations:</i> (<b>Note</b>: write all of your selectors in alphabetical order, and use <b>shorthand</b> notation wherever possible)</p>
+        <p>Program a CSS selector with the following declarations:</p>
         <ul>
           <li>element being selected is a <code>header</code></li>
           <li>element should have havea  background image that repeats only in the horizontal direction</li>
@@ -188,6 +196,7 @@
           <li>the file <code>my_projects/index.html</code> includes the following <code>link</code> in the <i>document head</i>: </li>
         </ul>
         <pre class="prettyprint">&lt;link rel=&quot;stylesheet&quot; href=&quot;css/screen.css&quot;&gt;</pre>
+        <p class="small"><small>Note: write all of your selectors in alphabetical order, and use <b>shorthand</b> notation wherever possible.</small></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex007" id="ex007" cols="50" rows="9" class="full"></textarea>
