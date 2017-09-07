@@ -65,7 +65,7 @@
       <section>
         <h2>Exercise 2</h2>
         <pre class="prettyprint">body {&NewLine;  font-size: 16px;&NewLine;}&NewLine;&NewLine;h1 {&NewLine;  font-size: ???&NewLine;}</pre>
-        <p>The <code>h1</code> element <code>font-size</code> property needs to be twice as large as the <code>body</code> element <code>font-size</code>. Using a percentage unit, what should the font-size value be? (type the number and the unit)</p>
+        <p>The <code>h1</code> element <code>font-size</code> property needs to be twice as large as the <code>body</code> element <code>font-size</code>. Using a <i>percentage unit</i>, what should the <code>font-size</code> value be? (type the number and the unit)</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <input type="text" class="full" id="ex002" placeholder="#%" />
@@ -81,7 +81,7 @@
       <section>
         <h2>Exercise 3</h2>
         <pre class="prettyprint">&lt;body&gt;&NewLine;  &lt;h1&gt;Hello World&lt;/h1&gt;&NewLine;  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;&NewLine;  &lt;h2&gt;CSS Selectors&lt;/h2&gt;&NewLine;  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur.&lt;/p&gt;&NewLine;  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;</pre>
-        <p>Using the above sample code, program a CSS selector that will style all of the <code>p</code> elements, setting the the color to <span style="color: blue">blue</span>, and then font size to 14px.</p>
+        <p>Using the above sample code, program a CSS selector that will style all of the <code>p</code> elements, setting the the color to <span style="color: blue">blue</span>, and then font size to <i>14px</i>.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex003" id="ex003" cols="30" rows="4" class="full"></textarea>
@@ -132,7 +132,7 @@
         <p>Using the above sample code, program two CSS selectors. </p>
         <ol>
           <li><b>Selector 1</b>: The first should style <b>all</b> the elements that have a <code>class</code> equal to "primary", setting the the color to an rgb code that has <span style="color: rgb(201, 8, 8)">201 red, 8 green and 8 blue</span>.</li>
-          <li><b>Selector 2</b>: The second selector should style <b>only</b> the <code>p</code> elements that have a <code>class</code> equal to "primary" setting the font size to 14px.</li>
+          <li><b>Selector 2</b>: The second selector should style <b>only</b> the <code>p</code> elements that have a <code>class</code> equal to "primary" setting the font size to <i>14px</i>.</li>
         </ol>
         <div class="kc_text">
           <div class="kc_text__input">
