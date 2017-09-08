@@ -1,8 +1,8 @@
-# IDM221 Assignment 4
+# IDM221 Assignment 4: CSS Text
 
 This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
 
-## Assignment 4
+## Assignment 4: CSS Text
 
 1. Complete [_Assignment 4: CSS Text_](http://digm.drexel.edu/crs/IDM221/assignments/screens/assessment_intro.php?assignment=4).
 

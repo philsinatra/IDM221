@@ -1,8 +1,8 @@
-# IDM221 Assignment 6
+# IDM221 Assignment 6: CSS Layout
 
 This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
 
-## Assignment 6
+## Assignment 6: CSS Layout
 
 1. Complete [_Assignment 6: CSS Layout_](http://digm.drexel.edu/crs/IDM221/assignments/screens/assessment_intro.php?assignment=6).
 
