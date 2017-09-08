@@ -54,15 +54,20 @@
 
 - [Learn GitHub](https://guides.github.com/activities/hello-world/)
 - [Try GitHub](https://try.github.io/levels/1/challenges/1)
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Git Workflow](https://enterprise.github.com/downloads/en/github-flow-cheatsheet.pdf)
+- [GitHub Learning Resources](https://services.github.com/on-demand/resources/)
 - [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit#section2)
 - [Mastering GitHub Issues](https://guides.github.com/features/issues/)
-- [Github Developer - Issues](https://developer.github.com/v3/issues/)
-- [Github Help - Issues](https://help.github.com/articles/about-issues/)
+- [GitHub Developer - Issues](https://developer.github.com/v3/issues/)
+- [GitHub Help - Issues](https://help.github.com/articles/about-issues/)
+- [GitHub Robotics comic book](https://discourse-cdn-sjc1.com/standard/uploads/github/original/2X/1/175452fc42e0a4e34b0dd52d4c923ab47fd1619f.cbr)
 
 ## Documentation
 
 - [Daring Fireball: Markdown](http://daringfireball.net/projects/markdown/)
 - [Try Markdown](http://markdown-here.com/livedemo.html)
+- [Markdown Syntax](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
 - [Lucid Chart](https://www.lucidchart.com)
 - [Marked2](http://marked2app.com)
 
@@ -81,3 +86,4 @@
 - [Fetch](http://fetchsoftworks.com)
 - [Cyberduck](https://cyberduck.io)
 - [Drexel Software](https://software.drexel.edu)
+- [SourceSetr](http://philsinatra.com/sourcesetr.html)
