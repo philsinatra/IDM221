@@ -1,8 +1,8 @@
-# IDM221 Assignment - Preparation
+# IDM221 Assignment: Preparation
 
 This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
 
-## Assignment - Preparation
+## Assignment: Preparation
 
 This assignment focuses on getting setup and preparing for your final project.
 
@@ -30,7 +30,7 @@ Document your inspiration and content inventory in a _markdown_ file. You can cr
 
 ## Submitting the Assignment
 
-Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Assignment - Preparation**:
+Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Assignment: Preparation**:
 
 1. Your URL to your purchased domain (e.g. http://mywebsite.com)
 1. Your URL to your Github account profile page (e.g. https://github.com/philsinatra)

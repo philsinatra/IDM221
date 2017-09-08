@@ -1,8 +1,8 @@
-# IDM221 Assignment 1
+# IDM221 Assignment 1: HTML Text
 
 This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
 
-## Assignment 1
+## Assignment 1: HTML Text
 
 1. Complete [_Assignment 1: HTML Text_](http://digm.drexel.edu/crs/IDM221/assignments/screens/assessment_intro.php?assignment=1).
 

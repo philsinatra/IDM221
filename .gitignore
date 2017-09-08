@@ -51,7 +51,7 @@ Thumbs.db
 *.jpg
 *.png
 *.gif
-assignments
+/assignments
 examples/week5/fonts
 examples/week8/media
 graphics

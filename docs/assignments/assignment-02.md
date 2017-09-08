@@ -1,8 +1,8 @@
-# IDM221 Assignment 2
+# IDM221 Assignment 2: HTML Structure
 
 This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
 
-## Assignment 2
+## Assignment 2: HTML Structure
 
 1. Complete [_Assignment 2: HTML Structure_](http://digm.drexel.edu/crs/IDM221/assignments/screens/assessment_intro.php?assignment=2).
 
