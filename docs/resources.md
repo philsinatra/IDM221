@@ -54,6 +54,7 @@
 
 - [Learn GitHub](https://guides.github.com/activities/hello-world/)
 - [Try GitHub](https://try.github.io/levels/1/challenges/1)
+- [GitHub Learning Resources](https://services.github.com/on-demand/resources/)
 - [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit#section2)
 - [Mastering GitHub Issues](https://guides.github.com/features/issues/)
 - [Github Developer - Issues](https://developer.github.com/v3/issues/)
@@ -81,3 +82,4 @@
 - [Fetch](http://fetchsoftworks.com)
 - [Cyberduck](https://cyberduck.io)
 - [Drexel Software](https://software.drexel.edu)
+- [SourceSetr](http://philsinatra.com/sourcesetr.html)
