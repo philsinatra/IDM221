@@ -1,8 +1,8 @@
-# IDM221 Assignment 5
+# IDM221 Assignment 5: CSS Box Model
 
 This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
 
-## Assignment 5
+## Assignment 5: CSS Box Model
 
 1. Complete [_Assignment 5: CSS Box Model_](http://digm.drexel.edu/crs/IDM221/assignments/screens/assessment_intro.php?assignment=5).
 
