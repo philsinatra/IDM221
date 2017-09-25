@@ -405,6 +405,7 @@ body {
 
 - [Sublime Text](https://www.sublimetext.com)
 - [Atom](https://atom.io)
+- [Visual Studio Code](https://code.visualstudio.com)
 - [Adobe Brackets](http://brackets.io)
 
 ---
