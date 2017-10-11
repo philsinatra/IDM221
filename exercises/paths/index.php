@@ -83,6 +83,7 @@
       <section>
         <h2>Exercise 1</h2>
         <p>I'm currently working on file <code>my_project/screens/music/index.html</code>. I'm coding a link to move the user to <code>my_project/screens/index.html</code>. <i>Use a <i>relative path</i> to complete the HTML code for the link.</i></p>
+        <p><a href="#mi-1" class="DoMore"><small>Review directory structure.</small></a></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <code>&lt;a href="</code><input type="text" class="medium" id="ex001" /><code>"&gt;my link&lt;/a&gt;</code>
