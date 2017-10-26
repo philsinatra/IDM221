@@ -133,7 +133,7 @@
             <div class="alert-content"></div>
           </div>
           <button class="btn btn_feedback" data-assert="ex005">Feedback</button>
-          <div data-solution="ex005" hidden>.88rem</div>
+          <div data-solution="ex005" hidden>.875rem</div>
         </div>
       </section>
 
