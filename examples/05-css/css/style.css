@@ -13,9 +13,9 @@
 */
 
 @font-face {
-  font-family: 'ChunkFive-Roman';
-  src: url('../fonts/ChunkFive-Roman.eot?#iefix') format('embedded-opentype'),  url('../fonts/ChunkFive-Roman.otf')  format('opentype'),
-	     url('../fonts/ChunkFive-Roman.woff') format('woff'), url('../fonts/ChunkFive-Roman.ttf')  format('truetype'), url('../fonts/ChunkFive-Roman.svg#ChunkFive-Roman') format('svg');
+  font-family: "chunkfiveroman";
+  src: url("../fonts/chunkfive-webfont.woff2") format("woff2"),
+    url("../fonts/chunkfive-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -27,11 +27,11 @@ font-family: 'Open Sans', sans-serif;
 */
 
 .ff-bold {
-  font-family: 'ChunkFive-Roman', Arial, sans-serif;
+  font-family: "chunkfiveroman", Arial, sans-serif;
 }
 
 .ff-semi_bold {
-  font-family: 'Eczar', serif;
+  font-family: "Eczar", serif;
 }
 
 /*
@@ -53,12 +53,12 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 100%;
 }
 
 h1 {
-  font-size: 4rem;  /* 64px */
+  font-size: 4rem; /* 64px */
 }
 
 h3 {
@@ -91,7 +91,6 @@ p {
 section.dark {
   background-color: #111;
   color: #fff;
-
 }
 
 section.dark .quote {

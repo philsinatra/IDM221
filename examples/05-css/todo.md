@@ -43,9 +43,9 @@
 1. Load in custom `@font-face` [ChunkFive-Roman](http://digm.drexel.edu/crs/IDM221/presentations/examples/week5/ChunkFive-Roman.zip)
     ```css
     @font-face {
-      font-family: 'ChunkFive-Roman';
-      src: url('../fonts/ChunkFive-Roman.eot?#iefix') format('embedded-opentype'),  url('../fonts/ChunkFive-Roman.otf')  format('opentype'),
-    	     url('../fonts/ChunkFive-Roman.woff') format('woff'), url('../fonts/ChunkFive-Roman.ttf')  format('truetype'), url('../fonts/ChunkFive-Roman.svg#ChunkFive-Roman') format('svg');
+      font-family: "chunkfiveroman";
+      src: url("../fonts/chunkfive-webfont.woff2") format("woff2"),
+        url("../fonts/chunkfive-webfont.woff") format("woff");
       font-weight: normal;
       font-style: normal;
     }
@@ -54,7 +54,7 @@
 1. Build CSS class for using ChunkFive-Roman
     ```css
     .ff-bold {
-      font-family: 'ChunkFive-Roman', Arial, sans-serif;
+      font-family: 'chunkfiveroman', Arial, sans-serif;
     }
     ```
 
@@ -71,8 +71,8 @@
 1. Apply Open Sans to `<body>`
     ```css
     body {
-      font-family: 'Open Sans', sans-serif;  
+      font-family: 'Open Sans', sans-serif;
     }
-    ```    
+    ```
 
 1. Add _boxes_ custom code to CSS for final design
