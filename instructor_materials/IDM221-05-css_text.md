@@ -166,7 +166,7 @@ theme: Plain Jane, 2
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Times New Roman', Times, serif;
-  font-family: 'Courier New', Courier, monospace;  
+  font-family: 'Courier New', Courier, monospace;
 }
 
 ```
@@ -183,7 +183,7 @@ p {
 p {
   font-size: 12px;  /* in pixels */
   font-size: 150%;  /* as a percentage of the parent element */
-  font-size: 1.5em; /* desired / parent */  
+  font-size: 1.5em; /* desired / parent */
 }
 ```
 
@@ -288,7 +288,7 @@ $$12/16 = 0.75$$
 p {
   font-style: italic;
   font-style: normal; /* remove style */
-  font-variant: small-caps;  
+  font-variant: small-caps;
 }
 ```
 
@@ -305,7 +305,7 @@ p {
   font-weight: 700;
   font-weight: bold;    /* same as 700 */
   font-weight: normal;  /* same as 400 */
-  font-weight: lighter; /* relative to parent element */  
+  font-weight: lighter; /* relative to parent element */
 }
 ```
 
@@ -322,7 +322,7 @@ p {
   line-height: 14px;
   line-height: 140%;
   line-height: 1.4em; /* same as 140% */
-  line-height: 1.4;   /* same as 140% and 1.4em */  
+  line-height: 1.4;   /* same as 140% and 1.4em */
 }
 ```
 
@@ -354,17 +354,11 @@ p {
 p {
   font: italic bold 14px/19px Arial, sans-serif;
   font: small-caps 150% "Times New Roman", Times, serif;
-  font: 90%/120% "Comic Sans MS", Impact, sans-serif;  
+  font: 90%/120% "Comic Sans MS", Impact, sans-serif;
 }
 ```
 
 ^ You can use the shorthand property for a font to set all six font properties with a single rule. The `font-size` and `font-family` are the only required properties.
-
----
-
-## Exercise 🏋️‍
-
-[http://digm.drexel.edu/crs/IDM221/exercises/text](http://digm.drexel.edu/crs/IDM221/exercises/text/index.php/index.php)
 
 ---
 
@@ -414,6 +408,12 @@ h2 {
 ^ Before CSS3 you had to use an image to display text with a shadow. CSS3 provides the `text-shadow` property which makes this much easier. You can specify four parameters. The first specifies how much the shadow should be offset to the right/left. The second specifies the offset up/down. The third specifies how big the blur radius is, and the fourth specifies the color of the shadow.
 
 ^ Remember to much shadow makes text harder to read.
+
+---
+
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/text](http://digm.drexel.edu/crs/IDM221/exercises/text/index.php/index.php)
 
 ---
 
