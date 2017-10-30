@@ -241,7 +241,6 @@ h1 { font-size: 180%; }
   rel="stylesheet"
   href="/css/master.css"
   media="screen"
-  title="master styles"
   charset="utf-8">
 ```
 
