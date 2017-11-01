@@ -537,6 +537,67 @@ div {
 
 ---
 
+## Display
+
+---
+
+## Display
+
+- block
+- inline
+- inline-block
+- flex
+- list-item
+- [more](https://www.w3schools.com/cssref/pr_class_display.asp)
+
+^ `block` vs `inline` vs `inline-block`
+
+---
+
+## Display
+
+```css
+div {
+  display: block; /* default */
+  display: inline;
+  display: flex;
+}
+
+span {
+  display: inline; /* default */
+  display: block;
+}
+```
+
+---
+
+### `display: block`
+
+- `header`
+- `section`
+- `main`
+- `div`
+- `h1`, `h2`, `h3`, `h4`
+- `p`, `ul`, `ol`, `li`
+
+---
+
+### `display: inline`
+
+- `span`
+- `a`
+- `img`
+- `b`, `strong`
+- `i`, `em`
+
+^ Let's build some examples to see the defaults and then change the property values to non defaults.
+
+---
+
+## Backgrounds
+
+---
+
 ## Backgrounds
 
     background

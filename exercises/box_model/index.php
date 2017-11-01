@@ -139,7 +139,7 @@
           <li>element should have a <span style="border: 1px solid lightgray"> solid, 1px border that is light gray</span></li>
           <li>element should be as wide as possible, but no wider than 900px</li>
           <li>element should be as high/tall as necessary based on the content within</li>
-          <li>all size/dimension values should be coded in <code>rem</code> units (assume root element <code>font-size: 100%</code>)</li>
+          <li>all size/dimension values should be coded in <code>rem</code> units (assume root element <code>font-size: 100%</code>), <b>EXCEPT</b> the <code>border</code> width which should be expressed as <code>1px</code></li>
         </ul>
         <p class="small"><small>Note: write all of your selectors in alphabetical order, and use <b>shorthand</b> notation wherever possible.</small></p>
         <div class="kc_text">
@@ -169,7 +169,7 @@
         <p>Program a CSS selector with the following declarations:</p>
         <ul>
           <li>element being selected is a <code>header</code></li>
-          <li>element should have havea  background image that repeats only in the horizontal direction</li>
+          <li>element should have have a  background image that repeats only in the horizontal direction</li>
           <li>the background image file name is <code>bg_header.png</code></li>
           <li>the project directory structure is as follows:<br />
             <?php
