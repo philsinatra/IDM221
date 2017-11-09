@@ -11,7 +11,9 @@
 #                                          | $$
 #                                          |__/
 */
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-size: 16px;
@@ -102,7 +104,7 @@ body {
 
 .pos__absolute {
   background-color: #000;
-  height: 3.13rem;;
+  height: 3.13rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -124,11 +126,32 @@ body {
 */
 .pos__fixed {
   background-color: #000;
-  height: 3.13rem;;
+  height: 3.13rem;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+}
+
+/*
+#    /$$$$$$    /$$     /$$           /$$
+#   /$$__  $$  | $$    |__/          | $$
+#  | $$  \__/ /$$$$$$   /$$  /$$$$$$$| $$   /$$ /$$   /$$
+#  |  $$$$$$ |_  $$_/  | $$ /$$_____/| $$  /$$/| $$  | $$
+#   \____  $$  | $$    | $$| $$      | $$$$$$/ | $$  | $$
+#   /$$  \ $$  | $$ /$$| $$| $$      | $$_  $$ | $$  | $$
+#  |  $$$$$$/  |  $$$$/| $$|  $$$$$$$| $$ \  $$|  $$$$$$$
+#   \______/    \___/  |__/ \_______/|__/  \__/ \____  $$
+#                                               /$$  | $$
+#                                              |  $$$$$$/
+#                                               \______/
+*/
+.pos__sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4caf50;
 }
 
 /*
@@ -266,6 +289,12 @@ body {
   padding: 0 1rem;
 }
 
-.col-halfs { width: 50%; }
-.col-thirds { width: 33.3%; }
-.col-quarters { width: 25%; }
+.col-halfs {
+  width: 50%;
+}
+.col-thirds {
+  width: 33.3%;
+}
+.col-quarters {
+  width: 25%;
+}
