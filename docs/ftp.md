@@ -86,7 +86,7 @@ theme: Merriweather, 8
 
 ![fit inline](http://digm.drexel.edu/crs/IDM221/presentations/images/fetch-root.jpg)
 
-^ Once you've logged into your server, you can upload and download files - the same as you would if you had an external hard drive or server setup on your system. The files/folders you see upon logging in are all of the parts that make your website, email and other account functions work. You should **not** mess with anything at this level. Look for a special folder called _public_html_.
+^ Once you've logged into your server, you can upload and download files - the same as you would if you had an external hard drive or server setup on your system. The files/folders you see upon logging in are all of the parts that make your website, email and other account functions work. You should **not** mess with anything at this level. Look for a special folder called _public\_html_.
 
 ---
 
@@ -111,3 +111,7 @@ theme: Merriweather, 8
 - test on live server
 - commit to repository
 - push to GitHub
+
+---
+
+### Bluehost Wordpress Uninstall

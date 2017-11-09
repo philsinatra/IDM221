@@ -38,11 +38,24 @@ theme: Plain Jane, 2
 ## Position
 
 - static
-- absolute
-- fixed
 - relative
+- fixed
+- absolute
+- sticky
 
-^ The `position` property determines how an element is positioned. Possible values are `static`, `absolute`, `fixed` and `relative`. _Static_ is the default value, which means the element is placed in the normal flow of the page. _Absolute_ means the element is removed from the flow and positioned relative to the closest containing block that is also positioned. The position is determined by the top, left, bottom and right properties. _Fixed_ means the element is positioned absolutely relative to the browser window. The position again is determined by the top, left, bottom and right properties. _Relative_ means the element is positioned relative to it's position in the normal flow, again based on the top, left, bottom and right properties. Let's review examples of each. (examples available in _examples_ folder)
+^ The `position` property determines how an element is positioned. Possible values are `static`, `absolute`, `fixed` and `relative`.
+
+^  _Static_ is the default value, which means the element is placed in the normal flow of the page.
+
+^ _Relative_ means the element is positioned relative to it's position in the normal flow, again based on the top, left, bottom and right properties.
+
+^ _Absolute_ means the element is removed from the flow and positioned relative to the closest containing block that is also positioned. The position is determined by the top, left, bottom and right properties.
+
+^ _Fixed_ means the element is positioned absolutely relative to the browser window. The position again is determined by the top, left, bottom and right properties.
+
+^ _Sticky_ means the element is positioned based on the user's scroll position.
+
+^ Let's review examples of each. (examples available in _examples_ folder)
 
 ---
 
@@ -141,6 +154,14 @@ h1 {
 
 ---
 
+## Sticky Position
+
+^ Sticky positioning is a newer CSS property. It combines _static_ and _fixed_ positioning techniques, and uses the user's scroll position on the page to determine the position of the element. The basic concept is the element is positioned statically until some specific scroll condition is met, at which point the position of the element becomes fixed. Let's look at an example.
+
+^ _example: position-sticky_
+
+---
+
 ## z-index
 
 ---
@@ -225,12 +246,6 @@ footer {
 
 ---
 
-## Exercise 🏋️‍
-
-[http://digm.drexel.edu/crs/IDM221/exercises/layouts](http://digm.drexel.edu/crs/IDM221/exercises/layouts/index.php/index.php)
-
----
-
 ## Float Examples
 
 - Basics
@@ -241,6 +256,13 @@ footer {
 ^ Examples are available in the _examples_ folder.
 
 ---
+
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/layouts](http://digm.drexel.edu/crs/IDM221/exercises/layouts/index.php/index.php)
+
+---
+
 
 # For Next Week...
 
