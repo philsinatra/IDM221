@@ -112,8 +112,6 @@ theme: Plain Jane, 2
 
 ## HTML5
 
-![](http://html5stuco.com/img/01-html5superman.jpg)
-
 - [CanIUse Video](http://caniuse.com/#search=video%20format)
 - [CanIUse Audio](http://caniuse.com/#search=audio%20format)
 

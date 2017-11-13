@@ -11,7 +11,9 @@
 #                                          | $$
 #                                          |__/
 */
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-size: 16px;
@@ -25,18 +27,26 @@ body {
 
 .wrapper {
   background-color: #fff;
-  height: 720px;
+  bottom: 0;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+  height: 360px;
+  left: 0;
   margin: auto;
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  width: 1280px;
+  right: 0;
+  top: 0;
+  width: 640px;
 }
 
 .sound_stage {
-  background-color: #fff;
+  background-color: transparent;
+  bottom: 0;
   height: 32px;
+  left: 0;
   margin: auto;
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  width: 300px;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: auto;
 }
