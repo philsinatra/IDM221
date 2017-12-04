@@ -85,3 +85,16 @@
 - [Cyberduck](https://cyberduck.io)
 - [Drexel Software](https://software.drexel.edu)
 - [SourceSetr](http://philsinatra.com/sourcesetr.html)
+
+## Lynda
+
+Effective September 5, 2017. The Free Library of Philadelphia offers remote and on-site access to Lynda.com with a Free Library of Philadelphia membership card. All Drexel students, faculty, staff (and all PA residents) are entitled to a Free Library card at no cost.
+
+[Apply Online](https://know.freelibrary.org/MyResearch/register/policy) (Alternatively, you can apply in person or via mail.)
+
+### Additional Information:
+
+Once you have created your library card and log into the library site, use the following link to go to Lynda.com. You will need to enter your library card number and PIN to access Lynda, but after that, you’ll have a Lynda account that you can log into directly.
+
+[Accessing Lynda.com from the library site](http://libwww.freelibrary.org/elecres/lynda.cfm)
+
