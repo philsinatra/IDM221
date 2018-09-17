@@ -2,17 +2,20 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
 
 ---
 
 ## Week 1
+
 ### Introduction
 
 ---
+
 ## Hello
 
 I am Phil Sinatra, professor in the Interactive Digital Media program.
@@ -98,7 +101,7 @@ You can find me at:
 - Published by Google
 - Available on all major operating systems
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.png)
+![Google Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.png)
 
 ---
 
@@ -107,7 +110,7 @@ You can find me at:
 - Published by Microsoft
 - Available on Windows
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer-tile_10-11/internet-explorer-tile_10-11.png)
+![Internet Explorer](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer-tile_10-11/internet-explorer-tile_10-11.png)
 
 ---
 
@@ -116,7 +119,7 @@ You can find me at:
 - Published by Microsoft
 - Available on Windows
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.png)
+![Microsoft Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.png)
 
 ---
 
@@ -125,7 +128,7 @@ You can find me at:
 - Published by Mozilla Corporation
 - Available on all major operating systems
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
+![FireFox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
 
 ---
 
@@ -134,7 +137,7 @@ You can find me at:
 - Published by Apple
 - Available on Macintosh & Windows
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
+![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
 
 ---
 
@@ -143,13 +146,11 @@ You can find me at:
 - Published by Opera Software
 - Available on all major operating systems
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera.png)
+![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera.png)
 
 ---
 
 ## HTML & CSS
-
-### Introduction
 
 ^ To develop a web page, you use HTML to define the content and structure of the page. Then, you use CSS to format that content.
 
@@ -422,7 +423,6 @@ body {
 - [Fetch](https://fetchsoftworks.com) (macOS only)
 - [CyberDuck](https://cyberduck.io/?l=en)
 
-
 ---
 
 ### Version Control
@@ -465,17 +465,16 @@ body {
 
 [Try Markdown](http://markdown-here.com/livedemo.html)
 
-![](http://kirkstrobeck.github.io/whatismarkdown.com/img/markdown.png)
+![Markdown logo](http://kirkstrobeck.github.io/whatismarkdown.com/img/markdown.png)
 
 ---
 
-## IDM221
-### Written With Markdown
+## Written With Markdown
 
 [GitHub Repo](https://github.com/philsinatra/IDM221)
 
-![](http://kirkstrobeck.github.io/whatismarkdown.com/img/markdown.png)
+![Markdown logo](http://kirkstrobeck.github.io/whatismarkdown.com/img/markdown.png)
 
 ---
 
-## For next week...
+## For next week

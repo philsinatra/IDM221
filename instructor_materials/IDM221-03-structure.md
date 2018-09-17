@@ -2,15 +2,11 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
-
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
-
----
-
-## Week 3
 
 ---
 
@@ -39,7 +35,7 @@ https://www.google.com/#q=html
 
 ---
 
-## Relative URLs
+## Relative URLs Examples
 
 ![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
 
@@ -58,7 +54,7 @@ books/php/overview.html
 
 ---
 
-### Root relative
+### Root Relative
 
 ![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
 
@@ -71,7 +67,7 @@ books/php/overview.html
 
 ---
 
-### Document relative
+### Document Relative
 
 ![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
 
@@ -84,7 +80,7 @@ books/php/overview.html
 
 ---
 
-### Document relative
+### Document Relative Examples
 
 ![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
 
@@ -119,7 +115,7 @@ books/php/overview.html
 
 ---
 
-## Links
+## Links Examples
 
 ```html
 <p>Go view our <a href="products.html">product list</a>.</p>
@@ -159,7 +155,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Semantics and Usability
+## Semantics and Usability cont
 
 ```html
 <a href="contact.html">click here</a>
@@ -198,20 +194,6 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ^ At the top of the long page you might want to add a list of contents that link to the corresponding sections lower down. Or you might want to add a link from partway down the page back to the top of it to save users from having to scroll to the top.
 
----
-
-## Same Page Links
-
-```html
-<h1 id="top">Film Making Terms</h1>
-<a href="#arc">Arc Shot</a>
-<a href="#interlude">Interlude</a>
-<a href="#prologe">Prologue</a>
-
-<h2 id="arc">Arc Shot</h2>
-<h2 id="interlude">Interlude</h2>
-```
-
 ^ Before you can link to a specific part of the page, you need to identify the points and the page that the link will go to. You do this using the `id` attribute. You can see that the `h1` and `h2` elements have been given `id` attributes that identify those sections of the page.
 
 ---
@@ -235,10 +217,6 @@ Please <a href="contact.html">contact us</a> with your comments.
 ```
 
 ^ To link to an element that uses an `id` attribute you use the `a` element again, but the value of the `href` attribute starts with a # symbol, followed by the `id` attribute of the element you want to link to. (example)
-
----
-
-## Lists
 
 ---
 
@@ -342,7 +320,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ## Photoshop Demo
 
-![](https://wwwimages2.adobe.com/content/dam/acom/en/products/photoshop/cc2016/images/ps-marquee1440x660.jpg)
+![photoshop demo splash](https://wwwimages2.adobe.com/content/dam/acom/en/products/photoshop/cc2016/images/ps-marquee1440x660.jpg)
 
 ---
 
@@ -357,7 +335,6 @@ Please <a href="contact.html">contact us</a> with your comments.
 ^ Now that we've seen some HTML elements used for structuring content, lets put together a simple web page that uses these elements.
 
 ---
-
 
 ## `div` and `span` elements
 
@@ -458,7 +435,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-![](http://i.giphy.com/ecZVHGjhMgCyc.gif)
+![Elaine smashing her keyboard](http://i.giphy.com/ecZVHGjhMgCyc.gif)
 
 ^ There are already a dozen `div` tags. Legibility is already suffering, and the likelihood of a nesting error is growing. And this example is really only the beginning since there's barely any real content included.
 
@@ -555,7 +532,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Example
+## HTML Structure Example
 
 ^ _examples/03-structure_
 
@@ -695,7 +672,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-### Inputs, labels, fieldsets...
+### Inputs, labels, fieldsets
 
 ^ Review the links in the resources section to learn more about the available inputs and attributes that can be used to build a form.
 
@@ -719,4 +696,4 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## For Next Time...
+## For Next Time

@@ -2,15 +2,11 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
-
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
-
----
-
-## Week 5
 
 ---
 
@@ -28,7 +24,7 @@ theme: Plain Jane, 2
 
 ---
 
-## Special Characters
+## Dealing With Special Characters
 
 ```html
 <p> 12<6 </p>
@@ -61,7 +57,7 @@ theme: Plain Jane, 2
 
 ---
 
-## Character Entities
+## Encoding Character Entities
 
 ```html
 <p> 12&lt;6 </p>
@@ -87,11 +83,11 @@ theme: Plain Jane, 2
 
 ## The Five (generic) Families
 
-![](https://s-media-cache-ak0.pinimg.com/originals/ab/c1/9f/abc19f3eb7500ad138a98e334f8f8d92.jpg)
+![Godfather logo](https://s-media-cache-ak0.pinimg.com/originals/ab/c1/9f/abc19f3eb7500ad138a98e334f8f8d92.jpg)
 
 ---
 
-## The Five (generic) Families
+## The Five (generic) Typography Families
 
 | Name | Description |
 | ---- | ----------- |
@@ -201,7 +197,7 @@ p {
 
 ---
 
-## Why `em`s?
+## Why `em`s
 
 - relative units
 - more precision
@@ -249,8 +245,6 @@ $$12/14 = 0.86$$
 ---
 
 ## `rem`
-
-### Not the band
 
 ![right](https://upload.wikimedia.org/wikipedia/commons/7/7e/Michael_Stipe_of_REM_photographed_by_Kris_Krug.jpg)
 
@@ -381,7 +375,7 @@ p {
 
 ---
 
-## Formatting Text
+## Formatting Text In CSS
 
 ```css
 main p { text-indent: 2em; }
@@ -417,7 +411,7 @@ h2 {
 
 ---
 
-## Custom Fonts
+## Custom Typefaces
 
 $$websafe = boring?$$
 
@@ -461,7 +455,7 @@ h1, h2 {
 
 ### Bulletproof Font Face
 
-![](http://s1.picswalls.com/wallpapers/2014/02/25/superman-wallpaper_022920424_35.jpg)
+![Superman](http://s1.picswalls.com/wallpapers/2014/02/25/superman-wallpaper_022920424_35.jpg)
 
 ^ Unfortunately not all operating systems and browsers can work with a single type of font file. We need to provide an array of font files to ensure our custom fonts work properly on all operating systems and browsers.
 
@@ -541,10 +535,8 @@ h1, h2 {
 
 ---
 
-## Let's Get Online!
-
-### FTP
+## FTP
 
 ---
 
-## For Next Week...
+## For Next Week

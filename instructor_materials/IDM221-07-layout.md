@@ -2,15 +2,11 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
-
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
-
----
-
-## Week 7
 
 ---
 
@@ -82,8 +78,8 @@ theme: Plain Jane, 2
 ---
 
 ```html
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-<p class="example">Ut enim ad minim veniam, quis nostrud exercitation.</p>
+<p>Lorem ipsum.</p>
+<p class="example">Ut enim ad.</p>
 ```
 
 ```css
@@ -110,7 +106,7 @@ p.example {
 
 ```html
 <h1>My Awesome Web Page</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+<p>Lorem ipsum dolor.</p>
 ```
 
 ```css
@@ -138,7 +134,7 @@ h1 {
 
 ```html
 <h1>My Awesome Web Page</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+<p>Lorem ipsum dolor.</p>
 ```
 
 ```css
@@ -263,7 +259,6 @@ footer {
 
 ---
 
-
-# For Next Week...
+# For Next Week
 
 ^ Work
