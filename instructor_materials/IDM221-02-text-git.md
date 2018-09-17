@@ -2,15 +2,11 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
-
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
-
----
-
-## Week 2
 
 ---
 
@@ -43,7 +39,7 @@ theme: Plain Jane, 2
 
 ---
 
-![](http://digm.drexel.edu/crs/IDM221/presentations/images/overstock.png)
+![overstock.com](http://digm.drexel.edu/crs/IDM221/presentations/images/overstock.png)
 
 ^ How do users use a page? They don't read it in an orderly fashion, and they don't like to scroll any more than they have to. If they can't find what they're looking for or get frustrated, they leave the site. In web development terms, what users want is _usability_. The term refers to how easy it is to use a website. If a site is easy to use, it has a chance to be effective. 1. present critical content above the fold 2. group related items and limit the number of groups 3. include a header that identifies the site and provides navigation 4. use current navigation conventions (e.g. logo goes to home page)
 
@@ -51,10 +47,10 @@ theme: Plain Jane, 2
 
 ## Cross browser compatibility
 
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.png)
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.png)
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
-![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
+![Google Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.png)
+![Microsoft Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.png)
+![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
+![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
 
 ^ If you want your website to be used by as many visitors as possible, you need to make sure that your web pages are compatible with as many browsers as possible. That's known as _cross browser compatibility_. Modern browsers also include special _Developer Tools_ that include Emulation options that will help us test our code.
 
@@ -77,7 +73,7 @@ theme: Plain Jane, 2
 
 ---
 
-![](http://digm.drexel.edu/crs/IDM221/presentations/images/accessibility.png)
+![webaim.org](http://digm.drexel.edu/crs/IDM221/presentations/images/accessibility.png)
 
 ^ There are many information sources on accessibility, we'll review the guidelines for coding the elements and attributes that provide accessibility as we progress through the course.
 
@@ -87,7 +83,7 @@ theme: Plain Jane, 2
 
 ---
 
-![](http://digm.drexel.edu/crs/IDM221/presentations/images/seo.png)
+![Google search results page](http://digm.drexel.edu/crs/IDM221/presentations/images/seo.png)
 
 ^ SEO refers to the goal of optimizing your website so your pages rank higher in search engines like Google, Bing and Yahoo. Although the search algorithms that are used by search engines change frequently, there are some common coding techniques that will help your pages do better in the search engines. We'll review these guidelines as we build our pages.
 
@@ -95,7 +91,7 @@ theme: Plain Jane, 2
 
 ## Responsive web design
 
-![](http://digm.drexel.edu/crs/IDM221/presentations/images/Responsive-Example.png)
+![responsive website](http://digm.drexel.edu/crs/IDM221/presentations/images/Responsive-Example.png)
 
 ---
 
@@ -288,7 +284,7 @@ img { max-width: 100%; }
 
 ---
 
-## Comments
+## Comments cont
 
 ```html
 <body>
@@ -348,7 +344,7 @@ img { max-width: 100%; }
 
 ---
 
-## Attributes
+## Attributes cont
 
 ```html
 <!-- Boolean attribute -->
@@ -389,7 +385,7 @@ img { max-width: 100%; }
 
 ## Version control
 
-![](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
+![GitHub Octocat](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
 
 ^ _Version control_ is a system that records changes to a file or set of files over time so that you can recall specific versions later. If you want to keep every version of a file or project, a Version Control System (VCS) is a very wise thing to use. It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead.
 
@@ -397,7 +393,7 @@ img { max-width: 100%; }
 
 ## GIT
 
-![](https://git-scm.com/images/branching-illustration@2x.png)
+![Git branch illustration](https://git-scm.com/images/branching-illustration@2x.png)
 
 ^ Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git allows groups of people to work on the same documents (often code) at the same time, and without stepping on each other's toes.
 
@@ -478,7 +474,7 @@ img { max-width: 100%; }
 
 ---
 
-## What goes in a repo?
+## What goes in a repo
 
 - .html
 - .css
@@ -489,7 +485,7 @@ img { max-width: 100%; }
 
 ---
 
-## What does not go in a repo?
+## What does not go in a repo
 
 - .psd
 - .ai
@@ -511,6 +507,6 @@ img { max-width: 100%; }
 
 ---
 
-## For Next Week...
+## For Next Week
 
 ^ Draw a sitemap example on whiteboard.

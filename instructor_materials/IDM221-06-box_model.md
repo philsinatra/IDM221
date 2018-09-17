@@ -2,15 +2,11 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
-
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
-
----
-
-## Week 6
 
 ---
 
@@ -24,7 +20,7 @@ theme: Plain Jane, 2
 
 ^ _Padding_ is the space between the content area and a border. _Margin_ is the space between the border and the outside of the box.
 
-![](http://digm.drexel.edu/crs/IDM221/presentations/images/box_model.png)
+![box model](http://digm.drexel.edu/crs/IDM221/presentations/images/box_model.png)
 
 ---
 
@@ -187,7 +183,7 @@ p {
 
 ---
 
-## Height and Width
+## Height and Width Properties
 
 | Property | Description |
 | -------- | ----------- |
@@ -211,7 +207,7 @@ p {
 
 ---
 
-## Height and Width
+## Height and Width Values
 
 ```css
 div {
@@ -229,7 +225,6 @@ div {
 
 ---
 
-
 ## Min and Max
 
 ```css
@@ -246,16 +241,14 @@ div {
 ---
 
 ```html
+<!-- HTML -->
 <div class="wrapper">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-   et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-   aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-   culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum&hellip;</p>
 </div>
 ```
 
 ```css
+/* CSS */
 .wrapper {
   background-color: blue;
   color: white;
@@ -330,7 +323,7 @@ div {
 
 ---
 
-^ Let's bring back our previous .
+^ Let's bring back our previous.
 
 ```css
 .wrapper {
@@ -400,7 +393,7 @@ ul {
 
 ---
 
-## Box Sizing
+## Box Sizing Example
 
       left margin (20px)
     + left border (5px)
@@ -539,10 +532,6 @@ div {
 
 ## Display
 
----
-
-## Display
-
 - block
 - inline
 - inline-block
@@ -554,7 +543,7 @@ div {
 
 ---
 
-## Display
+## Display Property
 
 ```css
 div {
@@ -594,11 +583,7 @@ span {
 
 ---
 
-## Backgrounds
-
----
-
-## Backgrounds
+## Background
 
     background
     background–color
@@ -685,7 +670,7 @@ div {
 
 ---
 
-## Background
+## Background Shorthand
 
 ```css
 div {
@@ -741,7 +726,7 @@ div {
 
 ---
 
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/css_toolkit.jpg)
+![50%](http://digm.drexel.edu/crs/IDM221/presentations/images/css_toolkit.jpg)
 
 ---
 
@@ -775,6 +760,6 @@ div {
 
 ---
 
-## For Next Week...
+## For Next Week
 
 ^ WORK! No specific assignment.

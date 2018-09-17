@@ -2,15 +2,11 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
-
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
-
----
-
-## Week 4
 
 ---
 
@@ -53,7 +49,7 @@ h1 {
 
 ---
 
-## Rule Sets
+## Rule Sets - Selectors
 
 ```css
 /* selector */
@@ -69,7 +65,7 @@ h1 {
 
 ---
 
-## Rule Sets
+## Rule Sets - Declarations
 
 ```css
 h2 {
@@ -86,7 +82,7 @@ ul {
 
 ---
 
-## Rule Sets
+## Rule Sets - Comments
 
 ```css
 h2 {
@@ -347,10 +343,6 @@ p.highlight { color: blue; }
 
 ## Measurements
 
----
-
-## Measurements
-
 | Symbol | Name | Type | Description |
 | ------ | ---- | ---- | ----------- |
 | px | pixels | absolute | a single dot on a monitor |
@@ -366,7 +358,7 @@ p.highlight { color: blue; }
 
 ---
 
-## Measurements
+## Measurements cont
 
 | Symbol | Name | Type | Description |
 | ------ | ---- | ---- | ----------- |
@@ -560,7 +552,7 @@ hsla(hue-degrees, saturation%, lightness%, opacity-value)
 
 ---
 
-## Relational selectors
+## Relational Selectors
 
 ^ As we discuss relational selectors, keep in mind that terms like _parent_, _child_, _sibling_, and _descendent_ are used in the same way that they are in a family tree. Child elements are at the first level below a parent. Sibling elements are at the same level. Descendent elements can be one or more levels below a parent element.
 
@@ -649,7 +641,7 @@ p ~ span { color: red; }
 
 ---
 
-## Combination selectors
+## Combination Selectors
 
 ---
 
@@ -774,11 +766,21 @@ main p:first-child::first-letter { font-size: 150%; }
 
 ---
 
-## How to
+### How To: Normalize
 
 [github.com/normalize](https://github.com/necolas/normalize.css/)
 
 ^ Save a copy of the normalize.css file to your website and then code a link to the file in the `head` of each html page. Note: this link should be before the link to your personal style sheet(s).
+
+---
+
+![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/reset_homepage.png)
+
+---
+
+### How To: Reset
+
+[reset.css](https://meyerweb.com/eric/tools/css/reset/reset.css)
 
 ---
 
@@ -820,7 +822,7 @@ main p:first-child::first-letter { font-size: 150%; }
 
 ## Developer Tools
 
-![](https://developer.chrome.com/devtools/images/devtools-window.png)
+![Devtools Window](https://developer.chrome.com/devtools/images/devtools-window.png)
 
 ^ If you have problems with style sheets while you're building a web page, you can use the developer tools for your browser to find out what's happening. (demo Chrome dev tools)
 
@@ -830,4 +832,4 @@ main p:first-child::first-letter { font-size: 150%; }
 
 ---
 
-## For Next Week...
+## For Next Week

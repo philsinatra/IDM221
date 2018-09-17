@@ -2,15 +2,11 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Plain Jane, 2
-
+theme: Popping and Locking
 
 # IDM 221
+
 ## Web Design I
-
----
-
-## Week 8
 
 ---
 
@@ -58,7 +54,7 @@ theme: Plain Jane, 2
 
 ---
 
-### What's it doing?
+### What's Happening
 
 - determine the media type
 - can it decode the video/audio?
@@ -100,7 +96,7 @@ theme: Plain Jane, 2
 
 ---
 
-### Why Not Flash?
+### Why Not Flash
 
 - requires plugin
 - mobile devices
@@ -149,13 +145,13 @@ theme: Plain Jane, 2
 
 ## [Miro Converter](http://www.mirovideoconverter.com)
 
-![](https://skatter.com/files/2011/03/miro-video-converter.jpg)
+![Miro Converter logo](https://skatter.com/files/2011/03/miro-video-converter.jpg)
 
 ^ One free product I like is Miro Video Converter. It lets you convert a file from just about any media type into the types needed for web applications. It also supports audio only formats as well as formats for mobile devices. (demo)
 
 ---
 
-![](http://i.imgur.com/qrndQWU.gif)
+![Lex shaking with jello](http://i.imgur.com/qrndQWU.gif)
 
 ^ Look at all of this information you have to know before you even begin looking at the code for adding a media element to a page.
 
@@ -189,10 +185,15 @@ theme: Plain Jane, 2
 ---
 
 ```html
-<video width="1280" height="720" controls autoplay poster="media/myvideo_poster.jpg">
-  <source src="media/myvideo.mp4" />
-  <source src="media/myvideo.webm" type="video/webm" />
-  <source src="media/myvideo.ogv" type="video/ogg" />
+<video
+  width="1280"
+  height="720"
+  controls
+  autoplay
+  poster="media/myvideo_poster.jpg">
+    <source src="media/myvideo.mp4" />
+    <source src="media/myvideo.webm" type="video/webm" />
+    <source src="media/myvideo.ogv" type="video/ogg" />
 </video>
 
 <audio controls autoplay>
@@ -205,8 +206,8 @@ theme: Plain Jane, 2
 
 ---
 
-![](https://media.giphy.com/media/ijGS9TME6iN7W/giphy.gif)
+![phew](https://media.giphy.com/media/ijGS9TME6iN7W/giphy.gif)
 
 ---
 
-## For Next Week...
+## For Next Week
