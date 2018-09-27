@@ -19,6 +19,8 @@ theme: Popping and Locking
 
 ^ Last week we discussed some of the tools we'll be using for our development process. You should all have installed a (_click_) text editor, Sublime Text or whichever other option you prefer. You also should all have (_click_) hosting taken care of, and you should all have a (_click_) GitHub or Bitbucket account for version control, which we'll talk about tonight. (_click_) FTP will come later.
 
+^ Let's start with an introduction to the text editor.
+
 ---
 
 ## Critical Concepts
@@ -273,6 +275,16 @@ img { max-width: 100%; }
 
 ---
 
+[.build-lists: false]
+
+### Linting
+
+- [HTML Linting](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+
+^ Linting is a term used to describe reviewing code for syntactical errors. One of the benefits of using a text editor designed for programming is that there are tools available to help detect mistakes in your code. VSCode has an extension that will detect HTML errors as you work.
+
+---
+
 ## Comments
 
 ```html
@@ -284,7 +296,7 @@ img { max-width: 100%; }
 
 ---
 
-## Comments cont
+## Multi-line Comments
 
 ```html
 <body>
@@ -301,6 +313,24 @@ img { max-width: 100%; }
 ```
 
 ^ Another common use of comments is to comment out a portion of the code. This is useful when you're testing a web page and you want to temporarily disable a portion of code that you're having trouble with.
+
+---
+
+[.build-lists: false]
+
+### Nesting Comments
+
+```html
+<!-- <main>
+  <div class="container">
+    <h2>Hello World</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <!~~ <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> ~~>
+  </div>
+</main> -->
+```
+
+- [Nest Comments](https://marketplace.visualstudio.com/items?itemName=philsinatra.nested-comments)
 
 ---
 
@@ -344,7 +374,7 @@ img { max-width: 100%; }
 
 ---
 
-## Attributes cont
+## Boolean Attributes
 
 ```html
 <!-- Boolean attribute -->
@@ -355,7 +385,7 @@ img { max-width: 100%; }
 
 ---
 
-## Identifying elements
+## Identifying Elements
 
 ```html
 <!-- `id` attribute -->
@@ -489,7 +519,6 @@ img { max-width: 100%; }
 
 - .psd
 - .ai
-- .jpg
 - .mov
 - .mp4
 
