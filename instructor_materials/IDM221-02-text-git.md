@@ -106,14 +106,14 @@ img { max-width: 100%; }
   flex-direction: column;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
   .flex {
     background-color: white;
     flex-direction: row;
   }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 64em) {
   .flex {
     background-color: blue;
   }
@@ -526,7 +526,7 @@ img { max-width: 100%; }
 
 ---
 
-## .gitigore
+## .gitignore
 
 - [Windows](https://github.com/github/gitignore/blob/master/Global/Windows.gitignore)
 - [Mac](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore)
