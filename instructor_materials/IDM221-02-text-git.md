@@ -162,21 +162,12 @@ img { max-width: 100%; }
 </html>
 ```
 
-^ An HTML document contains HTML elements that define the content and structure of a web page.
+^ An HTML document contains HTML elements that define the content and structure of a web page. Each HTML document consists of two parts: the DOCTYPE declaration and the document tree.
 
 ---
 
-## The DocType
-
-```html
+```html, [.highlight: 1]
 <!DOCTYPE html>
-```
-
-^ Each HTML document consists of two parts: the DOCTYPE declaration and the document tree. The DOCTYPE declaration shown here indicates that the document is going to use HTML5. You need this at the start of every HTML document.
-
----
-
-```html
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -198,7 +189,88 @@ img { max-width: 100%; }
 </html>
 ```
 
-^ The _document tree_ starts with the html element, which marks the beginning and end of the HTML code. This element can be referred to as the root element of the document. The `html` element always contains one `head` element that provides information about the document and one `body` element that provides the structure and content of the document.
+^ The DOCTYPE declaration shown here indicates that the document is going to use HTML5. You need this at the start of every HTML document.
+
+---
+
+```html, [.highlight: 2, 20]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Document Title</title>
+</head>
+<body>
+  <h1>Welcome to my page.</h1>
+  <img src="../images/skatedog.jpg" alt="a dog on a skateboard" />
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</body>
+</html>
+```
+
+^ The _document tree_ starts with the html element, which marks the beginning and end of the HTML code. This element can be referred to as the root element of the document. The `html` element (note the opening and closing tags) always contains:
+
+---
+
+```html, [.highlight: 3-6]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Document Title</title>
+</head>
+<body>
+  <h1>Welcome to my page.</h1>
+  <img src="../images/skatedog.jpg" alt="a dog on a skateboard" />
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</body>
+</html>
+```
+
+^ one `head` element that provides information about the document and
+
+---
+
+```html, [.highlight: 7-19]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Document Title</title>
+</head>
+<body>
+  <h1>Welcome to my page.</h1>
+  <img src="../images/skatedog.jpg" alt="a dog on a skateboard" />
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</body>
+</html>
+```
+
+^ one `body` element that provides the structure and content of the document.
 
 ---
 
