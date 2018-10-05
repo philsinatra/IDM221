@@ -2,7 +2,7 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Popping and Locking
+theme: Dark Mode
 
 # IDM 221
 
@@ -10,7 +10,7 @@ theme: Popping and Locking
 
 ---
 
-## Links, lists and images
+## Links, Lists and Images
 
 ^ Because you'll use links, lists and images in most of the web pages you develop, we'll review these topics in full detail. But first, you need to know how to code absolute and relative URLs so you can use them in your links and images.
 
@@ -109,7 +109,7 @@ books/php/overview.html
 <p>Go view our <a href="products.html">product list</a>.</p>
 ```
 
-- **href**: Specifies a relative or absolute URL for a link
+^ **href**: Specifies a relative or absolute URL for a link
 
 ^ Most webpages contain links other webpages for web resources. To code a link, you use the `<a>` anchor element.
 

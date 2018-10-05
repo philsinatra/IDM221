@@ -146,7 +146,7 @@
 
       <section>
         <h2>Exercise 5</h2>
-        <p>I'm currently working on file <code>my_project/screens/index.html</code>. I'm coding a link to move the user to <a href="http://drexel.edu" target="_blank">Drexel University homepage</a>. Use an <i>absolute path</i> to complete the HTML code for the link.</p>
+        <p>I'm currently working on file <code>my_project/screens/index.html</code>. I'm coding a link to move the user to <a href="https://drexel.edu" target="_blank">Drexel University homepage</a>. Use an <i>absolute path</i> to complete the HTML code for the link.</p>
         <div class="kc_text">
           <div class="kc_text__input">
             <code>&lt;a href="</code><input type="text" class="medium" id="ex005" /><code>"&gt;my link&lt;/a&gt;</code>
@@ -155,7 +155,7 @@
             <div class="alert-content"></div>
           </div>
           <button class="btn btn_feedback" data-assert="ex005">Feedback</button>
-          <div data-solution="ex005" hidden>http://drexel.edu</div>
+          <div data-solution="ex005" hidden>https://drexel.edu</div>
         </div>
       </section>
 
