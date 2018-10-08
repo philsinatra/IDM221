@@ -31,6 +31,7 @@
 
 - [W3C HTML Validator](https://validator.w3.org)
 - [HTML5 Semantic Elements](http://www.w3schools.com/html/html5_semantic_elements.asp)
+- [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [HTML Form Elements](http://www.w3schools.com/html/html_form_elements.asp)
 - [HTML Input Types](http://www.w3schools.com/html/html_form_input_types.asp)
 - [HTML Input Attributes](http://www.w3schools.com/html/html_form_attributes.asp)
@@ -49,6 +50,7 @@
 - [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 - [Google Fonts](https://www.google.com/fonts)
 - [Adobe Edge Fonts](https://edgewebfonts.adobe.com)
+- [Color Box](https://www.colorbox.io)
 - [CSS3 Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 - [CSS Toolkit](https://itunes.apple.com/us/app/css-toolkit/id934487422?mt=12)
 - [CSS Visual Reference](https://cssreference.io)
