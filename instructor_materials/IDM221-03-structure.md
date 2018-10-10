@@ -313,6 +313,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 - GIF
 - PNG
 - SVG
+- WEBP
 
 ^ The images that you include in a web page need to be in one of the formats modern web browsers support. Currently, most browsers support these formats. Typically, imaging software is used to create and maintain these files for a website.
 
@@ -437,7 +438,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ![Elaine smashing her keyboard](http://i.giphy.com/ecZVHGjhMgCyc.gif)
 
-^ There are already a dozen `div` tags. Legibility is already suffering, and the likelihood of a nesting error is growing. And this example is really only the beginning since there's barely any real content included.
+^ There are already a dozen `div` tags. Legibility is already suffering, and the likelihood of a nesting error is growing. And this example is really only the beginning since there's barely any real content included. Also note that the `div` element is semantically inert: it provides no information to the browser about the content it contains and is not focus-able by default.
 
 ---
 
@@ -452,6 +453,8 @@ Please <a href="contact.html">contact us</a> with your comments.
   <p>&copy; 2016</p>
 </footer>
 ```
+
+^ HTML5 includes semantic elements. A semantic element clearly describes its meaning to both the browser and the developer.
 
 ---
 
@@ -505,9 +508,11 @@ Please <a href="contact.html">contact us</a> with your comments.
   ---
 
 ```html
-<footer>
-  <p> © 2016 Philadelphia Town Hall </p>
-</footer>
+    <footer>
+      <p> © 2016 Philadelphia Town Hall </p>
+    </footer>
+  </body>
+</html>
 ```
 
 ^ The HTML5 semantic elements make the structure of the page obvious.
