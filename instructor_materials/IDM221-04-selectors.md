@@ -59,7 +59,7 @@ h1 {
 }
 ```
 
-^ Within the braces are one ore more _declarations_, and each declaration consists of a _property_ and a _value_. Note that the property is followed by a colon and the value is followed by a semicolon.
+^ Within the braces are one or more _declarations_, and each declaration consists of a _property_ and a _value_. Note that the property is followed by a colon and the value is followed by a semicolon.
 
 ^ The selector in this example is `h1` so the rules apply to all `h1` elements. Then, the rule set consists of a single property named color that is set to the color navy. The result is that the content of all h1 elements will be displayed in navy blue.
 
@@ -323,6 +323,8 @@ p.highlight { /* rules here */ }
 
 ---
 
+## Duplicate selectors
+
 ```css
 p.highlight { color: red; }
 p.highlight { color: blue; }
@@ -343,6 +345,10 @@ p.highlight { color: blue; }
 
 ## Measurements
 
+---
+
+## Units of Measurements
+
 | Symbol | Name | Type | Description |
 | ------ | ---- | ---- | ----------- |
 | px | pixels | absolute | a single dot on a monitor |
@@ -352,7 +358,7 @@ p.highlight { color: blue; }
 | vw | viewport | width | relative relative to viewport |
 | vh | viewport | height | relative relative to viewport |
 
-^ You use the units of measure to specify a variety of CSS properties, including font-size, line-height, width, height, margin and padding. These are the four units of measure that are commonly used with CSS: pixels, points, ems and percent. The first two are absolute units, the second two are relative units.
+^ You use the units of measure to specify a variety of CSS properties, including font-size, line-height, width, height, margin and padding. Some commonly used units of measurement in CSS include: pixels, points, ems and percent. The first two are absolute units, the second two are relative units.
 
 ^ When you use relative units of measure like ems or percent, the measurement will change if the user changes the browser's font size. Example: You set the size of a font to 80 percent of the browser's default font size, that element will change if the user changes the font size in the browser. Because this lets the users adjust the font sizes to their own preferences, it is often recommended to use relative measurements for font sizes.
 
@@ -401,18 +407,12 @@ h1 {
 
 ---
 
+[.build-lists: false]
+
 # Color Specs & Names
 
 - [CSS3 Color spec](http://www.w3.org/TR/css3-color)
 - [Color Names](http://www.w3schools.com/cssref/css_colors.asp)
-
-```css
-p {
-  color: silver;
-}
-```
-
-^ The easiest way is to specify a color name.
 
 ---
 
@@ -575,8 +575,9 @@ hsla(hue-degrees, saturation%, lightness%, opacity-value)
 
 ---
 
+### Descendant Selector
+
 ```css
-/* Descendant */
 main li { font-size: 90%; }
 ul a { color: green; }
 ```
@@ -602,8 +603,9 @@ ul a { color: green; }
 
 ---
 
+### Adjacent Sibling Selector
+
 ```css
-/* Adjacent sibling */
 h2+p { margin-top: .5rem; }
 ```
 
@@ -611,8 +613,9 @@ h2+p { margin-top: .5rem; }
 
 ---
 
+### Child Selector
+
 ```css
-/* Child */
 main>p { font-size: 80%; }
 li>a { color: green; }
 ```
@@ -624,6 +627,8 @@ li>a { color: green; }
 ^ - My granddaughter is not my child, but she is my descendant
 
 ---
+
+### General Sibling Selector
 
 ```css
 p ~ span { color: red; }
@@ -645,6 +650,8 @@ p ~ span { color: red; }
 
 ---
 
+### Elements With Class
+
 ```css
 /* Selector for a class within an element */
 ul.speakers { list-style-type: square; }
@@ -653,6 +660,8 @@ ul.speakers { list-style-type: square; }
 ^ To select an element type by class name, you code the element name, followed by a period and the class name. This example selects `ul` elements that have a class of "speakers".
 
 ---
+
+### Multiple Selectors
 
 ```css
 /* Multiple selectors*/
@@ -734,7 +743,7 @@ main p:first-child::first-letter { font-size: 150%; }
 
 ## Exercise 🏋️‍
 
-[http://digm.drexel.edu/crs/IDM221/exercises/selectors](http://digm.drexel.edu/crs/IDM221/exercises/selectors/index.php/index.php)
+[http://digm.drexel.edu/crs/IDM221/exercises/selectors](http://digm.drexel.edu/crs/IDM221/exercises/selectors/index.php)
 
 ---
 
