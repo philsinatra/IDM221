@@ -25,7 +25,6 @@ theme: Merriweather, 8
 
 ---
 
-
 ## Cyberduck
 
 ![fit left](http://digm.drexel.edu/crs/IDM221/presentations/images/cyberduck-01.png)
@@ -68,7 +67,7 @@ theme: Merriweather, 8
 
 ---
 
-### Where do I find my info?
+### Find Your Info
 
 ---
 
@@ -114,4 +113,4 @@ theme: Merriweather, 8
 
 ---
 
-### Bluehost Wordpress Uninstall
+## Bluehost Wordpress Uninstall
