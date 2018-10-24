@@ -2,7 +2,7 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Popping and Locking
+theme: Dark Mode
 
 # IDM 221
 
@@ -33,13 +33,6 @@ theme: Popping and Locking
 ```
 
 ^ How about in this example, where we look at the actual HTML code. What are some of the issues present in this source code?
-
----
-
-## Reserved/Special Characters
-
-- reserved characters
-- special characters
 
 ^ Reserved characters in HTML must be replaced with character entities. Characters that are not present on your keyboard can also be replaced by entities. If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
 
@@ -123,7 +116,7 @@ theme: Popping and Locking
 - Times New Roman / Times
 - Courier New / Courier
 
-^ The fonts that are most safe to use are:
+^ Some of the safest typefaces to use include:
 
 ---
 
@@ -506,6 +499,12 @@ h1, h2 {
 - [Adobe Edge Fonts](https://edgewebfonts.adobe.com)
 
 ^ Let's try using Google fonts.
+
+---
+
+![fit](https://typekit.files.wordpress.com/2016/09/peace-type.gif?w=800&h=424)
+
+^ A new typeface solution is currently gaining traction - variable fonts.
 
 ---
 

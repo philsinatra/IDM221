@@ -2,7 +2,7 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Popping and Locking
+theme: Dark Mode
 
 # IDM 221
 

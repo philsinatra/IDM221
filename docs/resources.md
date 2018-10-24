@@ -50,6 +50,7 @@
 - [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 - [Google Fonts](https://www.google.com/fonts)
 - [Adobe Edge Fonts](https://edgewebfonts.adobe.com)
+- [Variable Fonts](https://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/)
 - [Color Box](https://www.colorbox.io)
 - [CSS3 Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 - [CSS Toolkit](https://itunes.apple.com/us/app/css-toolkit/id934487422?mt=12)
@@ -97,7 +98,7 @@ Effective September 5, 2017. The Free Library of Philadelphia offers remote and 
 
 [Apply Online](https://know.freelibrary.org/MyResearch/register/policy) (Alternatively, you can apply in person or via mail.)
 
-### Additional Information:
+### Additional Information
 
 Once you have created your library card and log into the library site, use the following link to go to Lynda.com. You will need to enter your library card number and PIN to access Lynda, but after that, you’ll have a Lynda account that you can log into directly.
 
