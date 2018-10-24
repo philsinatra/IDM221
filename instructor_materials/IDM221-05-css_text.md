@@ -438,7 +438,7 @@ h1, h2 {
      serif; }
 ```
 
-^ Copy the file for the font family into a subfolder within your website. In the CSS, code a rule set for the `@font-face` selector. Use the `font-family` property to provide a name for the imported font family, and use the `src` property to locate the font file. In the rule set for an HTML element, use the name that you gave the font as the value for the `font-family` property. Then, list one or more other font families in case the brwoser doesn't support the CSS3 `@font-face` selector.
+^ Copy the file for the font family into a subfolder within your website. In the CSS, code a rule set for the `@font-face` selector. Use the `font-family` property to provide a name for the imported font family, and use the `src` property to locate the font file. In the rule set for an HTML element, use the name that you gave the font as the value for the `font-family` property. Then, list one or more other font families in case the browser doesn't support the CSS3 `@font-face` selector.
 
 ^ Windows fonts: `C\Windows\Fonts`
 
