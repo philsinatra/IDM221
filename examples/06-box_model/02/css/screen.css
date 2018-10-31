@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+    url('../fonts/Raleway-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+    url('../fonts/Raleway-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/Raleway-Italic.woff2') format('woff2'),
+    url('../fonts/Raleway-Italic.woff') format('woff');
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font: 100%/1.5 normal Raleway, 'Lucida Sans', 'Lucida Grande', 'Open Sans',
+    'Droid Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: bold;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2.25rem; /* 36/16 */
+}
+
+h2 {
+  font-size: 1.5rem; /* 24/16 */
+}
+
+h3 {
+  font-size: 1.125rem; /* 18/16 */
+}
+
+header,
+footer {
+  background-color: #111111;
+  color: #fff;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.header a {
+  color: #fff;
+  background-color: slategray;
+  text-decoration: none;
+  /* display: block; */
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+
+  /* display: flex;
+  align-items: center;
+  background-color: #111; */
+}
+
+.header a:hover,
+.header a:focus {
+  background-color: slateblue;
+}
+
+.topic {
+  margin-bottom: 3rem;
+}
+
+.container {
+  padding: 0 1.5rem;
+}
+
+figure {
+  margin: 0 0 3rem;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure figcaption {
+  padding: 0.25rem 0 0 1.5rem;
+  font-size: 0.75rem;
+  color: #999999;
+}
+
+main p {
+  margin-bottom: 1.5rem;
+}
+
+main ul,
+main ol,
+main dl {
+  margin: 0 1.5rem 1.5rem;
+}
+
+main ul {
+  list-style: disc;
+}
+
+main li {
+  margin-bottom: 0.75rem;
+}
+
+.hero {
+  /* background-color: #111; */
+  background: url('../images/matrix.jpg') no-repeat center #111;
+  /* background-size: contain; */
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 10rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+  font-size: 0.875rem; /* 14/16 */
+  padding: 1.5rem 0;
+  text-align: center;
+}

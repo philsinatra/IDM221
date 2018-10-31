@@ -52,7 +52,9 @@ Thumbs.db
 *.png
 *.gif
 /assignments
-examples/week5/fonts
+examples/05-css/fonts
+examples/06-box_model/02/fonts
+examples/06-box_model/02/images
 examples/week8/media
 graphics
 node_modules

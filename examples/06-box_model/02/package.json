@@ -1,0 +1,11 @@
+{
+	"name": "example-box-model",
+	"version": "1.0.0",
+	"description": "",
+	"devDependencies": {
+		"stylelint-config-recommended": "^2.1.0"
+	},
+	"stylelint": {
+		"extends": "stylelint-config-recommended"
+	}
+}

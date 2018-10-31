@@ -141,7 +141,7 @@
           <li>element should be as high/tall as necessary based on the content within</li>
           <li>all size/dimension values should be coded in <code>rem</code> units (assume root element <code>font-size: 100%</code>), <b>EXCEPT</b> the <code>border</code> width which should be expressed as <code>1px</code></li>
         </ul>
-        <p class="small"><small>Note: write all of your selectors in alphabetical order, and use <b>shorthand</b> notation wherever possible.</small></p>
+        <p class="small"><small>Note: write all of your selectors in alphabetical order, use <b>shorthand</b> notation wherever possible, and round all values to the nearest hundredth.</small></p>
         <div class="kc_text">
           <div class="kc_text__input">
             <textarea name="ex006" id="ex006" cols="50" rows="9" class="full"></textarea>
