@@ -85,7 +85,7 @@ body {
 }
 ```
 
-^ For the `body`, the margin on all four sides is set to 10 pixels, and we add a 3px border around all four sides. Let's try it in the browser so we can see the styles as they are applied.
+^ For the `body`, the margin on all four sides is set to 10 pixels, and we add a 3px border around all four sides.
 
 ---
 
@@ -213,10 +213,14 @@ p {
 div {
   width: 450px; /* absolute width */
   width: 75%;   /* relative width */
+  width: 23em;   /* relative width */
+  width: 23rem;   /* relative width */
   width: auto;  /* default */
 
   height: 125px;  /* absolute height */
   height: 50%;    /* relative height */
+  height: 23em;   /* relative height */
+  height: 23rem;   /* relative height */
   height: auto;   /* default */
 }
 ```
@@ -761,5 +765,3 @@ div {
 ---
 
 ## For Next Week
-
-^ WORK! No specific assignment.
