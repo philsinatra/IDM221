@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background-color: #111;
+	font: 100%/1.5 Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+}
+
+section {
+	background-color: #fff;
+	margin-bottom: 12rem;
+}
+
+.top {
+	background-color: lightblue;
+}
+
+.bottom {
+	background-color: lightcoral;
+}
+
+/* Relative Positioning */
+
+.relative .top {
+	/* 300 */
+	height: 18.75rem;
+}
+
+.relative .bottom {
+	/* 100 */
+	height: 6.25rem;
+	width: 6.25rem;
+
+	/* Center horizontally */
+	margin: 0 auto;
+
+	position: relative;
+	/* -50 */
+	top: -3.125rem;
+}
+
+/* Absolute Positioning */
+
+.absolute .main {
+	position: relative;
+}
+
+.absolute .top {
+	position: absolute;
+	/* 50 */
+	height: 3.125rem;
+	top: 3rem;
+	width: 100%;
+	/*
+  width: 50%;
+  left: 2rem;
+   */
+
+	background-color: lightpink;
+	/* What happens when we remove .main position: relative?*/
+}
+
+.absolute .bottom {
+	padding: 1rem;
+}
+
+/* Fixed Position */
+
+.fixed .top {
+	background-color: lightgreen;
+	/* 50 */
+	height: 3.125rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Sticky Position */
+
+.sticky {
+	background-color: lightslategray;
+	padding: 1.5rem;
+}
+
+.stick {
+	background-color: yellow;
+	/* 50 */
+	height: 3.125rem;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+/* Floats */
+.float-nav li a {
+	background-color: lightslategray;
+	border-bottom: 1px solid #000;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	/* Wait to clear. */
+	clear: both;
+
+	/* Wait to fix overflow. */
+	overflow-x: hidden;
+}
+
+.float-nav li a:hover,
+.float-nav li a:focus {
+	background-color: gray;
+}
+
+.float-img {
+	background-color: darkblue;
+	display: block;
+	/* 50 */
+	height: 3.125rem;
+	width: 3.125rem;
+
+	float: left;
+
+	/* Now clear parent anchor element */
+}
+
+.float-label {
+	/* 13 */
+	padding: 0.8125rem;
+	/* That's not right. What else do we need? */
+	display: block;
+
+	/* How can we move the label over a little bit? */
+	position: relative;
+	left: 1rem;
+
+	/* That works, but we need to hide overflow. An alternative is: */
+	/* text-indent: 1rem; */
+}
