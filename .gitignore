@@ -40,6 +40,7 @@ Thumbs.db
 
 # Media #
 ############
+*.mov
 *.mp3
 *.mp4
 *.ogg

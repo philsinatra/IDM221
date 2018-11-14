@@ -177,8 +177,6 @@ theme: Dark Mode
 - loop
 - muted
 - controls
-- width
-- height
 
 ^ The `src` is the URL of the file to be played. `poster` is supported only by the _video_ element and provides the path to a static image to be displayed in place of the video file before it is played. _preload_ tells the browser whether to preload any data, options are _none_ (default), _metadata_ (dimensions, tracklist), or _auto_ (preload the entire media file). _autoplay_, _loop_, _muted_. _controls_ displays the default control toolbar under the player. (demo)
 
@@ -186,12 +184,10 @@ theme: Dark Mode
 
 ```html
 <video
-  width="1280"
-  height="720"
   controls
   autoplay
-  poster="media/myvideo_poster.jpg">
-    <source src="media/myvideo.mp4" />
+  poster="media/myvideo-poster.jpg">
+    <source src="media/myvideo.mp4" type="video/mp4" />
     <source src="media/myvideo.webm" type="video/webm" />
     <source src="media/myvideo.ogv" type="video/ogg" />
 </video>
