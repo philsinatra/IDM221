@@ -15,7 +15,7 @@ This assignment focuses on getting setup and preparing for your final project.
 
 1. Register a [Github](https://github.com) user account.
 1. Download and install [Visual Studio Code](https://code.visualstudio.com) (or the text editor of your choice) on your personal development computer.
-1. Register a [Slack](https://slack.com) user account. You should have received an invitation to join the Drexel IDM Slack account in your email. Join the group, and then reach out to me on Slack (**@philsinatra**) requesting an invitation to the IDM221 channel.
+1. Register a [Discord](https://discordapp.com) user account.
 
 ### Content Preparation
 
