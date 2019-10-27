@@ -1,0 +1,80 @@
+@import '../../normalize.css';
+@import './fonts.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000333;
+	font-family: 'open_sans', Arial, Helvetica, sans-serif;
+	/* font-family: 'LeagueSpartanVariable', 'open_sans', Arial, Helvetica, sans-serif; */
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 56.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'staatlichesregular', Arial, Helvetica, sans-serif;
+}
+
+header {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	min-height: 80vh;
+
+	background-color: #e7b91b;
+	color: #010101;
+	font-size: 3rem;
+}
+
+main {
+	background-color: #fff;
+	padding: 3rem;
+}
+
+main section {
+	margin-bottom: 3rem;
+}
+
+main section:last-child {
+	margin-bottom: 0;
+}
+
+main h2 {
+	margin-top: 0;
+
+	font-size: 2.5rem;
+}
+
+main h3 {
+	margin-top: 0;
+
+	font-size: 2rem;
+}
+
+p {
+	line-height: 1.5;
+}
+
+/* Variable font example adjustment */
+main p {
+	font-weight: 400;
+}
+
+footer {
+	padding: 1.5rem;
+	text-align: center;
+
+	color: #fff;
+	font-size: .9rem;
+}

@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'LeagueSpartanVariable';
+	src: url('../fonts/LeagueSpartanVariable.ttf') format('truetype');
+	font-weight: 1 999;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'staatlichesregular';
+	src: url('../fonts/staatliches-regular-webfont.woff2') format('woff2'),
+		url('../fonts/staatliches-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sans';
+	src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+		url('../fonts/opensans-bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'open_sans';
+	src: url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+		url('../fonts/opensans-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'open_sans';
+	src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+		url('../fonts/opensans-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* @font-face {
+	font-family: 'open_sansbold';
+	src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+		url('../fonts/opensans-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sansitalic';
+	src: url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+		url('../fonts/opensans-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+		url('../fonts/opensans-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+} */
