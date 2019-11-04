@@ -1,0 +1,104 @@
+@import '../../normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	background-color: #e5e5e5;
+	padding: 1rem;
+	min-height: 100vh;
+}
+
+.card {
+	width: 100%;
+	/* 350px / 16 root font size */
+	max-width: 21.875rem;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.card__img img {
+	width: 100%;
+}
+
+.card__content {
+	padding: 1rem;
+}
+
+.card__content h2 {
+	font-weight: 200;
+	margin: 0 0 1rem;
+}
+
+.card__content p {
+	color: #666;
+	/* 14px */
+	font-size: 0.875rem;
+	/* Add a border to the bottom. What do we need next? */
+	border-bottom: 1px solid lightgray;
+	/* How much padding? Why 1rem? */
+	padding-bottom: 1rem;
+	/* Letters are squished */
+	letter-spacing: .02rem;
+}
+
+/* Can we program DRY? */
+.card__availability h3 {
+	font-weight: 200;
+	margin: 0 0 1rem;
+	font-size: 1.1rem;
+}
+
+.card__availability ul {
+	list-style: none;
+	/* margin: 0; */
+	padding: 0;
+	margin: 0 0 1.5rem;
+}
+
+.card__availability li {
+	display: inline-block;
+}
+
+.card__availability li a {
+	display: block;
+	background-color: #e5e5e5;
+	color: #666;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	text-align: center;
+	border-radius: 1rem;
+	font-size: .9rem;
+}
+
+.card__availability li a:hover {
+	background-color: #dbc5fb;
+	color: #6403ee;
+}
+
+.card__availability button {
+	background-color: #fff;
+	color: #6403ee;
+	text-transform: uppercase;
+	border: 0;
+	font-size: .9rem;
+	cursor: pointer;
+}
+
+.card__availability button:hover {
+	color: #69970a;
+}
+
+/* Add these new properties to the original card class */
+.card {
+	box-shadow: 0.25rem .25rem .5rem rgba(0, 0, 0, .3);
+	margin: 0 auto 1.5rem;
+}
