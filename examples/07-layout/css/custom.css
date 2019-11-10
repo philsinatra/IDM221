@@ -1,0 +1,38 @@
+@import '../../normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	--backgroundColor: #333;
+	--foregroundColor: #fff;
+
+	font-size: 100%;
+	margin: 0;
+}
+
+@media (min-width: 48em) {
+	html {
+		--backgroundColor: #fff;
+		--foregroundColor: #333;
+	}
+}
+
+html.blues {
+	--backgroundColor: #2979ff;
+	--foregroundColor: #40c4ff;
+}
+
+body {
+	background-color: var(--backgroundColor);
+	color: var(--foregroundColor);
+
+	font-family: 'Roboto', sans-serif;
+	padding: 3rem;
+}
+
+p {
+	margin: 0 0 1.5rem;
+}

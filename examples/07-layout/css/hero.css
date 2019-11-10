@@ -1,0 +1,32 @@
+.hero {
+	margin: 0 auto;
+	max-width: 40rem;
+	/* border: 1px solid red; */
+}
+
+.hero img {
+	width: 100%;
+}
+
+/* Await an issue to reveal this fix */
+.hero figure {
+	margin: 0;
+}
+
+.hero figcaption {
+	background-color: #cc0101;
+	color: #fff;
+	font-size: 1.25rem;
+	line-height: 1;
+	padding: .25rem .5rem;
+	text-shadow: 2px 2px 2px black;
+	text-transform: uppercase;
+	width: 100%;
+
+	position: relative;
+	top: -3rem;
+}
+
+.hero figure img {
+	border-radius: 4px;
+}

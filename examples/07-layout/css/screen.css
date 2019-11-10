@@ -1,0 +1,28 @@
+@import '../../normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import 'card.css';
+@import 'hero.css';
+@import 'header.css';
+@import 'footer.css';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	background-color: #e5e5e5;
+	padding: 1rem;
+	/* min-height: 100vh; */
+}
+
+.contain {
+	padding-bottom: 3rem;
+}
