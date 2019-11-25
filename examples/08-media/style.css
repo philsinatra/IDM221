@@ -12,41 +12,45 @@
 #                                          |__/
 */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-  font-size: 16px;
-  height: 100%;
+	font-size: 16px;
+	height: 100%;
 }
 
 body {
-  background-color: lightgray;
-  font: 100%/1.4 Arial, sans-serif;
+	background-color: lightgray;
+	font: 100%/1.4 Arial, sans-serif;
 }
 
 .wrapper {
-  background-color: #fff;
-  bottom: 0;
-  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
-  height: 360px;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 640px;
+	background-color: #fff;
+	bottom: 0;
+	box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+	height: 360px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 640px;
+}
+
+video {
+	margin-bottom: 1.5rem;
 }
 
 .sound_stage {
-  background-color: transparent;
-  bottom: 0;
-  height: 32px;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  width: auto;
+	background-color: transparent;
+	bottom: 0;
+	height: 32px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: auto;
 }
