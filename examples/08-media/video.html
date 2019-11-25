@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Week 8 - Video Example</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="wrapper">
-    <video width="640" height="360" controls autoplay poster="media/the_beatles_poster.jpg">
-      <source src="media/the_beatles.mp4" />
-      <source src="media/the_beatles.webm" type="video/webm" />
-      <source src="media/the_beatles.ogv" type="video/ogg" />
-    </video>
-  </div>
-  <!-- /.wrapper -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Week 8 - Video Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- autoplay -->
+      <video
+        width="640"
+        height="360"
+        controls
+        preload
+        poster="media/the_beatles_poster.jpg"
+      >
+        <source src="media/the_beatles.mp4" />
+        <source src="media/the_beatles.webm" type="video/webm" />
+        <source src="media/the_beatles.ogv" type="video/ogg" />
+        <track
+          label="English Captions"
+          kind="captions"
+          srclang="en"
+          src="media/english.vtt"
+          default
+        />
+        <track
+          label="Spanish Captions"
+          kind="captions"
+          srclang="sp"
+          src="media/spanish.vtt"
+        />
+      </video>
+    </div>
+    <!-- /.wrapper -->
 
-  <!-- Asset files: http://digm.drexel.edu/crs/IDM221/presentations/examples/week8/media.zip -->
-</body>
+    <!-- Asset files: http://digm.drexel.edu/crs/IDM221/presentations/examples/week8/media.zip -->
+  </body>
 </html>
