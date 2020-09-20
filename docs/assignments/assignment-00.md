@@ -35,6 +35,8 @@ Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) u
 
 1. Your URL to your purchased domain (e.g. http://mywebsite.com)
 1. Your URL to your Github account profile page (e.g. https://github.com/philsinatra)
+1. Add a link to one of the Discord topic channels.
+1. Comment on someone elses link in any Discord channel.
 1. Upload your _markdown_ documentation file(s) directly in [Drexel Blackboard](https://learn.dcollege.net/). **Note**: if you document your information in any other format other than _markdown_, the file(s) will not be accepted.
 
 **Late submissions receive zero points.**

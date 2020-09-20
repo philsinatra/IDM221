@@ -21,6 +21,8 @@ Follow the instructions on screen and complete the assignment questions. When yo
 Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Assignment 2**:
 
 1. Your confirmation code that you receive after completing _Assignment 2: HTML Structure_.
+1. Add a link the `html` channel in the Discord server.
+1. Comment on someone elses link in any Discord channel.
 
 **Late submissions receive zero points.**
 
