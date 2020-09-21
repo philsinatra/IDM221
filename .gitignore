@@ -53,6 +53,7 @@ Thumbs.db
 *.png
 *.gif
 /assignments
+contacts.md
 examples/05-css/fonts
 examples/06-box_model/02/fonts
 examples/06-box_model/02/images
