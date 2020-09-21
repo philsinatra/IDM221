@@ -34,7 +34,11 @@ Document your inspiration and content inventory in a _markdown_ file. You can cr
 Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Assignment: Preparation**:
 
 1. Your URL to your purchased domain (e.g. http://mywebsite.com)
-1. Your URL to your Github account profile page (e.g. https://github.com/philsinatra)
-1. Upload your _markdown_ documentation file(s) directly in [Drexel Blackboard](https://learn.dcollege.net/). **Note**: if you document your information in any other format other than _markdown_, the file(s) will not be accepted.
+2. Your URL to your Github account profile page (e.g. https://github.com/philsinatra)
+3. Review the `server-rules` channel in our Discord server (update your handle if necessary)
+4. If you haven't already, introduce yourself on Discord in the `introductions` channel
+5. Add a link, or ask a question in one of the Discord topic channels
+6. Comment on someone elses link, or try to answer someone elses question in any Discord channel
+7. Upload your _markdown_ documentation file(s) directly in [Drexel Blackboard](https://learn.dcollege.net/). **Note**: if you document your information in any other format other than _markdown_, the file(s) will not be accepted
 
 **Late submissions receive zero points.**
