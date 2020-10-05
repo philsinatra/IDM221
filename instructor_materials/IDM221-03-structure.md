@@ -2,11 +2,21 @@ build-lists: true
 footer: IDM 221: Web Authoring I
 slidenumbers: true
 autoscale: true
-theme: Work, 1
+theme: Cobalt2, 1
 
 # IDM 221
 
 ## Web Design I
+
+---
+
+## Objectives
+
+- Introduce link structure
+- Compare link types
+- Introduce list styles
+- Discuss images on the web
+- Introduce page structure
 
 ---
 
