@@ -224,6 +224,212 @@ h1 { font-size: 180%; }
 
 ---
 
+## Coding Selectors
+
+```html
+<main>
+  <h1>Main Heading</h1>
+  <p class="blue">Hello world!</p>
+  <p class="blue">What's up?</p>
+</main>
+<footer>
+  <p id="copyright" class="blue right">&copy; 2016</p>
+</footer>
+```
+
+^ Once you understand how to code selectors, you will be able to apply CSS formatting to any element in a web page.
+
+---
+
+## Relational Selectors
+
+^ As we discuss relational selectors, keep in mind that terms like _parent_, _child_, _sibling_, and _descendent_ are used in the same way that they are in a family tree. Child elements are at the first level below a parent. Sibling elements are at the same level. Descendent elements can be one or more levels below a parent element.
+
+---
+
+```html
+<main>
+  <h1>Heading One</h1>
+  <ul class="speakers">
+    <li>Jan: <a href="#">David B.</a></li>
+    <li>Feb: <a href="#">Robert F.</a></li>
+  </ul>
+  <h2>Heading Two</h2>
+  <p>Welcome all speakers.</p>
+  <p>A limited number of tickets remain.</p>
+</main>
+```
+
+^ That means a _descendant selector_ selects all the elements that are contained within another element. For instance, all of the elements in the HTML example are descendants of the `main` element. The `li` elements are also descendants of the `ul` element. The `a` elements are descendants of the `li` elements.
+
+---
+
+### Descendant Selector
+
+```css
+main li { font-size: 90%; }
+ul a { color: green; }
+```
+
+^ To code a descendant selector, you code a selector for the parent element, followed by a space and a selector for the descendant element. The first selector selects all the `li` elements within the `main` element. The second selects all the `a` elements that are descendants of the `ul` element.
+
+---
+
+```html
+<main>
+  <h1>Heading One</h1>
+  <ul class="speakers">
+    <li>Jan: <a href="#">David B.</a></li>
+    <li>Feb: <a href="#">Robert F.</a></li>
+  </ul>
+  <h2>Heading Two</h2>
+  <p>Welcome all speakers.</p>
+  <p>A limited number of tickets remain.</p>
+</main>
+```
+
+^ The next example shows how to use an _adjacent sibling selector_ to select an element that's coded at the same level as another element and is also coded right next to it. For instance, the `h1`, `h2` and `p` elements in the HTML are all siblings, and the `h1` and `ul` elements are adjacent siblings. In contrast, the `h1` element and the `p` elements aren't adjacent siblings, but the `h2` element and the first `p` element are adjacent siblings.
+
+---
+
+### Adjacent Sibling Selector
+
+```css
+h2+p { margin-top: .5rem; }
+```
+
+^ To code an adjacent sibling selector, you code a selector for the first element, followed by a plus sign and a selector for the sibling element. This example will select an `p` elements that are adjacent to `h2` elements.
+
+---
+
+### Child Selector
+
+```css
+main > p { font-size: 80%; }
+li > a { color: green; }
+```
+
+^ If you want to select elements only when they're child elements of a parent element, you can code a _child selector_. To do that, separate the parent and the child selector with a greater than sign (>). The first child selector selects the `p` elements that are children of the main element, and the second selector selects the `a` elements that are children of the `li` elements.
+
+^ Think of what the words "child" and "descendant" mean.
+^ - My daughter is both my child and my descendant
+^ - My granddaughter is not my child, but she is my descendant
+
+---
+
+### General Sibling Selector
+
+```css
+p ~ span { color: red; }
+```
+
+```html
+<span>This is not red.</span>
+<p>Here is a paragraph.</p>
+<code>Here is some code.</code>
+<!-- This span shows red. -->
+<span>And here is a span.</span>
+```
+
+^ Unlike the adjacent sibling selector, a _general sibling selector_ selects any sibling element whether or not the elements are adjacent. To code this type of selector, you separate the selector for the first element and the selector for the sibling element by a tilde (~). This example selects all the `span` elements that follow a `p` element. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors)
+
+---
+
+## Combination Selectors
+
+---
+
+### Elements With Class
+
+```css
+/* Selector for a class within an element */
+ul.speakers { list-style-type: square; }
+```
+
+^ To select an element type by class name, you code the element name, followed by a period and the class name. This example selects `ul` elements that have a class of "speakers".
+
+---
+
+### Multiple Selectors
+
+```css
+/* Multiple selectors*/
+h1, h2, h3 { color: blue; }
+
+p, ul.speakers li {
+  font-family: "Times New Roman", serif;
+}
+```
+
+^ You can also code multiple selectors for the same rule set. To do that, you separate the selectors with commas.
+
+---
+
+## Pseudo-class / Pseudo-element Selectors
+
+---
+
+## Common CSS pseudo-classes
+
+| pseudo-class name | Description |
+| ----------------- | ----------- |
+| `:link` | A link that hasn't been visited. |
+| `:visited` | A link that has been visited. |
+| `:active` | The active link (mouse button down) |
+| `:hover` | An element with mouse hovering |
+| `:focus` | An element that has focus (forms) |
+
+^ These classes represent conditions that apply to the elements on a page. You can use the `:link` pseudo-class to refer to a link that hasn't been visited, the `:hover` pseudo-class to refer to the element that has the mouse hovering over it.
+
+---
+
+## Common CSS3 pseudo-classes
+
+| pseudo-class name | Description |
+| ----------------- | ----------- |
+| `:first-child` | The first child of an element |
+| `:last-child` | The last child of an element |
+| `:only-child` | The only child of an element |
+
+^ You can also use CSS3 pseudo-classes to refer to specific relationships.
+
+---
+
+## Common CSS3 pseudo-elements
+
+| pseudo-class name | Description |
+| ----------------- | ----------- |
+| `::first-letter` | The first letter of an element |
+| `::first-line` | The first line of an element |
+
+^ You can use CSS3 pseudo-elements to select portions of text.
+
+---
+
+```html
+<main>
+  <p>Welcome to Town Hall.</p>
+  <p>We have great speakers.</p>
+  <ul>
+    <li><a href="#">Jeff T.</a></li>
+    <li><a href="#">Andrew S.</a></li>
+    <li><a href="#">Amy C.</a></li>
+  </ul>
+</main>
+```
+
+---
+
+```css
+a:link { color: green; }
+a:hover, a:focus { color: pink; }
+
+main p:first-child { font-weight: bold; }
+main p:first-child::first-letter { font-size: 150%; }
+```
+
+---
+
 ## Provide styles
 
 ^ Before you code the CSS for a web page, you need to know how to provide the CSS file for a web page. There are three ways to provide CSS styles for a web page.
@@ -480,264 +686,6 @@ hsla(hue-degrees, saturation%, lightness%, opacity-value)
 ```
 
 ^ To provide even more color options, CSS3 lets you code color specifications in three more ways. First, you can use _RGBA values_. This works like RGB values, but with a fourth parameter that provides an opacity value. Set the value to 0, the color is fully transparent, set the value to 1 and the color is fully opaque. The other two methods focus on hue, saturation and lightness.
-
----
-
-## Coding Selectors
-
-```html
-<main>
-  <h1>Main Heading</h1>
-  <p class="blue">Hello world!</p>
-  <p class="blue">What's up?</p>
-</main>
-<footer>
-  <p id="copyright" class="blue right">&copy; 2016</p>
-</footer>
-```
-
-^ Once you understand how to code selectors, you will be able to apply CSS formatting to any element in a web page.
-
----
-
-```html
-<main>
-  <h1>Main Heading</h1>
-  <p class="blue">Hello world!</p>
-  <p class="blue">What's up?</p>
-</main>
-<footer>
-  <p id="copyright" class="blue right">&copy; 2016</p>
-</footer>
-```
-
-^ Let's take a look at our HTML again. Note the element with the `id` attribute.
-
----
-
-```css
-/* One element by ID */
-#copyright {
-  font-size: 80%;
-}
-```
-
-^ We can target that single element using an ID selector. Here we're applying a smaller font size to that one paragraph element.
-
----
-
-```html
-<main>
-  <h1>Main Heading</h1>
-  <p class="blue">Hello world!</p>
-  <p class="blue">What's up?</p>
-</main>
-<footer>
-  <p id="copyright" class="blue right">&copy; 2016</p>
-</footer>
-```
-
-^ One more time let's review the HTML
-
----
-
-```css
-.blue { color: blue; }
-.right { text-align: right; }
-```
-
-^ The two rule sets in this group select HTML elements by class. To do that, the selector is a period (.) followed by the class name. As a result, the first rule set selects all elements that have been assigned to the "blue" class. The second rule set selects any elements that have been assigned to the "right" class.
-
-^ One of the key points here is that a class attribute can have the same value for more than one element on a page. If you code a selector for that class, it will be used to format all the elements in that class. Since the id for an element must be unique, an id selector can only be used to format a single element.
-
----
-
-## Relational Selectors
-
-^ As we discuss relational selectors, keep in mind that terms like _parent_, _child_, _sibling_, and _descendent_ are used in the same way that they are in a family tree. Child elements are at the first level below a parent. Sibling elements are at the same level. Descendent elements can be one or more levels below a parent element.
-
----
-
-```html
-<main>
-  <h1>Heading One</h1>
-  <ul class="speakers">
-    <li>Jan: <a href="#">David B.</a></li>
-    <li>Feb: <a href="#">Robert F.</a></li>
-  </ul>
-  <h2>Heading Two</h2>
-  <p>Welcome all speakers.</p>
-  <p>A limited number of tickets remain.</p>
-</main>
-```
-
-^ That means a _descendant selector_ selects all the elements that are contained within another element. For instance, all of the elements in the HTML example are descendants of the `main` element. The `li` elements are also descendants of the `ul` element. The `a` elements are descendants of the `li` elements.
-
----
-
-### Descendant Selector
-
-```css
-main li { font-size: 90%; }
-ul a { color: green; }
-```
-
-^ To code a descendant selector, you code a selector for the parent element, followed by a space and a selector for the descendant element. The first selector selects all the `li` elements within the `main` element. The second selects all the `a` elements that are descendants of the `ul` element.
-
----
-
-```html
-<main>
-  <h1>Heading One</h1>
-  <ul class="speakers">
-    <li>Jan: <a href="#">David B.</a></li>
-    <li>Feb: <a href="#">Robert F.</a></li>
-  </ul>
-  <h2>Heading Two</h2>
-  <p>Welcome all speakers.</p>
-  <p>A limited number of tickets remain.</p>
-</main>
-```
-
-^ The next example shows how to use an _adjacent sibling selector_ to select an element that's coded at the same level as another element and is also coded right next to it. For instance, the `h1`, `h2` and `p` elements in the HTML are all siblings, and the `h1` and `ul` elements are adjacent siblings. In contrast, the `h1` element and the `p` elements aren't adjacent siblings, but the `h2` element and the first `p` element are adjacent siblings.
-
----
-
-### Adjacent Sibling Selector
-
-```css
-h2+p { margin-top: .5rem; }
-```
-
-^ To code an adjacent sibling selector, you code a selector for the first element, followed by a plus sign and a selector for the sibling element. This example will select an `p` elements that are adjacent to `h2` elements.
-
----
-
-### Child Selector
-
-```css
-main>p { font-size: 80%; }
-li>a { color: green; }
-```
-
-^ If you want to select elements only when they're child elements of a parent element, you can code a _child selector_. To do that, separate the parent and the child selector with a greater than sign (>). The first child selector selects the `p` elements that are children of the main element, and the second selector selects the `a` elements that are children of the `li` elements.
-
-^ NOTE: Think of what the words "child" and "descendant" mean.
-^ - My daughter is both my child and my descendant
-^ - My granddaughter is not my child, but she is my descendant
-
----
-
-### General Sibling Selector
-
-```css
-p ~ span { color: red; }
-```
-
-```html
-<span>This is not red.</span>
-<p>Here is a paragraph.</p>
-<code>Here is some code.</code>
-<!-- This span shows red. -->
-<span>And here is a span.</span>
-```
-
-^ Unlike the adjacent sibling selector, a _general sibling selector_ selects any sibling element whether or not the elements are adjacent. To code this type of selector, you separate the selector for the first element and the selector for the sibling element by a tilde (~). This example selects all the `span` elements that follow a `p` element. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors)
-
----
-
-## Combination Selectors
-
----
-
-### Elements With Class
-
-```css
-/* Selector for a class within an element */
-ul.speakers { list-style-type: square; }
-```
-
-^ To select an element type by class name, you code the element name, followed by a period and the class name. This example selects `ul` elements that have a class of "speakers".
-
----
-
-### Multiple Selectors
-
-```css
-/* Multiple selectors*/
-h1, h2, h3 { color: blue; }
-
-p, ul.speakers li {
-  font-family: "Times New Roman", serif;
-}
-```
-
-^ You can also code multiple selectors for the same rule set. To do that, you separate the selectors with commas.
-
----
-
-## Pseudo-class / Pseudo-element Selectors
-
----
-
-## Common CSS pseudo-classes
-
-| pseudo-class name | Description |
-| ----------------- | ----------- |
-| `:link` | A link that hasn't been visited. |
-| `:visited` | A link that has been visited. |
-| `:active` | The active link (mouse button down) |
-| `:hover` | An element with mouse hovering |
-| `:focus` | An element that has focus (forms) |
-
-^ These classes represent conditions that apply to the elements on a page. You can use the `:link` pseudo-class to refer to a link that hasn't been visited, the `:hover` pseudo-class to refer to the element that has the mouse hovering over it.
-
----
-
-## Common CSS3 pseudo-classes
-
-| pseudo-class name | Description |
-| ----------------- | ----------- |
-| `:first-child` | The first child of an element |
-| `:last-child` | The last child of an element |
-| `:only-child` | The only child of an element |
-
-^ You can also use CSS3 pseudo-classes to refer to specific relationships.
-
----
-
-## Common CSS3 pseudo-elements
-
-| pseudo-class name | Description |
-| ----------------- | ----------- |
-| `::first-letter` | The first letter of an element |
-| `::first-line` | The first line of an element |
-
-^ You can use CSS3 pseudo-elements to select portions of text.
-
----
-
-```html
-<main>
-  <p>Welcome to Town Hall.</p>
-  <p>We have great speakers.</p>
-  <ul>
-    <li><a href="#">Jeff T.</a></li>
-    <li><a href="#">Andrew S.</a></li>
-    <li><a href="#">Amy C.</a></li>
-  </ul>
-</main>
-```
-
----
-
-```css
-a:link { color: green; }
-a:hover, a:focus { color: pink; }
-
-main p:first-child { font-weight: bold; }
-main p:first-child::first-letter { font-size: 150%; }
-```
 
 ---
 
