@@ -486,7 +486,7 @@ h1, h2 {
 
 ## Tools
 
-- [Web Font Generator](https://www.web-font-generator.com)
+- [Transfonter](https://transfonter.org)
 - [Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 
 ^ There are a number of tools that will take your font file and generate the array of files you need for your website. [Melior](http://cdn.philsinatra.com/libraries/fonts/Melior.zip). Let's try implementing this font.

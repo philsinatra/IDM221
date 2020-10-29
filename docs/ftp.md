@@ -18,9 +18,9 @@ theme: Merriweather, 8
 
 ## Some FTP Programs
 
-- Transmit (macOS)
-- Fetch (macOS)
 - Cyberduck (macOS & WIN)
+- Transmit (macOS) 💰 45💲
+- ~~Fetch (macOS)~~
 - ~~FileZilla (macOS & WIN)~~
 
 ---
@@ -35,26 +35,9 @@ theme: Merriweather, 8
 
 ---
 
-## Fetch
-
 ![fit left](http://digm.drexel.edu/crs/IDM221/presentations/images/fetch-01.png)
 
 [http://fetchsoftworks.com](http://fetchsoftworks.com)
-
-^ Fetch is only available for macOS. Mac users should use Fetch for this class.
-
----
-
-### Installing Fetch
-
-![fit right](http://digm.drexel.edu/crs/IDM221/presentations/images/fetch-irt.png)
-
-- [http://drexel.edu/irt/computers-software/software/](http://drexel.edu/irt/computers-software/software/)
-- `students/Macintoshsoftware/Fetch/`
-  - .dmg
-  - .txt
-
-^ macOS users can download a copy of Fetch, and a serial number from Drexel's IRT department.
 
 ---
 
@@ -110,7 +93,3 @@ theme: Merriweather, 8
 - test on live server
 - commit to repository
 - push to GitHub
-
----
-
-## Bluehost Wordpress Uninstall
