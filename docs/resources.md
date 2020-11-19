@@ -2,14 +2,18 @@
 
 ## Lecture Slides
 
-- [01 Introduction](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-01-introduction.pdf)
-- [02 HTML Text & Git Introduction](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-02-text-git.pdf)
-- [03 HTML Lists, Links, Images & HTML Structure](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-03-structure.pdf)
-- [04 CSS Introduction](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-04-selectors.pdf)
-- [05 CSS Text](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-05-css_text.pdf)
-- [06 Box Model](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-06-box_model.pdf)
-- [07 Page Layout](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-07-layout.pdf)
-- [08 Media on the Web](http://digm.drexel.edu/crs/IDM221/presentations/pdf/IDM221-08-media.pdf)
+- [CSS Box Model](http://cdn.philsinatra.com/idm/idm221/css-box-model.pdf)
+- [CSS Color](http://cdn.philsinatra.com/idm/idm221/css-color.pdf)
+- [CSS Defaults](http://cdn.philsinatra.com/idm/idm221/css-defaults.pdf)
+- [CSS Measurement](http://cdn.philsinatra.com/idm/idm221/css-measurement.pdf)
+- [CSS Position](http://cdn.philsinatra.com/idm/idm221/css-position.pdf)
+- [CSS Selectors](http://cdn.philsinatra.com/idm/idm221/css-selectors.pdf)
+- [CSS Text](http://cdn.philsinatra.com/idm/idm221/css-text.pdf)
+- [HTML Basic Text](http://cdn.philsinatra.com/idm/idm221/html-basic-text.pdf)
+- [HTML Structure](http://cdn.philsinatra.com/idm/idm221/html-structure.pdf)
+- [Introduction](http://cdn.philsinatra.com/idm/idm221/introduction.pdf)
+- [Media](http://cdn.philsinatra.com/idm/idm221/media.pdf)
+- [Version Control](http://cdn.philsinatra.com/idm/idm221/version-control.pdf)
 
 ## Exercises
 
@@ -59,7 +63,6 @@
 ## Git
 
 - [Learn GitHub](https://guides.github.com/activities/hello-world/)
-- [Try GitHub](https://try.github.io/levels/1/challenges/1)
 - [GitHub Learning Resources](https://services.github.com/on-demand/resources/)
 - [The Art of the Commit](http://alistapart.com/article/the-art-of-the-commit#section2)
 - [Mastering GitHub Issues](https://guides.github.com/features/issues/)
@@ -84,13 +87,12 @@
 
 ## Software
 
+- [Visual Studio Code](https://code.visualstudio.com)
 - [Sublime Text](https://www.sublimetext.com)
 - [Atom](https://atom.io)
 - [Transmit](https://panic.com/transmit/)
-- [Fetch](http://fetchsoftworks.com)
 - [Cyberduck](https://cyberduck.io)
 - [Drexel Software](https://software.drexel.edu)
-- [SourceSetr](http://philsinatra.com/sourcesetr.html)
 
 ## Lynda
 

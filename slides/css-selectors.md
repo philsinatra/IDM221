@@ -8,31 +8,24 @@ theme: Cobalt2, 1
 
 ## Web Design I
 
----
-
-## Presentation
+### CSS Selectors
 
 ^ Up until this point everything we've focused on has been related to content, and structure. This has been intentional, because without content we have no project. Without structure we have no way of presenting our content. These concepts are critical and must be addressed before we can work on presenting our content. You know enough of the fundamentals to now begin working on content, structure and presentation.
 
 ---
 
-## CSS Syntax
+# Objectives
 
-```css
-/*********************************
-* Description: Primary style sheet
-* Author:      Phil Sinatra
-*********************************/
-body {
-  background-color: #facd8a;
-}
-/* Adjust the styles for headings */
-h1 { color: #3636363; }
-h2 {
-  font-style: italic;
-  border-bottom: 2px solid #fff; /* Add line below h2 */
-}
-```
+- Introduce CSS Syntax
+- Code Basic Selectors
+- Link CSS To HTML
+- Discuss the "Casecade"
+
+---
+
+# Objective
+
+## Introduce CSS Syntax
 
 ---
 
@@ -86,12 +79,14 @@ ul {
 
 ```css
 h2 {
-  border-bottom: 2px solid #fff; /* Add line below h2 headings */
+  /* Add line below h2 headings */
+  border-bottom: 2px solid #fff;
   font-style: italic;
 }
 
 ul {
-  list-style-type: square; /* Change bullets to squares */
+  /* Change bullets to squares */
+  list-style-type: square;
 }
 ```
 
@@ -99,24 +94,13 @@ ul {
 
 ---
 
-## How to code basic selectors
+# Objective
+
+## Code Basic Selectors
 
 ---
 
-```html
-<body>
-  <h1 class="base_color">Student materials</h1>
-  <p>Here are the downloads:</p>
-  <ul id="links">
-    <li><a href="exercises.html">Exercises</a></li>
-  </ul>
-  <p id="copyright" class="base_color">&copy; 2016</p>
-</body>
-```
-
----
-
-### Universal Selector
+## Universal Selector
 
 ```css
 /* All elements */
@@ -129,7 +113,7 @@ ul {
 
 ---
 
-### Type Selectors
+## Type Selectors
 
 ```css
 body {
@@ -160,7 +144,7 @@ h1 { font-size: 180%; }
 
 ---
 
-### ID Selectors
+## ID Selectors
 
 ```css
 #copyright {
@@ -186,7 +170,7 @@ h1 { font-size: 180%; }
 
 ---
 
-### Class Selectors
+## Class Selectors
 
 ```css
 .base_color {
@@ -197,6 +181,8 @@ h1 { font-size: 180%; }
 ^ The third type of selector starts with a period (.) and applies to all of the HTML elements that are identified by the `class` attribute with the named value. In this example `.base_color` applies to all the elements with `class` attributes that have a value of *base_color*. This includes the `h1` element and the last `p` element.
 
 ---
+
+### Quick Review
 
 ```css
 body {
@@ -221,21 +207,6 @@ h1 { font-size: 180%; }
 ^ If an element is coded with an `id` attribute, you can code a selector for that id by coding a pound sign followed by the id value, as in `#copyright`.
 
 ^ If an element is coded with a `class` attribute, you can code a selector for that class by coding a period followed by the class name, as in `.base_color`.
-
----
-
-## Coding Selectors
-
-```html
-<main>
-  <h1>Main Heading</h1>
-  <p class="blue">Hello world!</p>
-  <p class="blue">What's up?</p>
-</main>
-<footer>
-  <p id="copyright" class="blue right">&copy; 2016</p>
-</footer>
-```
 
 ^ Once you understand how to code selectors, you will be able to apply CSS formatting to any element in a web page.
 
@@ -264,7 +235,7 @@ h1 { font-size: 180%; }
 
 ---
 
-### Descendant Selector
+## Descendant Selector
 
 ```css
 main li { font-size: 90%; }
@@ -292,7 +263,7 @@ ul a { color: green; }
 
 ---
 
-### Adjacent Sibling Selector
+## Adjacent Sibling Selector
 
 ```css
 h2+p { margin-top: .5rem; }
@@ -302,7 +273,7 @@ h2+p { margin-top: .5rem; }
 
 ---
 
-### Child Selector
+## Child Selector
 
 ```css
 main > p { font-size: 80%; }
@@ -317,7 +288,7 @@ li > a { color: green; }
 
 ---
 
-### General Sibling Selector
+## General Sibling Selector
 
 ```css
 p ~ span { color: red; }
@@ -335,22 +306,7 @@ p ~ span { color: red; }
 
 ---
 
-## Combination Selectors
-
----
-
-### Elements With Class
-
-```css
-/* Selector for a class within an element */
-ul.speakers { list-style-type: square; }
-```
-
-^ To select an element type by class name, you code the element name, followed by a period and the class name. This example selects `ul` elements that have a class of "speakers".
-
----
-
-### Multiple Selectors
+## Multiple Selectors
 
 ```css
 /* Multiple selectors*/
@@ -406,19 +362,7 @@ p, ul.speakers li {
 
 ---
 
-```html
-<main>
-  <p>Welcome to Town Hall.</p>
-  <p>We have great speakers.</p>
-  <ul>
-    <li><a href="#">Jeff T.</a></li>
-    <li><a href="#">Andrew S.</a></li>
-    <li><a href="#">Amy C.</a></li>
-  </ul>
-</main>
-```
-
----
+### Pseudo Selector Examples
 
 ```css
 a:link { color: green; }
@@ -430,9 +374,11 @@ main p:first-child::first-letter { font-size: 150%; }
 
 ---
 
-## Provide styles
+# Objective
 
-^ Before you code the CSS for a web page, you need to know how to provide the CSS file for a web page. There are three ways to provide CSS styles for a web page.
+## Link CSS To HTML
+
+^ There are several ways to provide CSS to HTML files.
 
 ---
 
@@ -481,6 +427,12 @@ main p:first-child::first-letter { font-size: 150%; }
 ```
 
 ^ Third, you can use _inline styles_ within an HTML document. When you use an inline style, you code a style attribute for the HTML element with a value that contains all the CSS rules that apply to the element. This type of formatting means the content and formatting are tightly linked and can quickly get out of control.
+
+---
+
+# Objective
+
+## Discuss the "Casecade"
 
 ---
 
@@ -546,247 +498,3 @@ p.highlight { color: blue; }
 - **id** is the _most_ specific
 - **class** or **pseudo-class** is _less_ specific
 - **element** or **pseudo-element** is _least_ specific
-
----
-
-## Measurements
-
----
-
-## Units of Measurements
-
-| Symbol | Name | Type | Description |
-| ------ | ---- | ---- | ----------- |
-| px | pixels | absolute | a single dot on a monitor |
-| pt | points | absolute | 1/72 of an inch |
-| em | ems | relative | 1em = current font size |
-| %  | percent | relative | relative to current size |
-| vw | viewport | width | relative relative to viewport |
-| vh | viewport | height | relative relative to viewport |
-
-^ You use the units of measure to specify a variety of CSS properties, including font-size, line-height, width, height, margin and padding. Some commonly used units of measurement in CSS include: pixels, points, ems and percent. The first two are absolute units, the second two are relative units.
-
-^ When you use relative units of measure like ems or percent, the measurement will change if the user changes the browser's font size. Example: You set the size of a font to 80 percent of the browser's default font size, that element will change if the user changes the font size in the browser. Because this lets the users adjust the font sizes to their own preferences, it is often recommended to use relative measurements for font sizes.
-
----
-
-## Measurements cont
-
-| Symbol | Name | Type | Description |
-| ------ | ---- | ---- | ----------- |
-| px | pixels | absolute | a single dot on a monitor |
-| pt | points | absolute | 1/72 of an inch |
-| em | ems | relative | 1em = current font size |
-| %  | percent | relative | relative to current size |
-| vw | viewport | width | relative relative to viewport |
-| vh | viewport | height | relative relative to viewport |
-
-^ When you use absolute units of measurement the measurement won't change even if the user changes the font size in the browser. Example: set the width of an element in pixels and the font size in points, the width and font size won't change.
-
-^ When you use pixels though, the size will change if the screen resolution changes. Screen resolution determines the number of pixels that are displayed on the monitor. Pixels on a monitor with a screen resolution of 1280 x 1024 are closer together than the pixels on a monitor with a screen resolution of 1152 x 864. That means a measurement of 10 pixels will be smaller on the screen with the higher resolution. A point is 1/72 of an inch no matter what the screen resolution is.
-
----
-
-```css
-body {
-  font-size: 100%;
-  margin-left: 2em;
-  margin-right: 2em;
-}
-
-header {
-  padding-bottom: .75em;
-  border-bottom: 3px solid black;
-  margin-bottom: 0;
-}
-h1 {
-  font-size: 200%;
-  margin-bottom: 0;
-}
-```
-
----
-
-## Color
-
-^ There are a number of ways to specify color. We will look at the most common three.
-
----
-
-[.build-lists: false]
-
-# Color Specs & Names
-
-- [CSS3 Color spec](http://www.w3.org/TR/css3-color)
-- [Color Names](http://www.w3schools.com/cssref/css_colors.asp)
-
----
-
-## RGB Colors
-
-```css
-p {
-  color: rgb(100%, 40%, 20%);
-  color: rgb(255, 102, 51);
-}
-```
-
-^ Another way to specify a color is to use an _RGB_ value. One way to do that is to specify the percent of red, green and blue that make up the color. You can also use any values from 0 through 255 instead of percents (0 is equivalent to 0% and 255 is equivalent to 100%, this gives you more precision over the resulting colors).
-
----
-
-## Hexcodes
-
-```css
-p {
-  color: #ffffff; /* white */
-  color: #000000; /* black */
-  color: #ff0000; /* red */
-}
-```
-
-^ The third way to specify a color is to use the _hexadecimal_ values for red, green and blue. When you use this technique the value must be preceded by the pound sign (#).
-
----
-
-## Specifying color
-
-```css
-body {
-  background-color: #ffffcc; /* light yellow */
-  color: black;
-}
-
-p {
-  background-color: #ff0000; /* red */
-  /* `color` will be inherited as `black` */
-}
-```
-
-^ The `color` property determines the foreground color (the color of the text). The `background-color` property determines the background color.
-
-^ The `color` property for an element is _inherited_ by any child elements. For example: if you set the `color` for the `body` to _black_, that color will be inherited by all of the elements in the body of the document. However, you can override an inherited property by coding a rule set with a different value for that property.
-
----
-
-## Accessibility guideline
-
-^ Remember the visually-impaired. Dark text on a light background is easier to read, and black type on a white background is easiest to read.
-
----
-
-## CSS3
-
-```css
-rgba(red%, green%, blue%, opacity-value)
-
-hsl(hue-degrees, saturation%, lightness%)
-
-hsla(hue-degrees, saturation%, lightness%, opacity-value)
-```
-
-^ To provide even more color options, CSS3 lets you code color specifications in three more ways. First, you can use _RGBA values_. This works like RGB values, but with a fourth parameter that provides an opacity value. Set the value to 0, the color is fully transparent, set the value to 1 and the color is fully opaque. The other two methods focus on hue, saturation and lightness.
-
----
-
-## Exercise 🏋️‍
-
-[http://digm.drexel.edu/crs/IDM221/exercises/selectors](http://digm.drexel.edu/crs/IDM221/exercises/selectors/index.php)
-
----
-
-## Browser Default Styles
-
-^ A problem web developers face today when it comes to CSS is that the five modern browsers render some elements of a web page differently. Let's look at some examples.
-
----
-
-![fit](https://www.sitepoint.com/community/uploads/default/original/3X/e/4/e4e871f08fbd8bf66e2da5742587ddd40292f148.png)
-
----
-
-![fit](https://www.sitepoint.com/community/uploads/default/original/3X/8/9/891f1bf718fc5aa682fc4bfbf5aa231004ad4175.png)
-
----
-
-![fit](http://formalize.me/assets/images/chrome_examples.png)
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/normalize_homepage.png)
-
-[Normalize.css](http://necolas.github.io/normalize.css)
-
-^ To standardize how elements like this are displayed, you can use the _normalize.css_ style sheet. This can save you a lot of time dealing with small rendering issues near the end of a project.
-
-^ The normalize style sheet also sets the margins for the body of the document to zero. That means there's no space between the body and the edge of the browser window. This is important because different browsers provide different margins for the body. It also defaults the font family to sans-serif, which we'll learn more about later. For reasons like these, many web developers use the normalize style sheet for all their projects.
-
----
-
-### How To: Normalize
-
-[github.com/normalize](https://github.com/necolas/normalize.css/)
-
-^ Save a copy of the normalize.css file to your website and then code a link to the file in the `head` of each html page. Note: this link should be before the link to your personal style sheet(s).
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/reset_homepage.png)
-
----
-
-### How To: Reset
-
-[reset.css](https://meyerweb.com/eric/tools/css/reset/reset.css)
-
----
-
-## Example Time
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-portfolio.png)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-portfolio-primary.png)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-portfolio-header-outer.png)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-portfolio-header-inner.png)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-portfolio-main-outer.png)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-portfolio-main-rows.png)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-portfolio-main-cols.png)
-
----
-
-## Let's Build It
-
----
-
-## Developer Tools
-
-![Devtools Window](https://developer.chrome.com/devtools/images/devtools-window.png)
-
-^ If you have problems with style sheets while you're building a web page, you can use the developer tools for your browser to find out what's happening. (demo Chrome dev tools)
-
----
-
-## [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-
----
-
-## For Next Week

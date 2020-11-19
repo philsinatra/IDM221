@@ -8,22 +8,25 @@ theme: Cobalt2, 1
 
 ## Web Design I
 
----
-
-### Tools for Development
-
-- Text Editor
-- Hosting
-- Version Control
-- FTP (later)
-
-^ Last week we discussed some of the tools we'll be using for our development process. You should all have installed a (_click_) text editor, Sublime Text or whichever other option you prefer. You also should all have (_click_) hosting taken care of, and you should all have a (_click_) GitHub or Bitbucket account for version control, which we'll talk about tonight. (_click_) FTP will come later.
-
-^ Let's start with an introduction to the text editor.
+### Basic HTML Text
 
 ---
 
-## Critical Concepts
+# Objectives
+
+- Review Critical Web Development Concepts
+- Introduce Basic HTML Concepts
+- Introduce the Text Editor
+
+---
+
+# Objective
+
+## Review Critical Web Development Concepts
+
+---
+
+# Critical Concepts
 
 - Users/Usability
 - Cross browser compatibility
@@ -35,107 +38,63 @@ theme: Cobalt2, 1
 
 ---
 
-## Users and usability
+## Users and Usability
+
+![right fit](images/ss-overstock-dot-com.png)
 
 ^ Before you design a website, you need to think about who your users are going to be and what they are going to expect. Remember, users determine the success of a website. What do users want when the reach a website? **The want to find what they're looking for as quickly and easily as possible**. When they find it, they want to extract the information or do the task as quickly and easily as possible.
-
----
-
-![overstock.com](http://digm.drexel.edu/crs/IDM221/presentations/images/overstock.png)
 
 ^ How do users use a page? They don't read it in an orderly fashion, and they don't like to scroll any more than they have to. If they can't find what they're looking for or get frustrated, they leave the site. In web development terms, what users want is _usability_. The term refers to how easy it is to use a website. If a site is easy to use, it has a chance to be effective. 1. present critical content above the fold 2. group related items and limit the number of groups 3. include a header that identifies the site and provides navigation 4. use current navigation conventions (e.g. logo goes to home page)
 
 ---
 
-## Cross browser compatibility
+## Cross Browser Compatibility
 
 ![Google Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome.png)
 ![Microsoft Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge.png)
 ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox.png)
 ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari.png)
 
-^ If you want your website to be used by as many visitors as possible, you need to make sure that your web pages are compatible with as many browsers as possible. That's known as _cross browser compatibility_. Modern browsers also include special _Developer Tools_ that include Emulation options that will help us test our code.
-
----
-
-## Guidelines
-
-- use supported HTML5 and CSS3 features
-- test all pages on all major browsers
+- Use supported HTML5 and CSS3 features
+- Test all pages on all major browsers
 - [Can I Use?](http://caniuse.com)
 - [HTML 5 Test](http://html5test.com)
+
+^ If you want your website to be used by as many visitors as possible, you need to make sure that your web pages are compatible with as many browsers as possible. That's known as _cross browser compatibility_. Modern browsers also include special _Developer Tools_ that include Emulation options that will help us test our code.
 
 ^ Let's go over a few basic guidelines. (_click_) Make sure to use supported HTML5 and CSS3 features when coding your site, (_click_) test all pages on all major browsers, not just your favorite browser. Before using a feature or tag, (_click_) check it's current availability on all modern browsers.
 
 ---
 
-## User accessibility
+## Accessibility
+
+![right fit](images/ss-a11y-dot-com.png)
 
 ^ _Accessibility_ refers to the qualities that make a website accessible to as many users as possible, especially disabled users. Visually impaired users may not be able to read text that's in images, so you need to provide other alternatives for them. Users with motor disabilities may not be able to use a mouse, so you need to make sure that all of the content and features can be accessed through the keyboard.
-
----
-
-![webaim.org](http://digm.drexel.edu/crs/IDM221/presentations/images/accessibility.png)
 
 ^ There are many information sources on accessibility, we'll review the guidelines for coding the elements and attributes that provide accessibility as we progress through the course.
 
 ---
 
-## Search engine optimization
+## Search Engine Optimization
 
----
-
-![Google search results page](http://digm.drexel.edu/crs/IDM221/presentations/images/seo.png)
+![right fit](images/ss-google-results.png)
 
 ^ SEO refers to the goal of optimizing your website so your pages rank higher in search engines like Google, Bing and Yahoo. Although the search algorithms that are used by search engines change frequently, there are some common coding techniques that will help your pages do better in the search engines. We'll review these guidelines as we build our pages.
 
 ---
 
-## Responsive web design
+## Responsive Web Design
 
-![responsive website](http://digm.drexel.edu/crs/IDM221/presentations/images/Responsive-Example.png)
-
----
-
-```css
-img { max-width: 100%; }
-
-.flex {
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 48em) {
-  .flex {
-    background-color: white;
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 64em) {
-  .flex {
-    background-color: blue;
-  }
-}
-```
+![inline](images/awwwards-responsive-big.png)
 
 ^ The term _Responsive web design_ refers to the theory and practice of creating websites that adapt gracefully to all viewing mediums, from desktop computers to mobile phones. The layout of a website adapts to the viewing environment by using fluid, proportion-based grids, flexible images, and CSS3 media queries.
 
 ---
 
-# Fun RWD statistics
+# Objective
 
-- more people in the world own smartphones than toothbrushes
-- 80% of all consumers do some shopping on smartphones
-- 70% of mobile searches lead to some type of action within an hour
-- 40% of users will choose a different search result if the first one isn't mobile friendly
-- 45% of mobile users ages 18 to 29 use smartphones every day for searches
-- as of 2017, 87% of connected devices are smartphones and tablets
-
----
-
-## HTML Structure
+## Introduce Basic HTML Concepts
 
 ---
 
@@ -309,8 +268,8 @@ img { max-width: 100%; }
 ## Empty tags
 
 ```html
-<br>
-<img src="logo.gif" alt="logo">
+<br />
+<img src="logo.gif" alt="logo" />
 ```
 
 ^ Some elements have no content or closing tag. These tags are referred to as _empty tags_.
@@ -331,7 +290,7 @@ img { max-width: 100%; }
 
 ---
 
-## Text
+## Basic Text
 
 ```html
 <h1>Heading 1</h1>
@@ -342,18 +301,6 @@ img { max-width: 100%; }
 <h6>Heading 6</h6>
 <p>Hello there, I am a paragraph.</p>
 ```
-
-^ Let's try some simple examples in our editor.
-
----
-
-[.build-lists: false]
-
-### Linting
-
-- [HTML Linting](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
-
-^ Linting is a term used to describe reviewing code for syntactical errors. One of the benefits of using a text editor designed for programming is that there are tools available to help detect mistakes in your code. VSCode has an extension that will detect HTML errors as you work.
 
 ---
 
@@ -385,24 +332,6 @@ img { max-width: 100%; }
 ```
 
 ^ Another common use of comments is to comment out a portion of the code. This is useful when you're testing a web page and you want to temporarily disable a portion of code that you're having trouble with.
-
----
-
-[.build-lists: false]
-
-### Nesting Comments
-
-```html
-<!-- <main>
-  <div class="container">
-    <h2>Hello World</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <!~~ <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> ~~>
-  </div>
-</main> -->
-```
-
-- [Nest Comments](https://marketplace.visualstudio.com/items?itemName=philsinatra.nested-comments)
 
 ---
 
@@ -467,147 +396,31 @@ img { max-width: 100%; }
 <a href="contact.html" class="nav_link">
 ```
 
-^ This example illustrates the use of two attributes that are commonly used to identify HTML elements. The ID attribute is used to uniquely identify just one element, so each ID attribute must have a unique value. The class attribute can be used to mark one or more elements, so the same value can be used for more than one class attribute.
+^ We will be able to use certain attributes to help identify and group elements within our documents. This example illustrates the use of two attributes that are commonly used to identify HTML elements. The ID attribute is used to uniquely identify just one element, so each ID attribute must have a unique value. The class attribute can be used to mark one or more elements, so the same value can be used for more than one class attribute.
+
+---
+
+# Objective
+
+## Introduce the Text Editor
+
+---
+
+## Helpful VSCode Extensions
+
+- [HTML Linting](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+- [HTML Hint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+- [Nest Comments](https://marketplace.visualstudio.com/items?itemName=philsinatra.nested-comments)
+- [Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)
+
+^ Linting is a term used to describe reviewing code for syntactical errors. One of the benefits of using a text editor designed for programming is that there are tools available to help detect mistakes in your code. VSCode has an extension that will detect HTML errors as you work.
 
 ---
 
 ## HTML Validation
 
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/w3c_validator.png)
+- [W3C markup validation service](https://validator.w3.org)
+
+![right fit](images/ss-validator-org.png)
 
 ^ To validate and HTML document, you use a program where website for that purpose. One of the most popular websites for validating HTML is the one for the [W3C markup validation service](https://validator.w3.org). When you use this website, you can provide the HTML document that you want to validate and three ways. You can provide the URL for the page. You can upload the document. And you can copy and paste the document into the Validate by Direct Input tab. Once that's done, you click the Check button to validate the document.
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/w3c_validator_results.png)
-
-^ If the HTML code is valid when the document is validated, the validator displays a message to that effect. If the code contains errors, the message will indicate the number of errors that were detected. Then, you can scroll down to a list of the errors.
-
----
-
-## Version control
-
-![GitHub Octocat](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
-
-^ _Version control_ is a system that records changes to a file or set of files over time so that you can recall specific versions later. If you want to keep every version of a file or project, a Version Control System (VCS) is a very wise thing to use. It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead.
-
----
-
-## GIT
-
-![Git branch illustration](https://git-scm.com/images/branching-illustration@2x.png)
-
-^ Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git allows groups of people to work on the same documents (often code) at the same time, and without stepping on each other's toes.
-
----
-
-## Try GIT
-
-[try.github.io](https://try.github.io/levels/1/challenges/1)
-
-^ Lets try it out!
-
----
-
-## GUI Git Clients
-
-- [GitHub Desktop](https://desktop.github.com)
-- [Source Tree](https://www.sourcetreeapp.com)
-
----
-
-## Source Tree GUI
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/01_GetSourceTree.png)
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/02_AddRepoAccounts.png)
-
-^ Setup git accounts like GitHub and Bitbucket within the app so that repositories can be pushed/pulled from any account(s).
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/03_CreateLocalRepo.png)
-
-^ You can create a local repository out of any folder on your computer. Note that you can also select to have the new repository be created remotely as well.
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/04_LinkLocalRepo2Remote.png)
-
-^ You can create a remote repository directly from the app. This can also be done by logging into your GitHub/BitBucket account via the web browser.
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/05_EmptyLocalRepo.png)
-
-^ Once the repo is setup, you can view the current status in the workspace to review files and changes that have been made.
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/06_MoveStarterFilesIntoLocalRepo.png)
-
-^ Here's a look at our initial files for our project.
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/07_UnstagedFiles.png)
-
-^ SourceTree shows the new files as _unstaged_, meaning they are in our repository folder but have not yet been added to the repository.
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/08_StageFiles_Commit.png)
-
-^ Add the files (stage) to prepare the changes for submission to the repository. Add a commit message to for the log. Git messages should explain _what_ and _why_ as opposed to _how_.
-
----
-
-![inline](http://digm.drexel.edu/crs/IDM221/presentations/images/sourcetree/13_PushLocal2Remote.png)
-
-^ Once the files have been committed to the local repository, you should sync (push) the updates to the remote copy of the repository.
-
----
-
-## GitHub Desktop GUI
-
-^ A live demo of the software.
-
----
-
-## What goes in a repo
-
-- .html
-- .css
-- .js
-- .md
-
-^ The repository should be free of bloat, and contain the source files for your project. Media assets should not be included in your repository, even if they are part of your project.
-
----
-
-## What does not go in a repo
-
-- .psd
-- .ai
-- .mov
-- .mp4
-
-^ Media files add tremendous bloat to your repository. They should be stored and hosted separately from the repository files. Some examples include this list of binary file types.
-
----
-
-## .gitignore
-
-- [Windows](https://github.com/github/gitignore/blob/master/Global/Windows.gitignore)
-- [Mac](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore)
-- [Linux](https://github.com/github/gitignore/blob/master/Global/Linux.gitignore)
-
-^ You can create a _.gitignore_ file and include it in your repository as a list of files/file types to be specifically ignored when maintaining the repository files. Let's take a look at the .gitignore file for this IDM project.
-
----
-
-## For Next Week
-
-^ Draw a sitemap example on whiteboard.

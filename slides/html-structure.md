@@ -8,21 +8,33 @@ theme: Cobalt2, 1
 
 ## Web Design I
 
----
-
-## Objectives
-
-- Introduce link structure
-- Compare link types
-- Introduce list styles
-- Discuss images on the web
-- Introduce page structure
+### HTML Structure
 
 ---
 
-## Links, Lists and Images
+# Objectives
 
-^ Because you'll use links, lists and images in most of the web pages you develop, we'll review these topics in full detail. But first, you need to know how to code absolute and relative URLs so you can use them in your links and images.
+- Discuss URL Structure
+- Introduce HTML Anchors
+- Introduce HTML Lists
+- Introduce HTML Images
+- Discuss HTML Page Structure
+
+^ Because you'll use links, lists and images in most of the web pages you develop, we'll review these topics in full detail.
+
+---
+
+## Additional Examples
+
+- HTML Tables
+- HTML Forms
+- iFrames
+
+---
+
+# Objective
+
+## Discuss URL Structure
 
 ---
 
@@ -37,70 +49,32 @@ https://www.google.com/#q=html
 
 ---
 
-## Relative URLs
+![100% inline](images/directory-example.png)
 
-![fit inline](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
-
-^ This figure shows the folder structure of a simple website. The folders for this site are organized into three levels. The root folder for the site contains five subfolders, including the folders that contain the images and styles for the site. Then, the books folder contains subfolders of its own.
+^ This figure shows the folder structure of a simple website. The folders for this site are organized into three levels. The root folder for the site contains five subdirectories, including the folders that contain the images and styles for the site. Then, the books folder contains subdirectories of its own.
 
 ---
 
-## Relative URLs Examples
-
-![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
+## Relative URLs
 
 ```html
-/login.html
-/images/logo.gif
+/index.html
+/media/images/logo.jpg
 
-images/logo.gif
-books/php/overview.html
+css/styles.css
+media/images/index.html
 
 ../index.html
-../images/logo.gif
+../../docs/inspiration.md
 ```
 
 ^ A relative URL is used to refer to a file within the same website.
 
----
-
-### Root Relative
-
-![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
-
-```html
-/login.html
-/images/logo.gif
-```
-
 ^ In a root-relative path, the path is relative to the root folder of the website.
 
----
+^ In a document relative path, the path is relative to the current document. This illustrates paths that navigate down the levels of the folder structure.
 
-### Document Relative
-
-![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
-
-```html
-images/logo.gif
-books/php/overview.html
-```
-
-^ In a document relative path, the path is relative to the current document. In this example, the assumption is that the paths are coded in a file that is in the root folder for a website. The first path refers to a file in the images subfolder of the root folder, and the second path refers to a file in the PHP subfolder of the books sub folder. This illustrates paths that navigate down the levels of the folder structure.
-
----
-
-### Document Relative Examples
-
-![right fit](http://digm.drexel.edu/crs/IDM221/presentations/images/folder_structure.png)
-
-```html
-../index.html
-../images/logo.gif
-../../index.html
-```
-
-^ You can also navigate up the levels with a document relative path. In this example, The assumption is that the current document is in the `root/books` folder. The first path goes on level for the `index.html` file in the root folder. The second path also goes up one level to the root folder and then down one level for the `logo.gif` file in the images folder.
+^ You can also navigate up the levels with a document relative path, using a series of `../` characters to move up one directory at a time.
 
 ---
 
@@ -113,7 +87,13 @@ books/php/overview.html
 
 ---
 
-## Links
+# Objective
+
+## Introduce HTML Anchors
+
+---
+
+## Anchors
 
 ```html
 <p>Go view our <a href="products.html">product list</a>.</p>
@@ -125,7 +105,7 @@ books/php/overview.html
 
 ---
 
-## Links Examples
+## Anchors Examples
 
 ```html
 <p>Go view our <a href="products.html">product list</a>.</p>
@@ -138,12 +118,6 @@ books/php/overview.html
 ```
 
 ^ The first example uses a relative URL to link to a page in the same folder as the current page. The second example uses a relative URL to link to a page in a subfolder of the parent folder. The third example uses a relative URL to link to a page based on the root folder. And the last example uses an absolute URL to link to a page at another website.
-
----
-
-## Exercise 🏋️‍
-
-[http://digm.drexel.edu/crs/IDM221/exercises/paths](http://digm.drexel.edu/crs/IDM221/exercises/paths/index.php/index.php)
 
 ---
 
@@ -165,7 +139,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Semantics and Usability cont
+## Extract Your Anchors
 
 ```html
 <a href="contact.html">click here</a>
@@ -227,6 +201,18 @@ Please <a href="contact.html">contact us</a> with your comments.
 ```
 
 ^ To link to an element that uses an `id` attribute you use the `a` element again, but the value of the `href` attribute starts with a # symbol, followed by the `id` attribute of the element you want to link to. (example)
+
+---
+
+## Exercise 🏋️‍
+
+[http://digm.drexel.edu/crs/IDM221/exercises/paths](http://digm.drexel.edu/crs/IDM221/exercises/paths/index.php/index.php)
+
+---
+
+# Objectives
+
+## Introduce HTML Lists
 
 ---
 
@@ -307,6 +293,12 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
+# Objective
+
+## Introduce HTML Images
+
+---
+
 ## Images
 
 ```html
@@ -333,21 +325,19 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ![photoshop demo splash](https://wwwimages2.adobe.com/content/dam/acom/en/products/photoshop/cc2016/images/ps-marquee1440x660.jpg)
 
----
-
-## Example
-
-^ _examples/03-images/_
+^ _examples/03-images_
 
 ---
 
-## Page structure
+# Objective
+
+## Discuss HTML Page Structure
 
 ^ Now that we've seen some HTML elements used for structuring content, lets put together a simple web page that uses these elements.
 
 ---
 
-## `div` and `span` elements
+## `div` & `span` Elements
 
 ```html
 <div id="header">
@@ -369,9 +359,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## We can do better
-
----
+## What's the Problem?
 
 ```html
 <div id="header">
@@ -444,13 +432,11 @@ Please <a href="contact.html">contact us</a> with your comments.
 </div>
 ```
 
----
-
-![Elaine smashing her keyboard](http://i.giphy.com/ecZVHGjhMgCyc.gif)
-
 ^ There are already a dozen `div` tags. Legibility is already suffering, and the likelihood of a nesting error is growing. And this example is really only the beginning since there's barely any real content included. Also note that the `div` element is semantically inert: it provides no information to the browser about the content it contains and is not focus-able by default.
 
 ---
+
+## HTML Semantic Elements
 
 ```html
 <header>
@@ -465,67 +451,6 @@ Please <a href="contact.html">contact us</a> with your comments.
 ```
 
 ^ HTML5 includes semantic elements. A semantic element clearly describes its meaning to both the browser and the developer.
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/html5_elements.png)
-
----
-
-## Build an Example
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Philadelphia Town Hall</title>
-  </head>
-```
-
-^ The DOCTYPE declaration, `html` element and `head` element illustrate the way these items should be coded in every document you create. In the `html` element you see the use of the `lang` attribute. In the `head` element, you see the coding for the charset `meta` element and the `title` element.
-
----
-
-```html
-<body>
-  <header>
-    <img src="images/logo.jpg" alt="Town hall logo">
-    <h2>Philadelphia Town Hall</h2>
-    <h3>Bringing speakers to the city</h3>
-  </header>
-```
-
-^ In the `body` element, we see the use of HTML5 semantic elements. Here the `header` element contains one `h2` and one `h3` element.
-
----
-
-```html
-<main>
-  <h1>This season's speakers</h1>
-  <nav>
-    <ul>
-      <li>April: <a href="speakers/toobin.html">Jeff Toobin</a></li>
-      <li>May: <a href="speakers/sorkin.html">Andy Sorkin</a></li>
-      <li>June: <a href="speakers/tynan.html">Ron Tynan</a></li>
-    </ul>
-  </nav>
-  <p><i>Contact Us</i> for more info.</p>
-</main>
-```
-
-^ The `main` element contains one `h1` element, a `nav` element, and a `p` element. Within the `nav` element is an unordered list that contains a series of list items. Each list item contains an anchor element. This is consistent with HTML5 semantics because a `nav` element should contain a series of links. It is also a best practice to code the anchor elements within an unordered list.
-
-  ---
-
-```html
-    <footer>
-      <p> © 2016 Philadelphia Town Hall </p>
-    </footer>
-  </body>
-</html>
-```
-
-^ The HTML5 semantic elements make the structure of the page obvious.
 
 ---
 
@@ -545,11 +470,13 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ^ You should use HTML5 elements whenever appropriate. Use `div` elements when your content needs additional styling or division and a semantic element is not available or appropriate. Here is a list of some of the commonly used HTML5 semantic elements, a full list and descriptions of when to use them is available online.
 
+^ _examples/03-structure_
+
 ---
 
-## HTML Structure Example
+# Additional Concepts
 
-^ _examples/03-structure_
+## HTML Tables
 
 ---
 
@@ -635,7 +562,9 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Forms
+# Additional Concepts
+
+## HTML Forms
 
 ^ A form contains one or more controls like text boxes, radio buttons, lists, or check boxes that can receive data.
 
@@ -687,9 +616,15 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-### Inputs, labels, fieldsets
+### Inputs, Labels, Fieldsets
 
 ^ Review the links in the resources section to learn more about the available inputs and attributes that can be used to build a form.
+
+---
+
+# Additional Concepts
+
+## iFrames
 
 ---
 
@@ -708,7 +643,3 @@ Please <a href="contact.html">contact us</a> with your comments.
 ```
 
 ^ An `iframe` like a window on your page. It uses an inline frame to embed another document within the current HTML document. Common uses include Google Maps, YouTube/Vimeo video.
-
----
-
-## For Next Time

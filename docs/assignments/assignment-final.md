@@ -24,5 +24,6 @@ Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) u
 
 1. A link to your self hosted website home page. From this page, I should be able to get to every other page within the site.
 1. A link to your GitHub repository containing the code for your final project. Remember: a well maintained repository does not include binary files, but these files are essential to your project. Host the files on your server and use documentation within your project to include references and links for downloads of critical binary files.
+   - Your repository **must** be named using the following naming convention: _idm221-xxx_ where _xxx_ is your Drexel ID shorthand. For example, for me this would be _idm221-ps42_. [Help renaming your GitHub repository](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/renaming-a-repository) (complete the steps outlined in the numbered list, you do not have to worry about the command line instructrions)
 
 **Late submissions receive zero points.**

@@ -8,13 +8,21 @@ theme: Cobalt2, 1
 
 ## Web Design I
 
----
-
-## Page Layout
-
-### Part 1
+### CSS Positioning (Part 1)
 
 ^ Part 1 because part 2 is coming next term (RWD, Flexbox, Grids)
+
+---
+
+# Objectives
+
+- Discuss Positioning Techniques
+
+---
+
+# Objective
+
+## Discuss Positioning Techniques
 
 ---
 
@@ -242,23 +250,6 @@ footer {
 
 ---
 
-## Float Examples
-
-- Basics
-- 2 Column Fixed Width
-- 2 Column Fluid Width
-- Grid System
-
-^ Examples are available in the _examples_ folder.
-
----
-
 ## Exercise 🏋️‍
 
 [http://digm.drexel.edu/crs/IDM221/exercises/layouts](http://digm.drexel.edu/crs/IDM221/exercises/layouts/index.php/index.php)
-
----
-
-# For Next Week
-
-^ Work

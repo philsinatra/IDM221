@@ -8,11 +8,23 @@ theme: Cobalt2, 1
 
 ## Web Design I
 
----
-
-## Media on the Web
+### Media on the Web
 
 ^ Before we cover how to include media files in a web page, you need to be familiar with the various media types and codes that are used for video and audio. You also need to know what media types and encoders work with browsers that are used today.
+
+---
+
+# Objectives
+
+- Discuss Media Types
+- Discuss Media Encoding
+- Implement Media in HTML
+
+---
+
+# Objective
+
+## Discuss Media Types
 
 ---
 
@@ -27,24 +39,32 @@ theme: Cobalt2, 1
 
 ---
 
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/adobe-premiere.jpg)
+[.hide-footer]
+[.slidenumbers: false]
+
+![cover](http://digm.drexel.edu/crs/IDM221/presentations/images/adobe-premiere.jpg)
 
 ^ For example, an MPEG file contains a video track, which is what the users see, and one or more audio tracks, which is what the users hear. To keep the video coordinated with the audio, a media type can also contain markers that help the audio sync up with the video. In addition, a media type can contain metadata, such as the title of the video, any still imagery related to the video (cover art), the length of the video, and digital rights management information.
 
 ---
 
-## Plugins
+[.build-lists: false]
 
-- Quicktime plugin
-- Windows Media Player plugin
-- Flash plugin
-- Native: no plugin :smile:
+## Native Support ✅
 
-^ For some media types, a browser will require a plugin that plays that type. These plugins are general released by the player manufacturers. For instance, Apple provides a QuickTime plugin, Windows provides a Windows Media Player plugin, and Adobe provides a Flash Player plugin. If a browser supports a media type without requiring a plugin, you can say that the browser "natively" supports that media type.
+- No Plugin Required :smile:
+
+## Plugins ❌
+
+- Quicktime plugin ❌
+- Windows Media Player plugin ❌
+- Flash plugin ❌
+
+^ For some media types, a browser will require a plugin that plays that type. These plugins are generally released by the player manufacturers. For instance, Apple provides a QuickTime plugin, Windows provides a Windows Media Player plugin, and Adobe provides a Flash Player plugin. If a browser supports a media type without requiring a plugin, you can say that the browser "natively" supports that media type.
 
 ---
 
-### Video Codecs
+## Video Codecs
 
 - H.264
 - Theora
@@ -54,19 +74,7 @@ theme: Cobalt2, 1
 
 ---
 
-### What's Happening
-
-- determine the media type
-- can it decode the video/audio?
-- decode/display the video
-- decode and play the audio
-- interpret metadata
-
-^ When a media player plays a media type, it has to go through these five tasks. Of those tasks, decoding the video/audio is the most difficult. To decode, media players use software components called _codecs_, which are in simple terms "cracking the codes" to display a series of images (frames) on the screen.
-
----
-
-### Audio Codecs
+## Audio Codecs
 
 - AAC
 - FLAC
@@ -80,33 +88,29 @@ theme: Cobalt2, 1
 
 ---
 
-^ Browser Support
+## What's Happening?
 
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/caniuse_video.png)
+- determine the media type
+- can it decode the video/audio?
+- decode/display the video
+- decode and play the audio
+- interpret metadata
 
-^ One of the problems when adding audio/video to a website is that there isn't a single combination of types that will work on all modern browsers as well as older browsers like Internet Explorer.
+^ When a media player plays a media type, it has to go through these five tasks.
 
----
+^ _click through list_
 
-## Option 1: Flash
-
-![fill](https://upload.wikimedia.org/wikipedia/commons/1/1f/Adobe_Flash_Player_v10_icon.png)
-
-^ One solution is to encode your media in the Flash format (.swf) and rely on the browser's Flash Player plugin to play the media.
-
----
-
-### Why Not Flash
-
-- requires plugin
-- mobile devices
-- stability
-
-^ This solution has worked well for many years, but it now presents three major problems. First, you're forcing users to rely on a plugin to view your media (a plugin that Google is going to completely remove from Chrome within the next year). Second, flash is not supported on mobile devices. Third, the Flash player is unstable in some browsers and causes crashes.
+^ Of those tasks, decoding the video/audio is the most difficult. To decode, media players use software components called _codecs_, which are in simple terms "cracking the codes" to display a series of images (frames) on the screen.
 
 ---
 
-## HTML5
+# Objectives
+
+## Discuss Media Encoding
+
+---
+
+## HTML5 Media Support
 
 - [CanIUse Video](http://caniuse.com/#search=video%20format)
 - [CanIUse Audio](http://caniuse.com/#search=audio%20format)
@@ -121,9 +125,9 @@ theme: Cobalt2, 1
 | ---------- | --------- |
 | MP3 | audio/mp3 |
 | Ogg Vorbis | audio/ogg |
-| WebM | video/webm |
-| Ogg Theora | video/ogg |
 | MP4 | video/mp4 |
+| Ogg Theora | video/ogg |
+| WebM | video/webm |
 
 ^ This table shows some common _MIME types_ that you can use to identify the content of an audio or video file. A MIME type helps a browser determine what player to use to open a file. In some cases, you'll need to include the codecs for a MIME type.
 
@@ -133,8 +137,8 @@ theme: Cobalt2, 1
 
 - Miro Converter
 - iTunes (audio)
-- Quicktime Pro (video/audio)
-- Windows Media Encoder
+- Compressor (macOS)
+- Windows Media Encoder (Windows OS)
 - Adobe Media Encoder
 - FFmpeg
 - Handbrake
@@ -151,9 +155,9 @@ theme: Cobalt2, 1
 
 ---
 
-![Lex shaking with jello](http://i.imgur.com/qrndQWU.gif)
+# Objectives
 
-^ Look at all of this information you have to know before you even begin looking at the code for adding a media element to a page.
+## Implement Media in HTML
 
 ---
 
@@ -199,11 +203,3 @@ theme: Cobalt2, 1
 ```
 
 ^ These examples show how the HTML5 audio and video elements can be used to simply the way that media is added to a web page. First, this coding will work for all modern browsers. Even better - these elements provide video and audio that is native to all current editions of the major browsers. You don't have to worry about whether or not users have the right player or plugin installed. You don't have to worry about whether or not their browsers will crash because of Flash. The only problem is older browsers - which are fading away :smile:.
-
----
-
-![phew](https://media.giphy.com/media/ijGS9TME6iN7W/giphy.gif)
-
----
-
-## For Next Week

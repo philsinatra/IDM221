@@ -8,11 +8,23 @@ theme: Cobalt2, 1
 
 ## Web Design I
 
----
-
-## The Box Model
+### CSS Box Model
 
 ^ When a browser displays a web page, it places each HTML block element in a box. That makes it easy to control the spacing, borders, and other formatting for elements like headers, sections, footers, headings and paragraphs. Some inline elements like images are placed in a box as well. To work with boxes, you use the CSS _box model_.
+
+---
+
+# Objectives
+
+- Introduce the Box Model Concept
+- Review Box Model Related Properties
+  - height, width, margin, padding, border, background
+
+---
+
+# Objective
+
+## Introduce the Box Model Concept
 
 ---
 
@@ -54,130 +66,13 @@ theme: Cobalt2, 1
 
 ^ The formula for calculating the overall width is similar. You can use any of the units we've learned.
 
----
-
-```html
-<body>
-  <main>
-    <h1>Welcome Home!</h1>
-    <p>Welcome to our site. Here's more text... </p>
-  </main>
-</body>
-```
-
-^ Let's look at an  of how the box model works.
+^ Let's review how this works in the browser. (_examples/06-box_model/example-box_model.html_)
 
 ---
 
-```html
-<body>
-  <main>
-    <h1>Welcome Home!</h1>
-    <p>Welcome to our site. Here's more text... </p>
-  </main>
-</body>
-```
+# Objective
 
-```css
-body {
-  border: 3px dotted black;
-  margin: 10px;
-}
-```
-
-^ For the `body`, the margin on all four sides is set to 10 pixels, and we add a 3px border around all four sides.
-
----
-
-```html
-<body>
-  <main>
-    <h1>Welcome Home!</h1>
-    <p>Welcome to our site. Here's more text... </p>
-  </main>
-</body>
-```
-
-```css
-main {
-  border: 2px solid black;
-  width: 500px;
-  margin: 20px; /* all four sides */
-  padding: 10px; /* all four sides */
-}
-```
-
-^ For the `main` element, the width is set to 500px, and the margins on all four sides of the box are set to 20 pixels. You can see these margins on the left, top, and bottom of the main box, but not on the right because the width of the section is set to 500px (the margin is there even if you can't see it).
-
----
-
-```html
-<body>
-  <main>
-    <h1>Welcome Home!</h1>
-    <p>Welcome to our site. Here's more text... </p>
-  </main>
-</body>
-```
-
-```css
-h1, p {
-  border: 1px dashed black;
-  padding: 10px;
-}
-```
-
-^ The next rule set sets properties for both the `h1` and `p` elements.
-
----
-
-```css
-h1 {
-  /* 0 top, 0 right and left, .25em bottom */
-  margin: 0 0 .25em;
-  padding-left: 15px;
-}
-p {
-  margin: 0; /* all four sides */
-  padding-left: 15px;
-}
-```
-
-^ The next two rule sets set additional properties for each of these elements.
-
----
-
-^ Let's review in the browser.
-
-```css
-body {
-  border: 3px dotted black;
-  margin: 10px;
-}
-main {
-  border: 2px solid black;
-  width: 500px;
-  margin: 20px; /* all four sides */
-  padding: 10px; /* all four sides */
-}
-h1, p {
-  border: 1px dashed black;
-  padding: 10px;
-}
-h1 {
-  /* .5em top, 0 right and left, .25em bottom */
-  margin: .5em 0 .25em;
-  padding-left: 15px;
-}
-p {
-  margin: 0; /* all four sides */
-  padding-left: 15px;
-}
-```
-
----
-
-## Size and space of elements
+## Review Box Model Related Properties
 
 ^ As you can see there are several different properties that determine the size of an element and the spacing between the elements on a page. Next we will cover each of these properties in detail.
 
@@ -730,38 +625,6 @@ div {
 
 ---
 
-![50%](http://digm.drexel.edu/crs/IDM221/presentations/images/css_toolkit.jpg)
-
----
-
 ## Exercise 🏋️‍
 
 [http://digm.drexel.edu/crs/IDM221/exercises/box_model](http://digm.drexel.edu/crs/IDM221/exercises/box_model/index.php/index.php)
-
----
-
-## Example
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-box_model-base.jpg)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-box_model-navbar.jpg)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-box_model-outer.jpg)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-box_model-rows.jpg)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-box_model-cols.jpg)
-
----
-
-## For Next Week

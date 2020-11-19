@@ -8,13 +8,23 @@ theme: Cobalt2, 1
 
 ## Web Design I
 
----
-
-## Working With Text
+### Text & Typography
 
 ---
 
-## Special Characters
+# Objectives
+
+- Review Working With Special Characters
+- Discuss Basic Typography
+- Discuss Web Safe Typefaces
+- Apply & Style Typefaces
+- Integrate Custom Typefaces
+
+---
+
+# Objective
+
+## Review Working With Special Characters
 
 ---
 
@@ -68,15 +78,11 @@ theme: Cobalt2, 1
 
 ---
 
-## Typography
+# Objective
+
+## Discuss Basic Typography
 
 ^ Before we dive into any new code, let's take a moment to review some of the basic concepts of typography.
-
----
-
-## The Five (generic) Families
-
-![Godfather logo](https://s-media-cache-ak0.pinimg.com/originals/ab/c1/9f/abc19f3eb7500ad138a98e334f8f8d92.jpg)
 
 ---
 
@@ -104,7 +110,9 @@ theme: Cobalt2, 1
 
 ---
 
-## Web Safe Typefaces
+# Objective
+
+## Discuss Web Safe Typefaces
 
 ^ Our discussion on web typography begins with web safe typefaces. Can anyone tell me what we mean by the term "Web Safe"?
 
@@ -149,6 +157,12 @@ theme: Cobalt2, 1
 
 ---
 
+# Objective
+
+## Apply & Style Typefaces
+
+---
+
 ## Define A Font Family
 
 ```css
@@ -163,6 +177,17 @@ p {
 ^ When you code the values for the `font-family` property, you code a list of the fonts that you want to use. The browser will use the first font in the list that is available to it. If none of the fonts are available, the browser will substitute its default font for the generic font that's coded last in the list.
 
 ^ If the name of a font family contains spaces, you need to enclose the name in quotation marks when you code the list.
+
+---
+
+## Font Styling Properties
+
+| Property | Description |
+| -------- | ----------- |
+| font-style | how the font is slanted: normal, italic, oblique |
+| font-weight | the boldness: normal, bold, bolder, lighter, 100-900 |
+| font-variant | small caps used: normal, small-caps |
+| line-height | amount of vertical space for each line |
 
 ---
 
@@ -190,7 +215,7 @@ p {
 
 ---
 
-## Why `em`s
+## `em`
 
 - relative units
 - more precision
@@ -198,7 +223,7 @@ p {
 
 ---
 
-## How to calculate `em`s
+## How to Calculate `em`s
 
 1em = 100% of parent font
 
@@ -239,9 +264,9 @@ $$12/14 = 0.86$$
 
 ## `rem`
 
-![right](https://upload.wikimedia.org/wikipedia/commons/7/7e/Michael_Stipe_of_REM_photographed_by_Kris_Krug.jpg)
-
 ---
+
+## How to Calculate `rem`s
 
 ```css
 html { font-size: 100%; /* ~16px */}
@@ -258,18 +283,7 @@ $$12/16 = 0.75$$
 
 ---
 
-## Font styling properties
-
-| Property | Description |
-| -------- | ----------- |
-| font-style | how the font is slanted: normal, italic, oblique |
-| font-weight | the boldness: normal, bold, bolder, lighter, 100-900 |
-| font-variant | small caps used: normal, small-caps |
-| line-height | amount of vertical space for each line |
-
----
-
-## Font styles & variants
+## Font Styles & Variants
 
 ```css
 p {
@@ -285,7 +299,7 @@ p {
 
 ---
 
-## Font weights
+## Font Weights
 
 ```css
 p {
@@ -302,7 +316,7 @@ p {
 
 ---
 
-## Line height
+## Line Height
 
 ```css
 p {
@@ -317,7 +331,7 @@ p {
 
 ---
 
-### Example
+### Text Presentation Properties
 
 ```css
 p {
@@ -349,7 +363,7 @@ p {
 
 ---
 
-## Formatting Text
+## More Formatting For Text
 
 | Property | Description |
 | -------- | ----------- |
@@ -368,7 +382,7 @@ p {
 
 ---
 
-## Formatting Text In CSS
+## More Formatting Examples
 
 ```css
 main p { text-indent: 2em; }
@@ -401,6 +415,12 @@ h2 {
 ## Exercise 🏋️‍
 
 [http://digm.drexel.edu/crs/IDM221/exercises/text](http://digm.drexel.edu/crs/IDM221/exercises/text/index.php/index.php)
+
+---
+
+# Objective
+
+## Integrate Custom Typefaces
 
 ---
 
@@ -505,37 +525,3 @@ h1, h2 {
 ![fit](https://typekit.files.wordpress.com/2016/09/peace-type.gif?w=800&h=424)
 
 ^ A new typeface solution is currently gaining traction - variable fonts.
-
----
-
-## Example Time
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-type-base.jpg)
-
-^ Here's our example wireframe. Our plan here is to build three simple sections. The first section is going to fill the entire "above the fold" area. How many containers do we see?
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-type-sections.jpg)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-type-introduction.jpg)
-
----
-
-![fit](http://digm.drexel.edu/crs/IDM221/presentations/images/wireframe-type-sections-inner.jpg)
-
----
-
-## Let's Build it
-
----
-
-## FTP
-
----
-
-## For Next Week

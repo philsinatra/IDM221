@@ -18,104 +18,49 @@ By the end of the course, student will be able to:
 
 ## Schedule and Required Materials
 
-<table>
-<tbody>
-  <tr>
-   <th>Week</th>
-   <th>Topic</th>
-  </tr>
-  <tr>
-   <td>Week 1</td>
-   <td>
-    <ul>
-     <li>Welcome</li>
-     <li>syllabus review</li>
-     <li>course overview</li>
-     <li>project overview</li>
-     <li>How the Web Works</li>
-     <li>Intro: HTML &amp; CSS</li>
-     <li>Inspiration</li>
-     <li>Content Inventory</li>
-     <li>Domain/Hosting</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 2</td>
-   <td>
-    <ul>
-     <li>Tools for Development</li>
-     <li>Critical Concepts</li>
-     <li>HTML Syntax</li>
-     <li>HTML Structure</li>
-     <li>HTML Validation</li>
-     <li>Git Fundamentals</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 3</td>
-   <td>
-    <ul>
-     <li>Links, Lists, Images</li>
-     <li>HTML Page Structure</li>
-     <li>Tables</li>
-     <li>Forms</li>
-     <li>iframes</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 4</td>
-   <td>
-    <ul>
-     <li>CSS Syntax</li>
-     <li>CSS How To</li>
-     <li>CSS Validation</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 5</td>
-   <td>
-    <ul>
-     <li>CSS Text</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 6</td>
-   <td>
-    <ul>
-     <li>CSS Box Model</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 7</td>
-   <td>
-    <ul>
-     <li>CSS Page Layout</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 8</td>
-   <td>
-    <ul>
-     <li>Audio / Video</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 9</td>
-   <td>
-    <ul>
-     <li>Open Lab</li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td>Week 10</td>
-   <td>
-    <ul>
-     <li>Final Critique</li>
-    </ul> </td>
-  </tr>
- </tbody>
-</table>
+### Week 1
 
+- [Introduction](../slides/introduction.md)
+
+### Week 2
+
+- [Basic HTML Text](../slides/html-basic-text.md)
+- [Version Control](../slides/version-control.md)
+
+### Week 3
+
+- [HTML Structure](../slides/html-structure.md)
+
+### Week 4
+
+- [CSS Selectors](../slides/css-selectors.md)
+- [CSS Color](../slides/css-color.md)
+- [CSS Units of Measurement](../slides/css-measurement.md)
+- [CSS Default Styles](../slides/css-defaults.md)
+
+### Week 5
+
+- [CSS Text & Typography](../slides/css-text.md)
+
+### Week 6
+
+- [CSS Box Model](../slides/css-box-model.md)
+
+### Week 7
+
+- [Page Layout](../slides/css-position.md)
+
+### Week 8
+
+- [Media on the Web](../slides/media.md)
+
+### Week 9
+
+- Open Lab
+
+### Week 10
+
+- Final Critique
 ## Grading
 
 <table>
@@ -232,7 +177,7 @@ For both graduate and undergraduate students, courses may only be dropped during
 
 Drexel University allows students to drop a course through the end of the sixth week of the term. This means that you will not be allowed to drop a course, even if you are failing, after the sixth week of the term. The number of times you have already been absent, the status of your lab hours and, above all, the result of your midterm testing and other evaluations (chapter tests, quizzes, homework) are therefore your best guide to decide whether or not you should drop the course. See http://www.drexel.edu/provost/policies/pdf/course_withdrawal.pdf
 
-## Plagiarism Policy:
+## Plagiarism Policy
 
 Plagiarism is the inclusion of someone else’s words, ideas, or data as one’s own work. When a student submits work for credit that includes the words, ideas, or data of others, the source of that information must be acknowledged through complete, accurate, and specific references, and, if verbatim statements are included, through quotation marks as well. By placing his/her name on work submitted for credit, the student certifies the originality of all work not otherwise identified by appropriate acknowledgments. Plagiarism covers unpublished as well as published sources. Examples of plagiarism include, but are not limited to:
 
@@ -244,7 +189,7 @@ Plagiarism is the inclusion of someone else’s words, ideas, or data as one’s
 - Working together on an assignment, sharing the computer files and programs involved, and then submitting individual copies of the assignment as one’s own individual work
 - Students are urged to consult with individual faculty members, academic departments, or recognized handbooks in their field if in doubt regarding issues of plagiarism.
 
-## Drexel University Policy on Cheating:
+## Drexel University Policy on Cheating
 
 Cheating is an act or an attempted act of deception by which a student seeks to misrepresent that he or she has mastered information on an academic exercise that he/she has not mastered. Examples include, but are not limited to:
 
@@ -254,9 +199,13 @@ Collaborating on a test, quiz, or other project with any other person(s) without
 Using or processing specifically prepared materials during a test such as notes, formula lists, notes written on the students clothing, etc. that are not authorized Taking a test for someone else or permitting someone else to take a test for you
 Please also see the official Drexel university policy on Academic Dishonesty at http://www.drexel.edu/provost/policies/academic_dishonesty.asp
 
-## Statement for Students with Disabilities:
+## Statement for Students with Disabilities
 
 Students with disabilities requesting accommodations and services at Drexel University need to present a current accommodation verification letter (AVL) to faculty before accommodations can be made. This MUST be done prior to the midterm! AVL’s are issued by the Office of Disability Services (ODS). For additional information, contact ODS at http://www.drexel.edu/oed/policies/Overview/
+
+## COVID-19 Syllabus Addendum
+
+- [COVID-19 Syllabus Addendum](https://github.com/Drexel-University-IDM/COVID19)
 
 ## Acknowledging Conditions and Obligations in Syllabus
 
