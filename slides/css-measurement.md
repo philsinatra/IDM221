@@ -43,19 +43,6 @@ theme: Cobalt2, 1
 
 ^ When you use relative units of measure like ems or percent, the measurement will change if the user changes the browser's font size. Example: You set the size of a font to 80 percent of the browser's default font size, that element will change if the user changes the font size in the browser. Because this lets the users adjust the font sizes to their own preferences, it is often recommended to use relative measurements for font sizes.
 
----
-
-## Measurements cont
-
-| Symbol | Name | Type | Description |
-| ------ | ---- | ---- | ----------- |
-| px | pixels | absolute | a single dot on a monitor |
-| pt | points | absolute | 1/72 of an inch |
-| em | ems | relative | 1em = current font size |
-| %  | percent | relative | relative to current size |
-| vw | viewport | width | relative relative to viewport |
-| vh | viewport | height | relative relative to viewport |
-
 ^ When you use absolute units of measurement the measurement won't change even if the user changes the font size in the browser. Example: set the width of an element in pixels and the font size in points, the width and font size won't change.
 
 ^ When you use pixels though, the size will change if the screen resolution changes. Screen resolution determines the number of pixels that are displayed on the monitor. Pixels on a monitor with a screen resolution of 1280 x 1024 are closer together than the pixels on a monitor with a screen resolution of 1152 x 864. That means a measurement of 10 pixels will be smaller on the screen with the higher resolution. A point is 1/72 of an inch no matter what the screen resolution is.
