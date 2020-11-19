@@ -49,10 +49,10 @@ Thumbs.db
 
 # Custom #
 ######################
-*.jpg
 *.gif
 /assignments
 contacts.md
+examples/**/*.jpg
 examples/**/*.png
 examples/05-css/fonts
 examples/06-box_model/02/fonts
