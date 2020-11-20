@@ -2,18 +2,18 @@
 
 ## Lecture Slides
 
-- [CSS Box Model](http://cdn.philsinatra.com/idm/idm221/css-box-model.pdf)
-- [CSS Color](http://cdn.philsinatra.com/idm/idm221/css-color.pdf)
-- [CSS Defaults](http://cdn.philsinatra.com/idm/idm221/css-defaults.pdf)
-- [CSS Measurement](http://cdn.philsinatra.com/idm/idm221/css-measurement.pdf)
-- [CSS Position](http://cdn.philsinatra.com/idm/idm221/css-position.pdf)
-- [CSS Selectors](http://cdn.philsinatra.com/idm/idm221/css-selectors.pdf)
-- [CSS Text](http://cdn.philsinatra.com/idm/idm221/css-text.pdf)
-- [HTML Basic Text](http://cdn.philsinatra.com/idm/idm221/html-basic-text.pdf)
-- [HTML Structure](http://cdn.philsinatra.com/idm/idm221/html-structure.pdf)
-- [Introduction](http://cdn.philsinatra.com/idm/idm221/introduction.pdf)
-- [Media](http://cdn.philsinatra.com/idm/idm221/media.pdf)
-- [Version Control](http://cdn.philsinatra.com/idm/idm221/version-control.pdf)
+- [CSS Box Model](http://digm.drexel.edu/crs/IDM221/presentations/pdf/css-box-model.pdf)
+- [CSS Color](http://digm.drexel.edu/crs/IDM221/presentations/pdf/css-color.pdf)
+- [CSS Defaults](http://digm.drexel.edu/crs/IDM221/presentations/pdf/css-defaults.pdf)
+- [CSS Measurement](http://digm.drexel.edu/crs/IDM221/presentations/pdf/css-measurement.pdf)
+- [CSS Position](http://digm.drexel.edu/crs/IDM221/presentations/pdf/css-position.pdf)
+- [CSS Selectors](http://digm.drexel.edu/crs/IDM221/presentations/pdf/css-selectors.pdf)
+- [CSS Text](http://digm.drexel.edu/crs/IDM221/presentations/pdf/css-text.pdf)
+- [HTML Basic Text](http://digm.drexel.edu/crs/IDM221/presentations/pdf/html-basic-text.pdf)
+- [HTML Structure](http://digm.drexel.edu/crs/IDM221/presentations/pdf/html-structure.pdf)
+- [Introduction](http://digm.drexel.edu/crs/IDM221/presentations/pdf/introduction.pdf)
+- [Media](http://digm.drexel.edu/crs/IDM221/presentations/pdf/media.pdf)
+- [Version Control](http://digm.drexel.edu/crs/IDM221/presentations/pdf/version-control.pdf)
 
 ## Exercises
 
