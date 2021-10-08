@@ -204,13 +204,7 @@ Please <a href="contact.html">contact us</a> with your comments.
 
 ---
 
-## Exercise 🏋️‍
-
-[http://digm.drexel.edu/crs/IDM221/exercises/paths](http://digm.drexel.edu/crs/IDM221/exercises/paths/index.php/index.php)
-
----
-
-# Objectives
+# Objective
 
 ## Introduce HTML Lists
 
