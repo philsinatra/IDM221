@@ -20,11 +20,11 @@ nav ul li a.active {
   font-size: 400%;
 }
 
-.projects .row {
+.project-grid {
   background-color: lightblue;
 }
 
-.projects .row .col {
+.project {
   background-color: lightgreen;
 }
 

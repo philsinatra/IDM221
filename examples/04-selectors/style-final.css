@@ -1,14 +1,19 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Rokkitt', serif;
 }
 
-img { max-width: 100%; }
+img {
+  height: auto;
+  max-width: 100%;
+}
 
 .container {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -28,6 +33,10 @@ nav {
 }
 
 nav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -65,28 +74,56 @@ nav ul li a.active {
   display: inline;
 }
 
+.header__social ul li a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header__social ul li:nth-child(2) {
+  margin: 0 1rem;
+}
+
+.header__social ul li a svg {
+  height: 48px;
+  width: 48px;
+}
+
 main {
   padding: 4rem 0;
 }
 
-.projects .row {
-  overflow: auto;
-}
-
-.projects .row .col {
-  float: left;
-  width: 33.3%;
-  width: calc(100%/3);
+.projects-grid {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .projects figcaption {
   color: #444;
   font-size: 1.5rem;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   text-align: center;
 }
 
 .footer {
   padding-bottom: 2rem;
   text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .projects-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figure img {
+    height: auto;
+    width: 100%;
+  }
 }
