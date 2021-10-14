@@ -15,9 +15,6 @@ theme: Cobalt2, 1
 # Objectives
 
 - Discuss CSS Units of Measurement
-- Code Basic Selectors
-- Link CSS To HTML
-- Discuss the "Casecade"
 
 ---
 
