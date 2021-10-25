@@ -2,18 +2,19 @@
 @import './fonts.css';
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #000333;
-	font-family: 'open_sans', Arial, Helvetica, sans-serif;
-	/* font-family: 'LeagueSpartanVariable', 'open_sans', Arial, Helvetica, sans-serif; */
+  background-color: #1f2023;
+  color: #1f2023;
+  font-family: 'open_sans', Arial, Helvetica, sans-serif;
+  /* font-family: 'LeagueSpartanVariable', 'open_sans', Arial, Helvetica, sans-serif; */
 }
 
 .wrapper {
-	margin: 0 auto;
-	max-width: 56.25em;
+  margin: 0 auto;
+  max-width: 56.25em;
 }
 
 h1,
@@ -22,59 +23,54 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'staatlichesregular', Arial, Helvetica, sans-serif;
+  font-family: 'staatlichesregular', Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 header {
-	align-items: center;
-	display: flex;
-	justify-content: center;
-	margin: 0;
-	min-height: 80vh;
-
-	background-color: #e7b91b;
-	color: #010101;
-	font-size: 3rem;
+  align-items: center;
+  background-color: #e7b91b;
+  color: #1f2023;
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  margin: 0;
+  min-height: 80vh;
 }
 
 main {
-	background-color: #fff;
-	padding: 3rem;
+  background-color: #f4f4f4;
+  padding: 3rem;
 }
 
-main section {
-	margin-bottom: 3rem;
+section {
+  margin-top: 3rem;
 }
 
-main section:last-child {
-	margin-bottom: 0;
+section:first-child {
+  margin-top: 0;
 }
 
-main h2 {
-	margin-top: 0;
-
-	font-size: 2.5rem;
+h2 {
+  font-size: 2.5rem;
 }
 
-main h3 {
-	margin-top: 0;
-
-	font-size: 2rem;
+h3 {
+  font-size: 2rem;
 }
 
 p {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 /* Variable font example adjustment */
 main p {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 footer {
-	padding: 1.5rem;
-	text-align: center;
-
-	color: #fff;
-	font-size: .9rem;
+  color: #f4f4f4;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  text-align: center;
 }
